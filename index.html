@@ -28,7 +28,7 @@
 
             <div class="navbar-menu" id="navMenu">
                 <div class="navbar-start">
-                    <a class="navbar-item" href="#projects">Projects</a>
+                    <a class="navbar-item" href="javascript:scrollToSection('projects')">Projects</a>
                 </div>
                 <div class="navbar-end">
                     <div class="navbar-item">
@@ -95,7 +95,7 @@
     </section>
 
     <!-- Section: Android Apps -->
-    <section class="section" name="projects">
+    <section class="section" id="projects" name="projects">
         <div class="container">
             <a name="projects"></a>
             <div class="subtitle">Android Projects</div>
@@ -336,6 +336,17 @@
     }
 
     });
+	
+	function scrollToSection(section) {
+		const element = document.getElementById(section)
+		const y = element.getBoundingClientRect().top + window.scrollY;
+		window.scroll({
+		  top: y,
+		  behavior: 'smooth'
+		});
+		return false
+	}
+	
     </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
