@@ -3,7 +3,7 @@ var sass = require('gulp-sass');
 var csso = require('gulp-csso');
 var browserSync = require('browser-sync').create();
 
-gulp.task('sass', function(){
+gulp.task('generate', function(){
     return gulp.src('./sass/main.sass')
         .pipe( sass().on('error', sass.logError))
         .pipe( gulp.dest('./css'))
@@ -14,7 +14,7 @@ gulp.task('sass', function(){
 gulp.task('clean', () => del(['dist']));
 
 // Gulp task to minify CSS files
-gulp.task('styles', function () {
+gulp.task('minify', function () {
     return gulp.src('./sass/main.sass', {allowEmpty: true})
       // Compile SASS files
       .pipe(sass({
@@ -26,10 +26,10 @@ gulp.task('styles', function () {
       // Minify the file
       .pipe(csso())
       // Output
-      .pipe(gulp.dest('./dist/css'))
+      .pipe(gulp.dest('./css'))
   });
 
-gulp.task('serve', gulp.series('sass', function(){
+gulp.task('serve', gulp.series('generate', function(){
 
     browserSync.init({
         server: "./"

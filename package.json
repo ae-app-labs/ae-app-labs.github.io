@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-sass": "npx gulp generate",
+    "minify-sass": "npx gulp minify"
   },
   "keywords": [],
   "author": "midhunhk",
   "license": "ISC",
   "dependencies": {
-    "bulma": "^0.7.5"
+    "bulma": "^0.9.1"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
