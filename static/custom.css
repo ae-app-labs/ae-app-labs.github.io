@@ -1,0 +1,18 @@
+.section-title {
+    position:relative;
+    text-align:left;
+}
+.section-title::after {
+    content:'';
+    position:absolute;
+    height:2px;
+    background:#00d1b2;
+    bottom:-10px;
+    left:0;
+    right:98%;
+    margin:auto;
+}
+
+.hero-main{
+    height: 90vh;
+}
