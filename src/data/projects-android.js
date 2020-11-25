@@ -25,13 +25,19 @@ const androidProjectsData = {
                 "id": "1",
                 "isPrimary": false,
                 "text": "View Project",
-                "target": "http://github.com/midhunhk/message-counter/"
+                "target": "https://github.com/midhunhk/message-counter/"
+            },
+            {
+                "id": "3",
+                "isPrimary": false,
+                "text": "Case Study",
+                "target": "https://midhunhk.github.io/dev/2018/09/12/message-counter-4/"
             },
             {
                 "id": "2",
                 "isPrimary": true,
                 "text": "View Page",
-                "target": "http://midhunhk.github.io/message-counter/"
+                "target": "https://midhunhk.github.io/message-counter/"
             }
         ]
       },
@@ -57,7 +63,7 @@ const androidProjectsData = {
             "id": "1",
             "isPrimary": true,
             "text": "View Page",
-            "target": "http://midhunhk.github.io/lib-aeapps/"
+            "target": "https://midhunhk.github.io/lib-aeapps/"
           }
         ]
       },
@@ -78,7 +84,7 @@ const androidProjectsData = {
             "id": "1",
             "isPrimary": true,
             "text": "View Page",
-            "target": "http://midhunhk.github.io/random-contact/"
+            "target": "https://midhunhk.github.io/random-contact/"
           }
         ]
       },

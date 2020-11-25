@@ -1,10 +1,6 @@
-<section class="section">    
+<section class="section is-hidden-mobile">    
 	<div class="container">
-		<div class="subtitle has-text-centered">
-			We focus on UI/UX research, Web and Mobile development. 
-			Most of the solutions are free and released as open source.
-		</div>
-		<div class="has-text-centered is-hidden-mobile">
+		<div class="has-text-centered">
 			<span class="tag is-primary">Android</span>
 			<span class="tag is-link">Bootstrap</span>
 			<span class="tag is-info">Vue.js</span>

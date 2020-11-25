@@ -31,9 +31,9 @@
         <div class="is-right">
             {#each buttons as button (button.id)}
                 {#if button.isPrimary}
-                    <a class="button is-primary is-small is-rounded mr-1" href="{button.target}">View Project</a>
+                    <a class="button is-primary is-small is-rounded mr-1" href="{button.target}">{button.text}</a>
                 {:else}
-                    <a class="button is-primary is-outlined is-small is-rounded mr-1" href="{button.target}">View Project</a>
+                    <a class="button is-primary is-outlined is-small is-rounded mr-1" href="{button.target}">{button.text}</a>
                 {/if}
             {/each}
         </div>

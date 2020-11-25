@@ -1,7 +1,19 @@
-<nav class="navbar is-primary">
+<script>
+	const scrollToSection = (section) => {
+		const element = document.getElementById(section)
+		const y = element.getBoundingClientRect().top + window.scrollY;
+		window.scroll({
+		top: y,
+		behavior: 'smooth'
+		});
+		return false
+	}
+</script>
+
+<nav class="navbar is-primary is-fixed-top">
     <div class="container">
         <div class="navbar-brand">
-            <a class="navbar-item has-text-weight-bold" href="/">HOME</a>
+            <a class="navbar-item has-text-weight-bold" href="/">ae app labs</a>
             <div class="navbar-burger burger" data-target="navMenu">
                 <span></span>
                 <span></span>
@@ -11,25 +23,25 @@
 
         <div class="navbar-menu" id="navMenu">
             <div class="navbar-start">
-                <a class="navbar-item" href="/">Projects</a>
-                <a class="navbar-item" href="/about">About</a>
+                <a class="navbar-item" href="/" on:click={ () => scrollToSection('projects-android') } sapper-noscroll>projects</a>
+                <a class="navbar-item" href="/about">about</a>
             </div>
             <div class="navbar-end">
                 <div class="navbar-item">
                     <div class="buttons">
-                        <a class="button is-primary" href="https://play.google.com/store/apps/dev?id=6177347481993841752&hl=en_US">
+                        <a class="button is-primary" href="https://play.google.com/store/apps/dev?id=6177347481993841752&hl=en_US" name="Play Store">
                             <span class="icon"><i class="fab fa-google-play fa-2x"></i></span>
                         </a>
-                        <a class="button is-primary" href="https://www.facebook.com/AeAppLabs/">
+                        <a class="button is-primary" href="https://www.facebook.com/AeAppLabs/" name="Facebook Page">
                             <span class="icon"><i class="fab fa-facebook fa-2x"></i></span>
                         </a>
-                        <a class="button is-primary" href="https://twitter.com/aeapplabs">
+                        <a class="button is-primary" href="https://twitter.com/aeapplabs" name="Twitter">
                             <span class="icon"><i class="fab fa-twitter fa-2x"></i></span>
                         </a>
-                        <a class="button is-primary" href="https://instagram.com/AeAppLabs">
+                        <a class="button is-primary" href="https://instagram.com/AeAppLabs" name="Instagram">
                             <span class="icon"><i class="fab fa-instagram fa-2x"></i></span>
                         </a>
-                        <a class="button is-primary" href="https://github.com/ae-app-labs">
+                        <a class="button is-primary" href="https://github.com/ae-app-labs" name="Github Page">
                             <span class="icon"><i class="fab fa-github fa-2x"></i></span>
                         </a>
                     </div>

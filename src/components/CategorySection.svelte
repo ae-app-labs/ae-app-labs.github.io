@@ -8,7 +8,7 @@
 
 <section class="section wow slideInLeft" id="projects-{$sectionData.category}" name="projects-{$sectionData.category}"
          data-wow-duration="2s" data-wow-delay="5s">
-	<div class="container is-fluid">
+	<div class="container">
 		<div class="subtitle section-title">{$sectionData.categoryTitle}</div>
 		
 		<div class="columns is-multiline" >

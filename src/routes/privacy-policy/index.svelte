@@ -1,32 +1,26 @@
-<script context="module">
-	export function preload() {
-		return this.fetch(`privacy-policy.json`).then(r => r.json()).then(posts => {
-			return { posts };
-		});
-	}
-</script>
-
 <script>
-	export let posts;
+	import CommonHero from '../../components/CommonHero.svelte'
 </script>
 
 <svelte:head>
-	<title>Blog</title>
+	<title>Privacy Policy</title>
 </svelte:head>
 
-<section class="section" id="projects-desktop" name="projects-desktop">
-	<div class="container">
-		<h1>Recent posts</h1>
+<CommonHero title="Privacy Policy" subtitle=""/>
 
-		<ul>
-			{#each posts as post}
-				<!-- we're using the non-standard `rel=prefetch` attribute to
-						tell Sapper to load the data for the page as soon as
-						the user hovers over the link or taps it, instead of
-						waiting for the 'click' event -->
-				<li><a rel="prefetch" href="privacy-policy/{post.slug}">{post.title}</a></li>
-			{/each}
-		</ul>
-		
+<section class="section">
+	<div class="container">
+		<div class="subtitle section-title">Privacy Policy</div>
+
+		<p>The webpage for "ae app labs" located at <a href="https://ae-app-labs.github.io">https://ae-app-labs.github.io</a> does not collect or offer to share any personal information or Personally Identifiable Information (PII).</p> 
+		<p>This website does not create or maintain any cookies.</p>
+		<br />
+		<p>This website uses third party service - Google Analytics to measure usage and improve user experience.</p>
+		<p>Privacy Policy for <a href="https://policies.google.com/privacy?hl=en-US">Google Analytics</a></p>
+		<br />
+		<p>If you have any questions or concerns, please submit a comment or send an email to aeapplabs.ca at google.com.</p>
+		<br/>
+		<pre>The privacy policy for this page was last updated on 24 June 2020.</pre>
+		<p>The same version of this policy is maintained at <a href="https://github.com/ae-app-labs/ae-app-labs.github.io/wiki/Privacy-Policy">https://github.com/ae-app-labs/ae-app-labs.github.io/wiki/Privacy-Policy</a> as well</p>
 	</div>
 </section>

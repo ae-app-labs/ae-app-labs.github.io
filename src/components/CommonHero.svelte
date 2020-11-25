@@ -3,7 +3,7 @@
     export let subtitle
 </script>
 
-<section class="hero is-dark is-bold">
+<section class="hero is-warning is-bold">
   <div class="hero-body">
     <div class="container">
       <h1 class="title">

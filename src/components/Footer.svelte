@@ -6,9 +6,9 @@
             </div>
             <div class="column is-one-third">
                 <b class="pl-2 pb-4">Links</b> <br/>
-                <a class="p-2" href="https://github.com/ae-app-labs/ae-app-labs.github.io/wiki/Contents">Contents</a> <br />
+                <a class="p-2" href="about">About</a> <br />
                 <a class="p-2" href="/">Projects</a> <br />
-                <a class="p-2" href="privacy">Privacy Policy</a>
+                <a class="p-2" href="privacy-policy">Privacy Policy</a>
             </div>
             <div class="column is-one-third">
                 <b class="pl-2 pb-4">Social</b> <br/>

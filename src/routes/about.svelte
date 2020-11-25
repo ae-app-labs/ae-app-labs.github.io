@@ -3,10 +3,10 @@ import CommonHero from '../components/CommonHero.svelte'
 </script>
 
 <svelte:head>
-	<title>About</title>
+	<title>ae app labs | About</title>
 </svelte:head>
 
-<CommonHero title="About" subtitle="hellooo"/>
+<CommonHero title="About" subtitle=""/>
 
 <section class="section" id="projects-desktop" name="projects-desktop">
 	<div class="container">
