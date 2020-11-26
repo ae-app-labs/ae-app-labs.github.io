@@ -5,10 +5,10 @@
             <p> &copy; 2020 ae app labs</p>
             </div>
             <div class="column is-one-quarter">
-                <b class="pl-2 pb-4">Links</b> <br/>
-                <a class="p-2" href="about">About</a> <br />
-                <a class="p-2" href="/">Projects</a> <br />
-                <a class="p-2" href="privacy-policy">Privacy Policy</a>
+                <b class="pb-4">Links</b> <br/>
+                <a class="pt-2" href="/">Home</a> <br />
+                <a class="pt-2" href="about">About</a> <br />
+                <a class="pt-2" href="privacy-policy">Privacy Policy</a>
             </div>
             <div class="column">
             <!--

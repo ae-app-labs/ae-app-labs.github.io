@@ -7,7 +7,7 @@
     $: projects = $sectionData.projects
 </script>
 
-<section class="section" id="projects-{$sectionData.category}" name="projects-{$sectionData.category}"
+<section class="section transition2" id="projects-{$sectionData.category}" name="projects-{$sectionData.category}"
          data-wow-duration="2s" data-wow-delay="5s">
 	<div class="container">
 		<div class="subtitle section-title">{$sectionData.categoryTitle}</div>

@@ -1,5 +1,18 @@
+.footer {
+  background-image: url(img/footer_bg_graphic.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 80%;
+}
+
+@media screen and (min-width: 800px) {
+  .footer {
+    background-position: 50% 70%;
+  }
+}
+
 .hero-landing {
-  background: #1d72aa !important;
+  background: #9090FF !important;
 }
 
 .featured {
@@ -8,10 +21,12 @@
 
 .featured .content {
   padding: 1em;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 20% 50% auto;
-      grid-template-columns: 20% 50% auto;
+}
+
+@media screen and (min-width: 800px) {
+  .featured .content {
+    padding: 2em;
+  }
 }
 
 .featured .content .featured-info {
@@ -27,10 +42,6 @@
   margin: 0 auto;
 }
 
-.featured .content .featured-desc {
-  padding: 2em;
-}
-
 .featured .content .featured-buttons {
   padding-top: 2em;
 }
@@ -39,10 +50,20 @@
   background: silver;
 }
 
+.project-desc, .featured-desc {
+  padding: 1em;
+}
+
+@media screen and (min-width: 800px) {
+  .project-desc, .featured-desc {
+    padding: 2em;
+  }
+}
+
 .featured::before {
   position: absolute;
   content: "";
-  background: #1d72aa;
+  background: #9090FF;
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -50,6 +71,13 @@
   left: 0;
   margin-left: -40px;
   margin-top: -40px;
+}
+
+@media screen and (min-width: 800px) {
+  .featured::before {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 .media-content .title {
@@ -69,7 +97,13 @@
   background: #00d1b2;
   bottom: -10px;
   left: 0;
-  right: 98%;
+  right: 95%;
   margin: auto;
+}
+
+@media screen and (min-width: 800px) {
+  .section-title::after {
+    right: 98%;
+  }
 }
 /*# sourceMappingURL=global.css.map */

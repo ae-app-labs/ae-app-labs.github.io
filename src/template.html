@@ -36,43 +36,10 @@
 	<div id="sapper">%sapper.html%</div>
 
 	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-	<script>
-
-		document.addEventListener('DOMContentLoaded', () => {
-
-			// Get all "navbar-burger" elements
-			const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
-			// Check if there are any navbar burgers
-			if ($navbarBurgers.length > 0) {
-
-				// Add a click event on each of them
-				$navbarBurgers.forEach( el => {
-					el.addEventListener('click', () => {
-
-					// Get the target from the "data-target" attribute
-					const target = el.dataset.target;
-					const $target = document.getElementById(target);
-
-					// Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-					el.classList.toggle('is-active');
-					$target.classList.toggle('is-active');
-
-					});
-				});
-			}
-
-		});
-
-		function scrollToSection(section) {
-			const element = document.getElementById(section)
-			const y = element.getBoundingClientRect().top + window.scrollY;
-			window.scroll({
-			top: y,
-			behavior: 'smooth'
-			});
-			return false
-		}
-	</script>
+	<!--
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js" integrity="sha512-wK2NuxEyN/6s53M8G7c6cRUXvkeV8Uh5duYS06pAdLq4ukc72errSIyyGQGYtzWEzvVGzGSWg8l79e0VkTJYPw==" crossorigin="anonymous"></script>
+	-->
+	<script src="scripts.js?d=202011260930"></script>
 </body>
 </html>

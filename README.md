@@ -8,3 +8,4 @@ Will need to be upgraded to svelte/kit once it is ready.
 Bulma  
 
 ## Animations
+GSAP 3 (but disabled, since it looks funny on svelte)

@@ -7,17 +7,17 @@
 
 
 <div class="card box featured">
-    <div class="content">
-        <div class="featured-info">
+    <div class="content columns">
+        <div class="featured-info column is-3 is-narrow">
             <div>
                 <figure class="image is-96x96">
                     <img src="{projectData.icon}" alt="{projectData.title}" class="v-lazy-image v-lazy-image-loaded">
                 </figure>
             </div>
             <div>
-                <p class="title is-4 is-size-3-mobile has-text-centered">{projectData.title}</p>
+                <p class="title is-4 is-size-5-mobile has-text-centered">{projectData.title}</p>
                 {#if tags.length > 0}
-                    <p class="subtitle is-6 is-hidden-mobile has-text-centered">
+                    <p class="subtitle is-6 has-text-centered">
                         {#each tags as tag (tag.id)}
                             <span class="tag {tag.className} mr-1">{tag.name}</span>
                         {/each}
@@ -25,7 +25,7 @@
                 {/if}
             </div>
         </div>
-        <div class="featured-desc">
+        <div class="featured-desc is-size-6-mobile column">
             <div>
                 {projectData.description}        
             </div>
@@ -39,7 +39,7 @@
                 {/each}
             </div>
         </div>
-        <div class="featured-image">
+        <div class="featured-image is-hidden-mobile column">
         
         </div>
 

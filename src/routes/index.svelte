@@ -22,15 +22,10 @@
 <section class="hero is-medium is-primary hero-landing">
 	<div class="hero-body">
 		<div class="container">
-			<div class="columns">
-				<div class="column has-text-link">
-					<h1 class="title">Research & Learning</h1>
-					<h1 class="subtitle">Open Source Web and Mobile development and experiments</h1>
-					<button class="button is-warning is-medium pl-2 pr-2" on:click={ () => scrollToSection('projects-android')}>Learn More</button>
-				</div>
-				<div class="column is-narrow is-hidden-mobile">
-					<!-- to be filled later -->
-				</div>
+			<div class="has-text-link">
+				<h1 class="title stagger1">Research & Learning</h1>
+				<h1 class="subtitle stagger1">Open Source Web and Mobile development and experiments</h1>
+				<button class="button is-warning is-medium pl-2 pr-2 stagger1" on:click={ () => scrollToSection('projects-android')}>Learn More</button>
 			</div>
 		</div>
 	</div>
