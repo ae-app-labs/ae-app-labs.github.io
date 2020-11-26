@@ -19,7 +19,7 @@
 </svelte:head>
 
 <!-- This is the hero on the landing page -->
-<section class="hero is-medium is-primary">
+<section class="hero is-medium is-primary hero-landing">
 	<div class="hero-body">
 		<div class="container">
 			<div class="columns">
@@ -29,7 +29,7 @@
 					<button class="button is-warning is-medium pl-2 pr-2" on:click={ () => scrollToSection('projects-android')}>Learn More</button>
 				</div>
 				<div class="column is-narrow is-hidden-mobile">
-					<!-- <img src="/img/icons/app_labs.png" height="72px" width="72px" alt="ae app labs" /> -->
+					<!-- to be filled later -->
 				</div>
 			</div>
 		</div>

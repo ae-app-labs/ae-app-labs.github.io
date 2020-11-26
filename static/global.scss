@@ -1,0 +1,66 @@
+$themeColor: #00d1b2;
+$blueColor: #1d72aa;
+$accentColor: #ffdd57;
+
+.hero-landing{
+    background: $blueColor !important;
+}
+.featured {
+    position: relative;
+    .content{
+        padding: 1em;
+        display: grid;
+        grid-template-columns: 20% 50% auto;
+
+        .featured-info{
+            align-content: center;
+            .title{
+                padding-bottom: .8em;
+            }
+            figure{
+                margin: 0 auto;
+            }
+        }
+        .featured-desc{
+            padding: 2em;
+        }
+        .featured-buttons{
+            padding-top: 2em;
+        }
+        .featured-image{
+            background: silver;
+        }
+    }
+}
+.featured::before{
+    position: absolute;
+    content: "";
+    background: $blueColor;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    margin-left: -40px;
+    margin-top: -40px;
+}
+.media-content{
+    .title{
+        margin-bottom: 1em;
+        padding-bottom: .8em;
+    }
+}
+.section-title {
+    position:relative;
+    text-align:left;
+}
+.section-title::after {
+    content:'';
+    position:absolute;
+    height:2px;
+    background:#00d1b2;
+    bottom:-10px;
+    left:0;
+    right:98%;
+    margin:auto;
+}

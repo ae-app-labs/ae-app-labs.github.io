@@ -7,6 +7,7 @@ const androidProjectsData = {
         "id": "101",
         "icon": "https://raw.githubusercontent.com/midhunhk/artwork/master/MessageCounter/exp/app-icon/play-store-icon_white.png",
         "title": "message-counter",
+        "featured": true,
         "tags": [
             {
                 "id":"1",
@@ -45,6 +46,7 @@ const androidProjectsData = {
         "id": "102",
         "icon": "https://ae-app-labs.github.io/img/app_labs_icon3.png",
         "title": "lib-aeapps",
+        "featured": false,
         "tags": [
             {
                 "id":"1",
@@ -71,6 +73,7 @@ const androidProjectsData = {
         "id": "103",
         "icon": "https://raw.githubusercontent.com/midhunhk/artwork/master/RandomContact/exp/app-icons/app_icon_v4.4.png",
         "title": "random-contact",
+        "featured": false,
         "tags": [
             {
                 "id":"1",
@@ -92,6 +95,7 @@ const androidProjectsData = {
         "id": "104",
         "icon": "https://raw.githubusercontent.com/midhunhk/artwork/master/TripOMeter/exp/app_icon.png",
         "title": "trip-o-meter",
+        "featured": false,
         "tags": [
             {
                 "id":"1",
@@ -118,6 +122,7 @@ const androidProjectsData = {
         "id": "105",
         "icon": "https://raw.githubusercontent.com/midhunhk/artwork/master/C19Counter/export/app_icon.png",
         "title": "c19-counter",
+        "featured": false,
         "tags": [
             {
                 "id":"1",

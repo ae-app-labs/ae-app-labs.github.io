@@ -7,6 +7,7 @@ const desktopProjectsData = {
         "id": "201",
         "icon": "https://raw.githubusercontent.com/midhunhk/triton-player/master/Resources/trident-icon.png",
         "title": "triton-player",
+        "featured": true,
         "tags": [
             {
                 "id":"1",
@@ -33,6 +34,7 @@ const desktopProjectsData = {
         "id": "202",
         "icon": "https://raw.githubusercontent.com/midhunhk/cryptx/master/Resources/cryptx-6-icon.png",
         "title": "cryptx",
+        "featured": false,
         "tags": [
             {
                 "id":"1",

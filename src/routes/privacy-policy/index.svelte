@@ -9,7 +9,7 @@
 <CommonHero title="Privacy Policy" subtitle=""/>
 
 <section class="section">
-	<div class="container">
+	<div class="container pr-4">
 		<div class="subtitle section-title">Privacy Policy</div>
 
 		<p>The webpage for "ae app labs" located at <a href="https://ae-app-labs.github.io">https://ae-app-labs.github.io</a> does not collect or offer to share any personal information or Personally Identifiable Information (PII).</p> 
