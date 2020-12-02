@@ -11,6 +11,18 @@
   }
 }
 
+.ae-word-mark {
+  background: url("/img/ae_wordmark.svg") no-repeat;
+  background-size: contain;
+  width: auto;
+  height: 150px;
+}
+
+.footer-bottom {
+  background-color: #04ad94;
+  color: white;
+}
+
 .hero-landing {
   background: #9090FF !important;
 }

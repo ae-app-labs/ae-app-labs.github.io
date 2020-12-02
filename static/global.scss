@@ -16,6 +16,16 @@ $xlg: 1250px;
         background-position: 50% 70%;
     }
 }
+.ae-word-mark{
+    background: url("/img/ae_wordmark.svg") no-repeat;
+    background-size: contain;
+    width: auto;
+    height: 150px;
+}
+.footer-bottom{
+    background-color: #04ad94;
+    color: white;
+}
 .hero-landing{
     background: $secondaryColor !important;
 }

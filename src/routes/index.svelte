@@ -1,5 +1,6 @@
 <script>
 	import Tags from '../components/Tags.svelte'
+	import Services from '../components/Services.svelte'
 	import CategorySection from '../components/CategorySection.svelte'
 	import { desktopProjects, androidProjects } from '../data/store'
 
@@ -33,6 +34,8 @@
 
 <!-- A tag cloud -->
 <Tags/>
+
+<Services/>
 
 <!-- Show projects by category -->
 <CategorySection sectionData={androidProjects}/>
