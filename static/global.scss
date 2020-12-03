@@ -10,17 +10,10 @@ $xlg: 1250px;
 .footer{
     background-image: url(img/footer_bg_graphic.svg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: 50% 80%;
     @media screen and (min-width: $med) {
-        background-position: 50% 70%;
+        background-position: 70% 83%;
     }
-}
-.ae-word-mark{
-    background: url("/img/ae_wordmark.svg") no-repeat;
-    background-size: contain;
-    width: auto;
-    height: 150px;
 }
 .footer-bottom{
     background-color: #04ad94;

@@ -8,4 +8,4 @@ Will need to be upgraded to svelte/kit once it is ready.
 Bulma  
 
 ## Animations
-GSAP 3 (but disabled, since it looks funny on svelte)
+[GSAP 3](https://greensock.com/docs/v3/) - Got it working by running them `onMount()`

@@ -6,7 +6,7 @@
 </script>
 
 
-<div class="card box featured">
+<div class="card box featured transition2">
     <div class="content columns">
         <div class="featured-info column is-3 is-narrow">
             <div>

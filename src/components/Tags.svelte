@@ -1,4 +1,4 @@
-<section class="section is-hidden-mobile transition2">    
+<section class="section is-hidden-mobile stagger1">    
 	<div class="container">
 		<div class="has-text-centered">
 			<span class="tag is-primary">Android</span>

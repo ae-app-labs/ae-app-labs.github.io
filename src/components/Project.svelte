@@ -6,7 +6,7 @@
 </script>
 
 
-<div class="card box">
+<div class="card box transition2">
     <div class="content">
         <div class="media">
             <div class="media-left">
