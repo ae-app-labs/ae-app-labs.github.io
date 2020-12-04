@@ -1,0 +1,135 @@
+.section-services {
+  background-color: #ffdd57 !important;
+}
+
+.section-services figure {
+  margin: auto;
+}
+
+.section-services figure img {
+  margin: auto;
+  width: 96px;
+}
+
+.footer {
+  background-image: url(img/footer_bg_graphic.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 80%;
+}
+
+@media screen and (min-width: 800px) {
+  .footer {
+    background-position: 70% 83%;
+  }
+}
+
+.footer-bottom {
+  background-color: #04ad94;
+  color: white;
+}
+
+.hero-landing {
+  background: #9090FF !important;
+}
+
+.featured {
+  position: relative;
+}
+
+.featured .content {
+  padding: 1em;
+}
+
+@media screen and (min-width: 800px) {
+  .featured .content {
+    padding: 2em;
+  }
+}
+
+.featured .content .featured-info {
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.featured .content .featured-info .title {
+  padding-bottom: .8em;
+}
+
+.featured .content .featured-info figure {
+  margin: 0 auto;
+}
+
+.featured .content .featured-buttons {
+  padding-top: 2em;
+}
+
+.featured .content .featured-desc {
+  line-height: 1.4em;
+}
+
+@media screen and (min-width: 800px) {
+  .featured .content .featured-desc {
+    padding: 2em;
+    line-height: 2em;
+  }
+}
+
+.project-desc, .featured-desc {
+  padding: 1em;
+  line-height: 1.4em;
+}
+
+@media screen and (min-width: 800px) {
+  .project-desc, .featured-desc {
+    padding: 2em;
+    line-height: 2em;
+  }
+}
+
+.featured::before {
+  position: absolute;
+  content: "";
+  background: #9090FF;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  margin-left: -40px;
+  margin-top: -40px;
+}
+
+@media screen and (min-width: 800px) {
+  .featured::before {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.media-content .title {
+  margin-bottom: 1em;
+  padding-bottom: .8em;
+}
+
+.section-title {
+  position: relative;
+  text-align: left;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  background: #00d1b2;
+  bottom: -10px;
+  left: 0;
+  right: 95%;
+  margin: auto;
+}
+
+@media screen and (min-width: 800px) {
+  .section-title::after {
+    right: 98%;
+  }
+}
+/*# sourceMappingURL=global.css.map */
