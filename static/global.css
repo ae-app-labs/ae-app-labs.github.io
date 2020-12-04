@@ -1,3 +1,16 @@
+.section-services {
+  background-color: #ffdd57 !important;
+}
+
+.section-services figure {
+  margin: auto;
+}
+
+.section-services figure img {
+  margin: auto;
+  width: 96px;
+}
+
 .footer {
   background-image: url(img/footer_bg_graphic.svg);
   background-repeat: no-repeat;
@@ -50,17 +63,26 @@
   padding-top: 2em;
 }
 
-.featured .content .featured-image {
-  background: silver;
+.featured .content .featured-desc {
+  line-height: 1.4em;
+}
+
+@media screen and (min-width: 800px) {
+  .featured .content .featured-desc {
+    padding: 2em;
+    line-height: 2em;
+  }
 }
 
 .project-desc, .featured-desc {
   padding: 1em;
+  line-height: 1.4em;
 }
 
 @media screen and (min-width: 800px) {
   .project-desc, .featured-desc {
     padding: 2em;
+    line-height: 2em;
   }
 }
 

@@ -8,6 +8,7 @@ const desktopProjectsData = {
         "icon": "https://raw.githubusercontent.com/midhunhk/triton-player/master/Resources/trident-icon.png",
         "title": "triton-player",
         "featured": true,
+        "featuredImage": "\\img\\portfolio\\desktop\\project_screenshot_triton.png",
         "tags": [
             {
                 "id":"1",

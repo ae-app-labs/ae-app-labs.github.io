@@ -8,6 +8,7 @@ const androidProjectsData = {
         "icon": "https://raw.githubusercontent.com/midhunhk/artwork/master/MessageCounter/exp/app-icon/play-store-icon_white.png",
         "title": "message-counter",
         "featured": true,
+        "featuredImage": "\\img\\portfolio\\mobile\\message_counter_screens.png",
         "tags": [
             {
                 "id":"1",

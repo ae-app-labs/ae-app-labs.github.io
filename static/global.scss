@@ -7,6 +7,16 @@ $med: 800px;
 $lge: 1050px;
 $xlg: 1250px;
 
+.section-services{
+    background-color: $accentColor !important;
+    figure {
+        margin: auto;
+        img{
+            margin: auto;
+            width: 96px;
+        }
+    }
+}
 .footer{
     background-image: url(img/footer_bg_graphic.svg);
     background-repeat: no-repeat;
@@ -41,15 +51,21 @@ $xlg: 1250px;
         .featured-buttons{
             padding-top: 2em;
         }
-        .featured-image{
-            background: silver;
+        .featured-desc{
+            line-height: 1.4em;
+            @media screen and (min-width: $med) {
+                padding: 2em;
+                line-height: 2em;
+            }
         }
     }
 }
 .project-desc, .featured-desc{
     padding: 1em;
+    line-height: 1.4em;
     @media screen and (min-width: $med) {
         padding: 2em;
+        line-height: 2em;
     }
 }
 .featured::before{

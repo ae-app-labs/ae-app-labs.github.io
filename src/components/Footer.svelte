@@ -2,10 +2,10 @@
 	<div class="container">
         <div class="columns">
             <div class="column is-one-third">
-                <svg width="200px" height="120px" viewBox="0 0 384.753 240.82">
-                    <g transform="translate(-63.448 -133.37)">
-                        <path d="M72.4,178.4s128.348-95.455,162.748,54.145c10.8,46.974-3.314,108.4-67.548,125.855-80.618,10.476-86.3-88.459-86.3-88.459l153.846-33.609" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="30"/>
-                        <path d="M238.438,323.365S110.09,415.754,75.69,270.959C64.888,225.494,79,166.039,143.238,149.147c80.618-10.14,86.3,85.617,86.3,85.617L75.69,267.294" transform="translate(201 5.385)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="30"/>
+                <svg  width="200" height="120" viewBox="0 0 209.313 131.46">
+                    <g transform="translate(-504.327 -2063.881)">
+                        <path d="M72.4,164.685s69.683-51.825,88.36,29.4c5.864,25.5-1.8,58.854-36.674,68.33-43.769,5.688-46.853-48.027-46.853-48.027l83.527-18.247" transform="translate(437 1924)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="17"/>
+                        <path d="M90.146,95s-69.683,50.16-88.36-28.452C-4.078,41.859,3.585,9.579,38.46.408,82.229-5.1,85.313,46.892,85.313,46.892L1.786,64.553" transform="translate(618.528 2075.318)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="17"/>
                     </g>
                 </svg>
             </div>
