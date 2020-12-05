@@ -21,7 +21,7 @@ const androidProjectsData = {
                 "className": "is-danger"
             }
         ],
-        "description": "Message Counter is a modern Android app that counts the number of text messages a user sends. It has been download more than 1,00,000 times, translated into 5 languages and used in more than 10 countries around the world.",
+        "description": "Message Counter is a modern Android app that counts the number of text messages a user sends. <br/><br/>It has been download more than 1,00,000 times, translated into 5 languages and used in more than 10 countries around the world.<br/><br/>It is now entirely rewritten in Kotlin and makes use of Android Architecture Components and Kotlin Extensions.",
         "buttons": [
             {
                 "id": "1",
@@ -109,7 +109,7 @@ const androidProjectsData = {
                 "className": "is-danger"
             }
         ],
-        "description": "Trip O Meter was an attempt to integrate multiple features into a single application for managing a trip. It presently includes a fuel cost calculator and expense manager when going with friends. The development of this project is currently on hold.",
+        "description": "Trip O Meter was an attempt to integrate multiple features into a single application for managing a trip. It presently includes a fuel cost calculator and expense manager when going with friends. <br/><br/>The development of this project is currently on hold.",
         "buttons": [
           {
             "id": "1",

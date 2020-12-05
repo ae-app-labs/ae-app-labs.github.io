@@ -21,7 +21,7 @@ const desktopProjectsData = {
                 "className": "is-link"
             }
         ],
-        "description": "Triton Player is an MP3 player based on Adobe AIR platform. \n What started as an educational endeavour while working on Adobe Flex and the AIR platform, was released to the general public.\nThis application is considered to be feature complete and is no longer maintained or updated.",
+        "description": "Triton Player is an MP3 player based on Adobe AIR platform. <br/><br/> What started as an educational endeavour while working on Adobe Flex and the AIR platform, was released to the general public.<br/><br/>This application is considered to be feature complete and is no longer maintained or updated.",
         "buttons": [
           {
             "id": "220101",

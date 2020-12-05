@@ -27,7 +27,7 @@
         </div>
         <div class="featured-desc column">
             <div>
-                {projectData.description}        
+                {@html projectData.description}        
             </div>
             <div class="is-right featured-buttons">
                 {#each buttons as button (button.id)}

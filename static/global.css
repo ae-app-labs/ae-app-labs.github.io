@@ -70,7 +70,7 @@
 @media screen and (min-width: 800px) {
   .featured .content .featured-desc {
     padding: 2em;
-    line-height: 2em;
+    line-height: 1.8em;
   }
 }
 
@@ -82,30 +82,29 @@
 @media screen and (min-width: 800px) {
   .project-desc, .featured-desc {
     padding: 2em;
-    line-height: 2em;
+    line-height: 1.8em;
   }
 }
 
-.featured::before {
-  position: absolute;
-  content: "";
-  background: #9090FF;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  top: 0;
-  left: 0;
-  margin-left: -40px;
-  margin-top: -40px;
-}
-
-@media screen and (min-width: 800px) {
-  .featured::before {
+/*
+.featured::before{
+    position: absolute;
+    content: "";
+    // background: $secondaryColor;
+    background: url("/img/icons/featured_star.svg") no-repeat;
     width: 100px;
     height: 100px;
-  }
+    //border-radius: 50%;
+    top: -2px;
+    left: -2px;
+    //margin-left: -40px;
+    //margin-top: -40px;
+    @media screen and (min-width: $med) {
+        width: 100px;
+        height: 100px;
+    }
 }
-
+*/
 .media-content .title {
   margin-bottom: 1em;
   padding-bottom: .8em;

@@ -26,7 +26,7 @@
             </div>
         </div>
         <div class="content project-desc mb-0">
-            {projectData.description}
+            {@html projectData.description}
         </div>
         <div class="is-right">
             {#each buttons as button (button.id)}
