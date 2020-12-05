@@ -1,4 +1,5 @@
 $primaryColor: #00d1b2;
+$darkGreen: #05C6A9;
 $secondaryColor: #9090FF;
 $accentColor: #ffdd57;
 // Deep Orange #DD7129
@@ -30,7 +31,7 @@ $xlg: 1250px;
     color: white;
 }
 .hero-landing{
-    background: $secondaryColor !important;
+    background: $darkGreen !important;
 }
 .featured {
     position: relative;

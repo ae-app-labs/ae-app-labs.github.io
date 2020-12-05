@@ -25,7 +25,7 @@
                 {/if}
             </div>
         </div>
-        <div class="content project-desc">
+        <div class="content project-desc mb-0">
             {projectData.description}
         </div>
         <div class="is-right">
