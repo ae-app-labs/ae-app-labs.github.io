@@ -23,15 +23,31 @@
 
 		<div class="columns">
 			<div class="column is-two-thirds section-content">
-				<p>Ae App Labs does UI/UX research and explores multiple frameworks and solutions for educational purposes.</p>
+				<p>We do UI/UX research as well as explore multiple frameworks and solutions for educational purposes.</p>
 				<br />
-				<p>The educational research projects are available under open source liceses at <a href="https://github.com/ae-app-labs">https://github.com/ae-app-labs</a></p>
+				<p>We also create and maintain a few open source projects and web development.</p>
+				<br />
+				<p>The educational research projects are available under open source licenses at <a href="https://github.com/ae-app-labs">https://github.com/ae-app-labs</a></p>
+
+				<br />
+				The following software and libraries were used to create this website.
+				<ul>
+					<li class="ml-2">Adobe XD</li>
+					<li class="ml-2">Bulma</li>
+					<li class="ml-2">SvelteJS</li>
+					<li class="ml-2">SapperJS</li>
+					<li class="ml-2">gsap 3</li>
+				</ul>
+
 			</div>
 			<div class="column">
-				<figure class="image">
-                    <img src="/img/portfolio/web/uplabs_muyu.png" alt="muyu web" class="v-lazy-image v-lazy-image-loaded">
-                </figure>
+				<a href="https://www.uplabs.com/posts/website-for-a-virtual-job-board-app" target="_blank" alt="view on uplabs">
+					<figure class="image">
+						<img src="/img/portfolio/web/uplabs_muyu.png" alt="muyu web" class="v-lazy-image v-lazy-image-loaded">
+					</figure>
+				</a>
 			</div>
 		</div>
+
 	</div>
 </section>

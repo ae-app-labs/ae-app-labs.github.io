@@ -1,7 +1,7 @@
 <footer class="footer">
 	<div class="container">
         <div class="columns">
-            <div class="column is-one-third">
+            <div class="column is-one-third is-desktop is-vcentered">
                 <svg  width="200" height="120" viewBox="0 0 209.313 131.46">
                     <g transform="translate(-504.327 -2063.881)">
                         <path d="M72.4,164.685s69.683-51.825,88.36,29.4c5.864,25.5-1.8,58.854-36.674,68.33-43.769,5.688-46.853-48.027-46.853-48.027l83.527-18.247" transform="translate(437 1924)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="17"/>
@@ -10,11 +10,12 @@
                 </svg>
             </div>
             <div class="column is-one-quarter">
-                <b class="pb-4">Links</b>
+                <b>Links</b>
+                <br /><br />
                 <ul>
-                    <li><a class="pt-4" href="/">Home</a></li>
-                    <li><a class="pt-4" href="about">About</a></li>
-                    <li><a class="pt-4" href="privacy-policy">Privacy Policy</a></li>
+                    <li class="pt-1"><a href="/">Home</a></li>
+                    <li class="pt-1"><a href="about">About</a></li>
+                    <li class="pt-1"><a href="privacy-policy">Privacy Policy</a></li>
                 </ul>
             </div>
             <div class="column">
