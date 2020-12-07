@@ -2,10 +2,7 @@
     <div class="container">
         <div class="navbar-brand">
             <a class="navbar-item has-text-weight-bold" href="/">
-            <!-- 
-                <img src="/img/icons/app_labs.png" class="is-48x48 mr-2" alt="ae app labs" />
-            -->
-                AE App Labs
+               AE App Labs
             </a>
             <div class="navbar-burger burger" data-target="navMenu">
                 <span></span>
@@ -18,7 +15,7 @@
             <div class="navbar-start">
                 <a class="navbar-item" href="/about">About</a>
             </div>
-            <div class="navbar-end">
+            <div class="navbar-end nav-social">
                 <div class="navbar-item">
                     <div class="buttons">
                         <a class="button is-primary" href="https://github.com/ae-app-labs" name="Github Page">
