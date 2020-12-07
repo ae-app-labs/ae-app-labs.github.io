@@ -8,7 +8,7 @@
 
 .section-services figure img {
   margin: auto;
-  width: 96px;
+  height: 50px;
 }
 
 .footer {
@@ -20,6 +20,12 @@
 @media screen and (min-width: 800px) {
   .footer {
     background-position: 70% 83%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .hero.is-medium .hero-body {
+    padding: 6rem 1.5rem;
   }
 }
 

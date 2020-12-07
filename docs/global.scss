@@ -14,7 +14,7 @@ $xlg: 1250px;
         margin: auto;
         img{
             margin: auto;
-            width: 96px;
+            height: 50px;
         }
     }
 }
@@ -24,6 +24,11 @@ $xlg: 1250px;
     background-position: 50% 80%;
     @media screen and (min-width: $med) {
         background-position: 70% 83%;
+    }
+}
+@media screen and (min-width: $med) {
+    .hero.is-medium .hero-body {
+        padding: 6rem 1.5rem;
     }
 }
 .footer-bottom{
