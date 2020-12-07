@@ -29,5 +29,11 @@
 		<div class="subtitle section-title">{post.title} Privacy Policy</div>
 		
 		{@html post.html}
+
+		<div class="mt-2">
+			<pre>
+				The privacy policy for this app was last updated on {post.lastUpdated}
+			</pre>
+		</div>
 	</div>
 </section>

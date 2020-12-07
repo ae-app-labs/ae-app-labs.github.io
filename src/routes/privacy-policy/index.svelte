@@ -1,5 +1,14 @@
 <script>
 	import CommonHero from '../../components/CommonHero.svelte'
+	export let posts
+</script>
+
+<script context="module">
+	export function preload() {
+		return this.fetch(`privacy-policy.json`).then(r => r.json()).then(posts => {
+			return { posts };
+		});
+	}
 </script>
 
 <svelte:head>
@@ -20,7 +29,19 @@
 		<br />
 		<p>If you have any questions or concerns, please submit a comment or send an email to aeapplabs.ca at google.com.</p>
 		<br/>
-		<pre>The privacy policy for this page was last updated on 24 June 2020.</pre>
+		<pre>The privacy policy for this page was last updated on 24 June 2020.</pre> <br />
 		<p>The same version of this policy is maintained at <a href="https://github.com/ae-app-labs/ae-app-labs.github.io/wiki/Privacy-Policy">https://github.com/ae-app-labs/ae-app-labs.github.io/wiki/Privacy-Policy</a> as well</p>
+	</div>
+</section>
+
+<section class="section pt-0">
+	<div class="container">
+		<div class="subtitle section-title">Privacy Policy for apps</div>
+		<div>Privacy policy for some of the apps are linked below:</div>
+		<ul>
+			{#each posts as post}
+				<li><a rel="prefetch" href="privacy-policy/{post.slug}">{post.title}</a></li>
+			{/each}
+		</ul>
 	</div>
 </section>
