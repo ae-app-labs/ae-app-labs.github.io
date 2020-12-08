@@ -1,4 +1,4 @@
-<section class="section section-services">
+<section class="section section-services fadeIn">
     <div class="container">
         <div class="columns is-vcentered is-12">
             <div class="column is-one-third">

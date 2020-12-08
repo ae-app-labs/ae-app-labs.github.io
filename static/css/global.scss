@@ -1,118 +1,110 @@
+// Custom Colors
 $primaryColor: #00d1b2;
-$darkGreen: #05C6A9;
+$primaryDark: #05C6A9;
 $secondaryColor: #9090FF;
 $accentColor: #ffdd57;
 // Deep Orange #DD7129
 
-$med: 800px;
-$lge: 1050px;
-$xlg: 1250px;
+$desktop: 840px;
 
-.section-services{
-    background-color: $accentColor !important;
-    figure {
-        margin: auto;
-        img{
-            margin: auto;
-            height: 50px;
+@mixin desktop {
+    @media (min-width: #{$desktop}) {
+        @content;
+    }
+}
+
+.hero-landing{
+    background: $primaryDark !important;
+    .hero-body{
+        @include desktop {
+            padding: 4rem 1.5rem !important;
         }
     }
 }
+
+main{
+    .section-services{
+        background-color: $accentColor !important;
+        figure {
+            margin: auto;
+            img{
+                margin: auto;
+                height: 50px;
+            }
+        }
+    }
+    
+    .featured {
+        position: relative;
+        .content{
+            padding: 1em;
+            @include desktop {
+                padding: 2em;
+            }
+            .featured-info{
+                align-content: center;
+                .title{
+                    padding-bottom: .8em;
+                }
+                figure{
+                    margin: 0 auto;
+                }
+            }   
+            .featured-buttons{
+                padding-top: 2em;
+            }
+            .featured-desc{
+                line-height: 1.4em;
+                @include desktop {
+                    padding: 2em;
+                    line-height: 1.8em;
+                }
+            }
+        }
+    }
+    .project-desc, .featured-desc{
+        padding: 1em;
+        line-height: 1.4em;
+        @include desktop {
+            padding: 2em;
+            line-height: 1.8em;
+        }
+    }
+    .media-content{
+        .title{
+            margin-bottom: 1em;
+            padding-bottom: .8em;
+        }
+    }
+    .section-title {
+        position:relative;
+        text-align:left;
+    }
+    .section-title::after {
+        content:'';
+        position:absolute;
+        height:2px;
+        background:#00d1b2;
+        bottom:-10px;
+        left:0;
+        right:95%;
+        margin:auto;
+        @include desktop {
+            right:98%;
+        }
+    }
+}
+
 .footer{
     background-image: url(img/footer_bg_graphic.svg);
     background-repeat: no-repeat;
     background-position: 50% 80%;
-    @media screen and (min-width: $med) {
+    @include desktop {
         background-position: 70% 83%;
-    }
-}
-@media screen and (min-width: $med) {
-    .hero.is-medium .hero-body {
-        padding: 6rem 1.5rem;
     }
 }
 .footer-bottom{
     background-color: #04ad94;
     color: white;
-}
-.hero-landing{
-    background: $darkGreen !important;
-}
-.featured {
-    position: relative;
-    .content{
-        padding: 1em;
-        @media screen and (min-width: $med) {
-            padding: 2em;
-        }
-        .featured-info{
-            align-content: center;
-            .title{
-                padding-bottom: .8em;
-            }
-            figure{
-                margin: 0 auto;
-            }
-        }   
-        .featured-buttons{
-            padding-top: 2em;
-        }
-        .featured-desc{
-            line-height: 1.4em;
-            @media screen and (min-width: $med) {
-                padding: 2em;
-                line-height: 1.8em;
-            }
-        }
-    }
-}
-.project-desc, .featured-desc{
-    padding: 1em;
-    line-height: 1.4em;
-    @media screen and (min-width: $med) {
-        padding: 2em;
-        line-height: 1.8em;
-    }
-}
-/*
-.featured::before{
-    position: absolute;
-    content: "";
-    // background: $secondaryColor;
-    background: url("/img/icons/featured_star.svg") no-repeat;
-    width: 100px;
-    height: 100px;
-    //border-radius: 50%;
-    top: -2px;
-    left: -2px;
-    //margin-left: -40px;
-    //margin-top: -40px;
-    @media screen and (min-width: $med) {
-        width: 100px;
-        height: 100px;
-    }
-}
-*/
-.media-content{
-    .title{
-        margin-bottom: 1em;
-        padding-bottom: .8em;
-    }
-}
-.section-title {
-    position:relative;
-    text-align:left;
-}
-.section-title::after {
-    content:'';
-    position:absolute;
-    height:2px;
-    background:#00d1b2;
-    bottom:-10px;
-    left:0;
-    right:95%;
-    margin:auto;
-    @media screen and (min-width: $med) {
-        right:98%;
-    }
+    font-size: .8em;
 }

@@ -5,7 +5,7 @@ const desktopProjectsData = {
     "projects": [
       {
         "id": "201",
-        "icon": "https://raw.githubusercontent.com/midhunhk/triton-player/master/Resources/trident-icon.png",
+        "icon": "\\img\\portfolio\\icons\\icon_triton_player.png",
         "title": "triton-player",
         "featured": true,
         "featuredImage": "\\img\\portfolio\\desktop\\project_screenshot_triton.png",
@@ -33,7 +33,7 @@ const desktopProjectsData = {
       },
       {
         "id": "202",
-        "icon": "https://raw.githubusercontent.com/midhunhk/cryptx/master/Resources/cryptx-6-icon.png",
+        "icon": "\\img\\portfolio\\icons\\icon_cryptx.png",
         "title": "cryptx",
         "featured": false,
         "tags": [

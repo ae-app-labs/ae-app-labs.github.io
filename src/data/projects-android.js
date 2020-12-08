@@ -5,7 +5,7 @@ const androidProjectsData = {
     "projects": [
       {
         "id": "101",
-        "icon": "https://raw.githubusercontent.com/midhunhk/artwork/master/MessageCounter/exp/app-icon/play-store-icon_white.png",
+        "icon": "\\img\\portfolio\\icons\\icon_message_counter.png",
         "title": "message-counter",
         "featured": true,
         "featuredImage": "\\img\\portfolio\\mobile\\message_counter_screens.png",
@@ -45,7 +45,7 @@ const androidProjectsData = {
       },
       {
         "id": "102",
-        "icon": "https://ae-app-labs.github.io/img/app_labs_icon3.png",
+        "icon": "\\img\\portfolio\\icons\\icon_lib_ae_apps.png",
         "title": "lib-aeapps",
         "featured": false,
         "tags": [
@@ -72,7 +72,7 @@ const androidProjectsData = {
       },
       {
         "id": "103",
-        "icon": "https://raw.githubusercontent.com/midhunhk/artwork/master/RandomContact/exp/app-icons/app_icon_v4.4.png",
+        "icon": "\\img\\portfolio\\icons\\icon_random_contact.png",
         "title": "random-contact",
         "featured": false,
         "tags": [
@@ -94,7 +94,7 @@ const androidProjectsData = {
       },
       {
         "id": "104",
-        "icon": "https://raw.githubusercontent.com/midhunhk/artwork/master/TripOMeter/exp/app_icon.png",
+        "icon": "\\img\\portfolio\\icons\\icon_trip_meter.png",
         "title": "trip-o-meter",
         "featured": false,
         "tags": [
@@ -121,7 +121,7 @@ const androidProjectsData = {
       },
       {
         "id": "105",
-        "icon": "https://raw.githubusercontent.com/midhunhk/artwork/master/C19Counter/export/app_icon.png",
+        "icon": "\\img\\portfolio\\icons\\icon_c19_counter.png",
         "title": "c19-counter",
         "featured": false,
         "tags": [
