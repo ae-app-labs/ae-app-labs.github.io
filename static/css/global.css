@@ -38,6 +38,7 @@ main .featured .content {
 main .featured .content .featured-info {
   -ms-flex-line-pack: center;
       align-content: center;
+  margin: auto auto;
 }
 
 main .featured .content .featured-info .title {
@@ -53,13 +54,13 @@ main .featured .content .featured-buttons {
 }
 
 main .featured .content .featured-desc {
+  margin: auto auto;
   line-height: 1.4em;
 }
 
 @media (min-width: 840px) {
   main .featured .content .featured-desc {
     padding: 2em;
-    line-height: 1.8em;
   }
 }
 

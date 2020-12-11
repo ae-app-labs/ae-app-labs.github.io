@@ -19,7 +19,7 @@
                 {#if tags.length > 0}
                     <p class="subtitle is-6 has-text-centered">
                         {#each tags as tag (tag.id)}
-                            <span class="tag {tag.className} mr-1">{tag.name}</span>
+                            <span class="tag {tag.className} is-light mr-2">{tag.name}</span>
                         {/each}
                     </p>
                 {/if}
@@ -32,9 +32,9 @@
             <div class="is-right featured-buttons">
                 {#each buttons as button (button.id)}
                     {#if button.isPrimary}
-                        <a class="button is-primary is-small is-rounded mr-1" href="{button.target}">{button.text}</a>
+                        <a class="button is-primary is-small is-rounded mr-2" href="{button.target}">{button.text}</a>
                     {:else}
-                        <a class="button is-primary is-outlined is-small is-rounded mr-1" href="{button.target}">{button.text}</a>
+                        <a class="button is-primary is-outlined is-small is-rounded mr-2" href="{button.target}">{button.text}</a>
                     {/if}
                 {/each}
             </div>
