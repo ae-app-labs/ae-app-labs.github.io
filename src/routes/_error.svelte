@@ -1,4 +1,6 @@
 <script>
+	import CommonHero from '../components/CommonHero.svelte'
+
 	export let status;
 	export let error;
 
@@ -31,11 +33,15 @@
 	<title>Status {status}</title>
 </svelte:head>
 
-<section class="section" id="projects-desktop" name="projects-desktop">
-	<div class="container">
-		<h1>Status {status}</h1>
+<CommonHero title="Status {status}" subtitle=""/>
 
-		<p>{error.message}</p>
+<section class="section">
+	<div class="container">
+		<h1>Uh oh!</h1>
+
+		<p>An error has occured and the message is <strong>{error.message}</strong></p>
+
+		<p>Click <a href="https://ae-app-labs.github.io/">here</a> to visit our home page.</p>
 
 		{#if dev && error.stack}
 			<pre>{error.stack}</pre>
