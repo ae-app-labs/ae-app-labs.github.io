@@ -19,9 +19,14 @@ $desktop: 840px;
         @include desktop {
             padding: 4rem 1.5rem !important;
         }
+        .title, .subtitle{
+            color: #3a3a3a !important;
+        }
     }
 }
-
+.navbar-item, .navbar-item:hover, .navbar-link {
+    color: #3a3a3a !important;
+}
 main{
     .section-services{
         background-color: $accentColor !important;
@@ -81,6 +86,7 @@ main{
     .section-title {
         position:relative;
         text-align:left;
+        color: #121212 !important;
     }
     .section-title::after {
         content:'';
@@ -107,6 +113,6 @@ main{
 }
 .footer-bottom{
     background-color: #04ad94;
-    color: white;
+    color: #3a3a3a;
     font-size: .8em;
 }
