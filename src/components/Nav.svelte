@@ -2,7 +2,7 @@
     <div class="container">
         <div class="navbar-brand">
             <a class="navbar-item has-text-weight-bold" href="/">
-               AE App Labs
+               ae app labs
             </a>
             <div class="navbar-burger burger" data-target="navMenu">
                 <span></span>
@@ -13,7 +13,7 @@
 
         <div class="navbar-menu" id="navMenu">
             <div class="navbar-start">
-                <a class="navbar-item" href="/about">About</a>
+                <a class="navbar-item" href="/about">about</a>
             </div>
             <div class="navbar-end nav-social">
                 <div class="navbar-item">

@@ -11,7 +11,7 @@
         <div class="featured-info column is-2 is-narrow">
             <div>
                 <figure class="image is-96x96">
-                    <img src="{projectData.icon}" alt="{projectData.title}" class="v-lazy-image v-lazy-image-loaded">
+                    <img src="{projectData.icon}" alt="{projectData.title}" />
                 </figure>
             </div>
             <div>
@@ -32,9 +32,9 @@
             <div class="is-right featured-buttons">
                 {#each buttons as button (button.id)}
                     {#if button.isPrimary}
-                        <a class="button is-primary is-small is-rounded mr-2" href="{button.target}">{button.text}</a>
+                        <a class="button is-primary is-small is-rounded mr-2" name="{button.text}" href="{button.target}">{button.text}</a>
                     {:else}
-                        <a class="button is-primary is-outlined is-small is-rounded mr-2" href="{button.target}">{button.text}</a>
+                        <a class="button is-primary is-outlined is-small is-rounded mr-2" name="{button.text}" href="{button.target}">{button.text}</a>
                     {/if}
                 {/each}
             </div>
@@ -42,7 +42,7 @@
         <div class="featured-image is-hidden-mobile column">
             {#if projectData.featuredImage}
                 <figure class="image">
-                    <img src="{projectData.featuredImage}" alt="{projectData.title}" class="v-lazy-image v-lazy-image-loaded">
+                    <img src="{projectData.featuredImage}" alt="{projectData.title}" />
                 </figure>
             {/if}
         </div>

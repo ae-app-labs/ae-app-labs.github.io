@@ -16,6 +16,7 @@
                     <li class="pt-1"><a href="/">Home</a></li>
                     <li class="pt-1"><a href="about">About</a></li>
                     <li class="pt-1"><a href="privacy-policy">Privacy Policy</a></li>
+                    <li class="pt-1"><a href="case-studies">Case Studies</a></li>
                 </ul>
             </div>
             <div class="column">

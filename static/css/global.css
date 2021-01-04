@@ -8,6 +8,14 @@
   }
 }
 
+.hero-landing .hero-body .title, .hero-landing .hero-body .subtitle {
+  color: #3a3a3a !important;
+}
+
+.navbar-item, .navbar-item:hover, .navbar-link {
+  color: #3a3a3a !important;
+}
+
 main .section-services {
   background-color: #ffdd57 !important;
 }
@@ -84,6 +92,7 @@ main .media-content .title {
 main .section-title {
   position: relative;
   text-align: left;
+  color: #121212 !important;
 }
 
 main .section-title::after {
@@ -117,7 +126,7 @@ main .section-title::after {
 
 .footer-bottom {
   background-color: #04ad94;
-  color: white;
+  color: #3a3a3a;
   font-size: .8em;
 }
 /*# sourceMappingURL=global.css.map */
