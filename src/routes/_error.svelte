@@ -41,7 +41,7 @@
 
 		<p>An error has occured and the message is <strong>{error.message}</strong></p>
 
-		<p>Click <a href="https://ae-app-labs.github.io/">here</a> to visit our home page.</p>
+		<p>Click <a href="/">here</a> to visit our home page.</p>
 
 		{#if dev && error.stack}
 			<pre>{error.stack}</pre>
