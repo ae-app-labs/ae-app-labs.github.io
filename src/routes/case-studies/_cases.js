@@ -14,13 +14,6 @@ const cases = [
 		image: '',
 		creationDate: "01 Jan 2021",
 		description: "History and the rebranding for AE."
-	},
-	{
-		title: 'Message Counter Redesign',
-		slug: 'message-counter-4',
-		image: '',
-		creationDate: "02 Jan 2021",
-		description: "History and the rebranding for Message Counter."
 	}
 ];
 
