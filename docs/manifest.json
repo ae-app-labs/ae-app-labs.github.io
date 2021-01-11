@@ -3,7 +3,7 @@
 	"theme_color": "#00d1b2",
 	"name": "ae-app-labs",
 	"short_name": "ae",
-	"display": "ae-app-labs",
+	"display": "standalone",
 	"start_url": "/",
 	"icons": [
 		{
