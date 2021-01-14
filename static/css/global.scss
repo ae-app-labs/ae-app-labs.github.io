@@ -1,0 +1,118 @@
+// Custom Colors
+$primaryColor: #00d1b2;
+$primaryDark: #05C6A9;
+$secondaryColor: #9090FF;
+$accentColor: #ffdd57;
+// Deep Orange #DD7129
+
+$desktop: 840px;
+
+@mixin desktop {
+    @media (min-width: #{$desktop}) {
+        @content;
+    }
+}
+
+.hero-landing{
+    background: $primaryDark !important;
+    .hero-body{
+        @include desktop {
+            padding: 4rem 1.5rem !important;
+        }
+        .title, .subtitle{
+            color: #3a3a3a !important;
+        }
+    }
+}
+.navbar-item, .navbar-item:hover, .navbar-link {
+    color: #3a3a3a !important;
+}
+main{
+    .section-services{
+        background-color: $accentColor !important;
+        figure {
+            margin: auto;
+            img{
+                margin: auto;
+                height: 50px;
+            }
+        }
+    }
+    
+    .featured {
+        position: relative;
+        .content{
+            padding: 1em;
+            @include desktop {
+                padding: 2em;
+            }
+            .featured-info{
+                align-content: center;
+                margin: auto auto;
+                .title{
+                    padding-bottom: .8em;
+                }
+                figure{
+                    margin: 0 auto;
+                }
+            }   
+            .featured-buttons{
+                padding-top: 2em;
+            }
+            .featured-desc{
+                margin: auto auto;
+                line-height: 1.4em;
+                @include desktop {
+                    padding: 2em;
+                    //line-height: 1.8em;
+                }
+            }
+        }
+    }
+    .project-desc, .featured-desc{
+        padding: 1em;
+        line-height: 1.4em;
+        @include desktop {
+            padding: 2em;
+            line-height: 1.8em;
+        }
+    }
+    .media-content{
+        .title{
+            margin-bottom: 1em;
+            padding-bottom: .8em;
+        }
+    }
+    .section-title {
+        position:relative;
+        text-align:left;
+        color: #121212 !important;
+    }
+    .section-title::after {
+        content:'';
+        position:absolute;
+        height:2px;
+        background:#00d1b2;
+        bottom:-10px;
+        left:0;
+        right:95%;
+        margin:auto;
+        @include desktop {
+            right:98%;
+        }
+    }
+}
+
+.footer{
+    background-image: url(img/footer_bg_graphic.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 80%;
+    @include desktop {
+        background-position: 70% 83%;
+    }
+}
+.footer-bottom{
+    background-color: #04ad94;
+    color: #3a3a3a;
+    font-size: .8em;
+}

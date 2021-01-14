@@ -1,0 +1,132 @@
+.hero-landing {
+  background: #05C6A9 !important;
+}
+
+@media (min-width: 840px) {
+  .hero-landing .hero-body {
+    padding: 4rem 1.5rem !important;
+  }
+}
+
+.hero-landing .hero-body .title, .hero-landing .hero-body .subtitle {
+  color: #3a3a3a !important;
+}
+
+.navbar-item, .navbar-item:hover, .navbar-link {
+  color: #3a3a3a !important;
+}
+
+main .section-services {
+  background-color: #ffdd57 !important;
+}
+
+main .section-services figure {
+  margin: auto;
+}
+
+main .section-services figure img {
+  margin: auto;
+  height: 50px;
+}
+
+main .featured {
+  position: relative;
+}
+
+main .featured .content {
+  padding: 1em;
+}
+
+@media (min-width: 840px) {
+  main .featured .content {
+    padding: 2em;
+  }
+}
+
+main .featured .content .featured-info {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: auto auto;
+}
+
+main .featured .content .featured-info .title {
+  padding-bottom: .8em;
+}
+
+main .featured .content .featured-info figure {
+  margin: 0 auto;
+}
+
+main .featured .content .featured-buttons {
+  padding-top: 2em;
+}
+
+main .featured .content .featured-desc {
+  margin: auto auto;
+  line-height: 1.4em;
+}
+
+@media (min-width: 840px) {
+  main .featured .content .featured-desc {
+    padding: 2em;
+  }
+}
+
+main .project-desc, main .featured-desc {
+  padding: 1em;
+  line-height: 1.4em;
+}
+
+@media (min-width: 840px) {
+  main .project-desc, main .featured-desc {
+    padding: 2em;
+    line-height: 1.8em;
+  }
+}
+
+main .media-content .title {
+  margin-bottom: 1em;
+  padding-bottom: .8em;
+}
+
+main .section-title {
+  position: relative;
+  text-align: left;
+  color: #121212 !important;
+}
+
+main .section-title::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  background: #00d1b2;
+  bottom: -10px;
+  left: 0;
+  right: 95%;
+  margin: auto;
+}
+
+@media (min-width: 840px) {
+  main .section-title::after {
+    right: 98%;
+  }
+}
+
+.footer {
+  background-image: url(img/footer_bg_graphic.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 80%;
+}
+
+@media (min-width: 840px) {
+  .footer {
+    background-position: 70% 83%;
+  }
+}
+
+.footer-bottom {
+  background-color: #04ad94;
+  color: #3a3a3a;
+  font-size: .8em;
+}
+/*# sourceMappingURL=global.css.map */
