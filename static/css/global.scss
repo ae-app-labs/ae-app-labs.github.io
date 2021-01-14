@@ -115,6 +115,9 @@ main{
 .is-centered-content{
     margin: auto auto;
 }
+.is-horizontal-center {
+    justify-content: center;
+}
 .footer{
     background-image: url(img/footer_bg_graphic.svg);
     background-repeat: no-repeat;

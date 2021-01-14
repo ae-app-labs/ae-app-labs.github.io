@@ -128,6 +128,12 @@ main .section-title::after {
   margin: auto auto;
 }
 
+.is-horizontal-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .footer {
   background-image: url(img/footer_bg_graphic.svg);
   background-repeat: no-repeat;

@@ -1,72 +1,102 @@
 <script>
-	import CommonHero from '../../components/CommonHero.svelte'
+	
 </script>
 
 <svelte:head>
 	<title>Case Studies - AE Rebrand</title>
 </svelte:head>
 
-<!--
-<CommonHero title="Case Studies" subtitle="Case Studies from our previous projects"/>
--->
+<style>
+
+</style>
 
 <section class="section primary-bg">
 	<div class="container">
-		<div class="columns">
-			<div class="column is-half">
-				<div class="is-size-2">AE Rebrand</div>
+		<div class="columns is-vcentered">
+			<div class="column is-6 is-offset-1">
+				<div class="is-size-2">The brand of ae</div>
 			</div>
-			<div class="column is-half">
-				<div class="is-size-4 pl-2 pr-2">
-					Creating a unique brand identity for ae.
+			<div class="column is-3">
+				<div class="pr-2">
+					<p class="is-size-4">The history of creating a unique brand identity for ae.</p>
+					<p class="is-size-5 mt-2">AE is all about UX &amp; UI. Excellence in all design efforts were always of the highest priority.</p>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section>
+<section class="section">
 	<div class="container">
-		<div class="columns pt-6 pb-6">
-			<div class="column is-3 is-centered-content pr-6">
-				<p class="is-size-4 mb-4 has-text-weight-bold">The very First Logo</p>
+		<div class="columns">
+			<div class="column is-4 is-centered-content is-offset-2 ">
+				<p class="is-size-4 mb-4 has-text-weight-bold">The First Logo</p>
 				<p class="is-size-5">The initial and short lived logo for AE was very simple, but blocky.</p>
 				<br/>
+				<p class="is-size-6">2005</p>
 				<p class="is-size-6">It was created with Adobe Flash as a vector graphic.</p>
 			</div>
-			<div class="column is-3">
-				<figure class="">
-					<img src="img/case-studies/ae-branding/ae_logo_v0.png" alt="">
-				</figure>
+			<div class="column is-4">
+				<img src="img/case-studies/ae-branding/ae_logo_v0.png" alt="first logo">
 			</div>
-			<div class="column is-3">
-			</div>
+			<div class="column is-2"></div>
 		</div>
 	</div>
 </section>
 
-<section class="primary-bg">
+<section class="section primary-bg">
 	<div class="container">
-		<div class="columns pt-6 pb-6">
+		<div class="columns pt-6 pb-6 is-vcentered">
 			<div class="column is-3 is-offset-2">
 				<figure class="is-centered-content">
-					<img src="img/case-studies/ae-branding/ae_logo_v1.jpg" alt="">
+					<img src="img/case-studies/ae-branding/ae_logo_v1.jpg" alt="official version 1">
 				</figure>
 			</div>
 			
-			<div class="column is-3 is-centered-content pr-6">
-				<p class="is-size-4 mb-4 has-text-weight-bold">The longest used iteration</p>
-				<p class="is-size-5 mb-2">The most widely used version of the logo was more creative, and came in monochrome colors.</p>
-				<p class="is-size-5">It was designed to emphasize symmetry and had a normal and inverse color schemes to fit different needs.</p>
+			<div class="column is-3 is-centered-content pr-4">
+				<p class="is-size-4 mb-4 has-text-weight-bold">The Retired</p>
+				<p class="is-size-5">
+					The most widely used logo was a little bit more creative and designed to emphasize symmetry.
+				</p>
 				<br/>
-				<p class="is-size-6">It was again created with Adobe Flash as a vector graphic, and the text used the font "Slicker".</p>
+				<p class="is-size-6">2005 - 2020</p>
+				<p class="is-size-6">It was also created with Adobe Flash as a vector graphic.</p>
 			</div>
 
 		</div>
 	</div>
 </section>
 
-<section>
+<section class="section">
+	<div class="container">
+		<div class="columns pt-3">
+			<div class="column is-one-third">
+				<img src="img/case-studies/ae-branding/ae_logo_v2_color.jpg" alt="redesign color versions">
+			</div>
+		</div>
+		<div class="columns pt-3">
+			<div class="column is-offset-4 is-4">
+				<p class="is-size-4 mb-4 has-text-weight-bold has-text-left">A Modern Approach</p>
+				<p class="is-size-5">
+					The logo was simplified while retaining the idea of symmetry.
+					Also a dash of paint with a slight gradient is incorporated.
+				</p>
+				<br/>
+				<p class="is-size-6">2020 - Present</p>
+				<p class="is-size-6">It was created with Adobe XD as a vector graphic.</p>
+			</div>
+		</div>
+		<div class="columns pt-3">
+			<div class="column is-two-thirds is-hidden-mobile">&nbsp;</div>
+			<div class="column">
+				<img src="img/case-studies/ae-branding/ae_logo_v2_bw.jpg" alt="redesign monochrome versions">
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--
+<section class="section">
 	<div class="container">
 		<div class="columns">
 			<div class="column is-half">&nbsp;</div>
@@ -74,3 +104,4 @@
 		</div>
 	</div>
 </section>
+-->
