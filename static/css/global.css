@@ -112,6 +112,22 @@ main .section-title::after {
   }
 }
 
+.list-cases {
+  background-color: #F6F6F6;
+}
+
+.primary-bg {
+  background-color: #00d1b2;
+}
+
+.is-vertical-content {
+  margin: auto 0;
+}
+
+.is-centered-content {
+  margin: auto auto;
+}
+
 .footer {
   background-image: url(img/footer_bg_graphic.svg);
   background-repeat: no-repeat;
