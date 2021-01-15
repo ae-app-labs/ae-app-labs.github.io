@@ -5,9 +5,9 @@
 
 	onMount( () => {
 		const tl = gsap.timeline()
-		tl.from('.section-title', {opacity: 0, duration: .5, ease:Power4.easeOut})
-		tl.from('.section-content', {opacity: 0, duration: .4, ease:Power4.easeOut})
-		tl.from('.image', {opacity: 0, x:200, duration: 1, ease:Power4.easeInOut})
+		tl.from('.section-about', {opacity: 0, duration: 1, ease:Power4.easeOut})
+		tl.from('.section-content', {opacity: 0, duration: 1, ease:Power4.easeOut})
+		tl.from('.image', {opacity: 0, x:200, duration: .6, ease:Power4.easeInOut})
 	})
 </script>
 
@@ -17,13 +17,13 @@
 
 <CommonHero title="About" subtitle=""/>
 
-<section class="section" id="section-about" name="section-about">
+<section class="section section-about" id="section-about" name="section-about">
 	<div class="container">
 		
 		<div class="columns">
 			<div class="column is-5 is-offset-1 section-content">
-				<p class="is-size-3">Formed in 2005 as a personal design project, we do UI/UX research, web and app development.</p><br />
-				<p class="is-size-6">We also create and maintain a few open source projects and web development.</p>
+				<p class="is-size-3">Formed in 2005 as a personal design project, ae app labs does UI/UX research, web and app development.</p><br />
+				<p class="is-size-6">We create and maintain a few open source projects and web development.</p>
 				<br />
 
 				<p class="is-size-4">Explore more of our design work</p>
