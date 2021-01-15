@@ -10,7 +10,7 @@
 const cases = [
 	{
 		title: 'AE Branding',
-		slug: 'ae-rebrand',
+		slug: 'ae-branding',
 		previewImage: 'img/case-studies/ae-branding/ae-preview.jpg',
 		creationDate: "01 Jan 2021",
 		description: "History and the rebranding for AE."

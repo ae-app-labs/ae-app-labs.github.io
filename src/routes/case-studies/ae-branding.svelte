@@ -25,7 +25,7 @@
 </script>
 
 <svelte:head>
-	<title>Case Studies - AE Rebrand</title>
+	<title>Case Studies - AE Branding</title>
 </svelte:head>
 
 <style>
