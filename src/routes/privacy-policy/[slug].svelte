@@ -26,14 +26,19 @@
 
 <section class="section">
 	<div class="container">
-		<div class="subtitle section-title">{post.title} Privacy Policy</div>
-		
-		{@html post.html}
+		<div class="columns">
+			<div class="column is-3">
+				<div class="subtitle section-title">{post.title} Privacy Policy</div>	
+			</div>
+			<div class="column is-8">
+				{@html post.html}
 
-		<div class="mt-2">
-			<pre>
-				The privacy policy for this app was last updated on {post.lastUpdated}
-			</pre>
+				<div class="mt-2">
+					<pre>
+						The privacy policy for this app was last updated on {post.lastUpdated}
+					</pre>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>

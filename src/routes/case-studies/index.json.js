@@ -6,7 +6,7 @@ const contents = JSON.stringify(cases.map(post => {
 		slug: post.slug,
 		description: post.description,
 		creationDate: post.creationDate,
-		image: post.image
+		previewImage: post.previewImage
 	};
 }));
 

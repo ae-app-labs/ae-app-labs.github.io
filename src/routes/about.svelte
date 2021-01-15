@@ -5,9 +5,9 @@
 
 	onMount( () => {
 		const tl = gsap.timeline()
-		tl.from('.section-title', {opacity: 0, duration: .5, ease:Power4.easeOut})
-		tl.from('.section-content', {opacity: 0, duration: .4, ease:Power4.easeOut})
-		tl.from('.image', {opacity: 0, x:200, duration: 1, ease:Power4.easeInOut})
+		tl.from('.section-about', {opacity: 0, duration: 1, ease:Power4.easeOut})
+		tl.from('.section-content', {opacity: 0, duration: 1, ease:Power4.easeOut})
+		tl.from('.image', {opacity: 0, x:200, duration: .6, ease:Power4.easeInOut})
 	})
 </script>
 
@@ -17,30 +17,24 @@
 
 <CommonHero title="About" subtitle=""/>
 
-<section class="section" id="section-about" name="section-about">
+<section class="section section-about" id="section-about" name="section-about">
 	<div class="container">
-		<div class="subtitle section-title">About</div>
-
+		
 		<div class="columns">
-			<div class="column is-two-thirds section-content">
-				<p>We do UI/UX research as well as explore multiple frameworks and solutions for educational purposes.</p>
+			<div class="column is-5 is-offset-1 section-content">
+				<p class="is-size-3">Formed in 2005 as a personal design project, ae app labs does UI/UX research, web and app development.</p><br />
+				<p class="is-size-6">We create and maintain a few open source projects and web development.</p>
 				<br />
-				<p>We also create and maintain a few open source projects and web development.</p>
-				<br />
-				<p>The educational research projects are available under open source licenses at <a href="https://github.com/ae-app-labs">https://github.com/ae-app-labs</a></p>
 
+				<p class="is-size-4">Explore more of our design work</p>
+				<p class="ml-4"><a href="https://www.uplabs.com/aeapplabs" target="_blank">https://www.uplabs.com/aeapplabs</a></p>
+				<p class="ml-4"><a href="https://instagram.com/AeAppLabs" target="_blank">https://instagram.com/AeAppLabs</a></p>
 				<br />
-				The following software and libraries were used to create this website.
-				<ul>
-					<li class="ml-2">Adobe XD</li>
-					<li class="ml-2">Bulma</li>
-					<li class="ml-2">SvelteJS</li>
-					<li class="ml-2">SapperJS</li>
-					<li class="ml-2">gsap 3</li>
-				</ul>
 
+				<p class="is-size-4 mt-2">Educational and Research projects</p>
+				<p>Educational and Research projects are available under AeAppLabs with open source licenses at <a href="https://github.com/ae-app-labs">https://github.com/ae-app-labs</a></p>
 			</div>
-			<div class="column">
+			<div class="column is-offset-2">
 				<a href="https://www.uplabs.com/posts/website-for-a-virtual-job-board-app" target="_blank" alt="view on uplabs">
 					<figure class="image">
 						<img src="/img/portfolio/web/uplabs_muyu.png" alt="muyu web" class="v-lazy-image v-lazy-image-loaded">
