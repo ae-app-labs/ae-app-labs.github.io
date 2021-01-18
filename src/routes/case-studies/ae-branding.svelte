@@ -28,11 +28,7 @@
 	<title>Case Studies - AE Branding</title>
 </svelte:head>
 
-<style>
-
-</style>
-
-<section class="section primary-bg">
+<section class="section-header primary-bg">
 	<div class="container">
 		<div class="columns is-vcentered">
 			<div class="column is-6 is-offset-1">

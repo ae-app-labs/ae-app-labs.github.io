@@ -54,6 +54,8 @@
 									</span> 
 									<br> 
 									<span class="m-t-tiny block">{oneCase.creationDate}</span>
+									&middot;
+									<span class="m-t-tiny block"><i>{oneCase.type}</i></span>
 								</p>
 								<p>{oneCase.description}</p>
 							</div>

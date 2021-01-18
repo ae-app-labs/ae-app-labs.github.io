@@ -4,6 +4,7 @@ const contents = JSON.stringify(cases.map(post => {
 	return {
 		title: post.title,
 		slug: post.slug,
+		type: post.type,
 		description: post.description,
 		creationDate: post.creationDate,
 		previewImage: post.previewImage

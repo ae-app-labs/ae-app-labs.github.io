@@ -11,9 +11,18 @@ const cases = [
 	{
 		title: 'AE Branding',
 		slug: 'ae-branding',
+		type: 'branding',
 		previewImage: 'img/case-studies/ae-branding/ae-preview.jpg',
 		creationDate: "01 Jan 2021",
 		description: "History and the rebranding for AE."
+	},
+	{
+		title: 'The Lotus Foundation',
+		slug: 'tlf',
+		type: 'web design',
+		previewImage: 'img/case-studies/tlf/tlf-preview.jpg',
+		creationDate: "20 Jan 2021",
+		description: "The design and development of the website for The Lotus Foundation, a non profit organization."
 	}
 ];
 
