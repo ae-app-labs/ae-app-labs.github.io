@@ -14,3 +14,11 @@ https://ae-app-labs.web.app/
 
 ## Animations
 [GSAP 3](https://greensock.com/docs/v3/)
+
+## Commands
+
+### export site
+`npm run export`
+
+### export, update docs folder and create a commit
+`npm run update-docs -- "update message"`
