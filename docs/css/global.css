@@ -134,9 +134,30 @@ main .section-title::after {
           justify-content: center;
 }
 
-.is-dark-link a {
-  text-decoration: underline;
+.breadcrumb li + li::before {
+  color: #4a4a4a !important;
+}
+
+.is-subtle-link {
+  color: #4a4a4a !important;
+}
+
+.is-subtle-link a {
   color: #4a4a4a;
+}
+
+.is-subtle-link a:hover {
+  color: #ffdd57;
+  text-decoration: none;
+}
+
+.is-dark-link {
+  color: #4a4a4a !important;
+}
+
+.is-dark-link a {
+  color: #4a4a4a;
+  text-decoration: underline;
 }
 
 .is-dark-link a:hover {
