@@ -8,7 +8,7 @@
     "export": "sapper export --legacy",
     "start": "node __sapper__/build",
     "clean-site": "rmdir /S /Q docs && mkdir docs", 
-    "copy-export": "cp -r __sapper__/export/* docs/",
+    "copy-export": "cp -a -r __sapper__/export/ docs/",
     "commit-export":"git add docs && git commit -m ",
     "update-docs": "npm run clean-site && npm run export && npm run copy-export && npm run commit-export"
   },
