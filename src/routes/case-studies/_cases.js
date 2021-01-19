@@ -14,7 +14,7 @@ const cases = [
 		type: 'branding',
 		previewImage: 'img/case-studies/ae-branding/ae-preview.jpg',
 		creationDate: "01 Jan 2021",
-		description: "History and the rebranding for AE."
+		description: "Take a look at the history and the rebranding for AE and the designs that we have gone through."
 	},
 	{
 		title: 'The Lotus Foundation',

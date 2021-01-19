@@ -118,10 +118,24 @@ main{
 .is-horizontal-center {
     justify-content: center;
 }
-.is-dark-link{
+.breadcrumb li+li::before {
+    color:#4a4a4a !important;
+}
+.is-subtle-link{
+    color: #4a4a4a !important;
     a{
-        text-decoration: underline;
         color: #4a4a4a;
+        &:hover{
+            color: $accentColor;
+            text-decoration: none;
+        }
+    }
+}
+.is-dark-link{
+    color: #4a4a4a !important;
+    a{
+        color: #4a4a4a;
+        text-decoration: underline;
         &:hover{
             color: $accentColor;
             text-decoration: none;

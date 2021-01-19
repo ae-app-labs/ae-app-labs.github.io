@@ -49,12 +49,12 @@
 						<div class="card-content">
 							<div class="content">
 								<p>
-									<span class="title is-4 is-capitalized">
+									<span class="title is-4 is-capitalized is-subtle-link mb-2 pb-2">
 										<a href="case-studies/{oneCase.slug}">{oneCase.title}</a>
 									</span> 
 									<br> 
 									<span class="m-t-tiny block">{oneCase.creationDate}</span>
-									&middot;
+									&#9679;
 									<span class="m-t-tiny block"><i>{oneCase.type}</i></span>
 								</p>
 								<p>{oneCase.description}</p>
