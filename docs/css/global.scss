@@ -118,6 +118,27 @@ main{
 .is-horizontal-center {
     justify-content: center;
 }
+.is-dark-link{
+    a{
+        text-decoration: underline;
+        color: #4a4a4a;
+        &:hover{
+            color: $accentColor;
+            text-decoration: none;
+        }
+    }
+}
+.section-header{
+    padding: 2em 0;
+}
+.section-full-width{
+    padding: 0 !important;
+    .img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+}
 .footer{
     background-image: url(img/footer_bg_graphic.svg);
     background-repeat: no-repeat;
