@@ -56,7 +56,7 @@
 	<div class="container">
 		<div class="columns is-vcentered">
 			<div class="column is-half">
-                <img src="/img/case-studies/tlf/tlf_assets.png" alt="assets" />
+                <img src="/img/case-studies/tlf/tlf_assets.png" alt="assets"/>
             </div>
 			<div class="column is-4 is-offset-1 stagger2">
                 <p class="is-size-4 mb-4 has-text-weight-bold">Logo &amp; Palette</p>

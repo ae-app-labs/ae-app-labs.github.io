@@ -39,7 +39,7 @@
 				<div class="column column is-12-mobile is-6-tablet is-3-desktop" >
 					
 					<div class="card is-shadowless is-slightly-rounded stagger">
-						<div class="card-image">
+						<div class="card-image grow-effect">
 							<figure class="image">
 								<a href="case-studies/{oneCase.slug}">
 									<img src="{oneCase.previewImage}" alt="{oneCase.title}">
