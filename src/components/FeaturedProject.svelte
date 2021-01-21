@@ -5,10 +5,9 @@
     $: tags = projectData.tags
 </script>
 
-
 <div class="card box featured transition2">
-    <div class="content columns">
-        <div class="featured-info column is-2 is-narrow">
+    <div class="content columns p-0">
+        <div class="featured-info column is-2">
             <div>
                 <figure class="image is-96x96">
                     <img src="{projectData.icon}" alt="{projectData.title}" />
@@ -39,9 +38,9 @@
                 {/each}
             </div>
         </div>
-        <div class="featured-image is-hidden-mobile column">
+        <div class="featured-image is-hidden-mobile column p-0">
             {#if projectData.featuredImage}
-                <figure class="image">
+                <figure class="image m-0">
                     <img src="{projectData.featuredImage}" alt="{projectData.title}" />
                 </figure>
             {/if}
