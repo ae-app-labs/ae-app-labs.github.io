@@ -19,7 +19,7 @@
 					<div class="has-text-link">
 						<h1 class="title stagger1 pb-2">Research & Learning</h1>
 						<h1 class="subtitle stagger1 pt-2 pb-2">Open Source Web, Mobile development and experiments.</h1>
-						<button class="button is-warning is-medium p-2 stagger1" on:click={ () => scrollToSection('projects-android')}>Learn More &rsaquo;</button>
+						<button class="button is-warning is-medium btn btn-hover-effect p-2 stagger1" on:click={ () => scrollToSection('projects-android')}>Learn More &rsaquo;</button>
 					</div>
 				</div>
 

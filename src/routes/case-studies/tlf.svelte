@@ -8,7 +8,6 @@
 		gsap.registerPlugin(ScrollTrigger)
 		const tl = gsap.timeline( {defaults: {duration:1, ease: Power4.easeInOut} } )
 		tl.from('.stagger1',{opacity: 0, delay: .5,y: -60,stagger: .4})
-		tl.from('.fadeIn', {opacity: 0}, "-=.6")
 		tl.from('.stagger2', {opacity: 0, delay: 0, y: 100, stagger:.2},"-=1")
 
 		gsap.from('.section', {
@@ -155,7 +154,9 @@
 	<div class="container">
 		<div class="columns is-vcentered">
 			<div class="column has-text-centered">
-				<a href="https://www.thelotusfoundation.org/" class="button is-primary" target="_blank">Visit Project</a>
+				<form target="_blank" action="https://www.thelotusfoundation.org">
+					<button class="button is-warning is-medium p-2 btn btn-hover-effect">Visit Project</button>
+				</form>
 			</div>
 		</div>
 	</div>
