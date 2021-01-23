@@ -1,4 +1,13 @@
 <footer class="footer">
+    <div id="footer_bg_graphic" class="bg-graphic is-hidden-mobile">
+        <svg width="254.853" height="140.007" viewBox="0 0 254.853 140.007">
+            <g transform="translate(-832.074 -2107.496)" opacity="0.6">
+                <rect width="99" height="99" transform="translate(960.5 2107.496) rotate(45)" fill="#09bfa4"/>
+                <rect width="59" height="61" transform="translate(1045.207 2135.073) rotate(45)" fill="#2de2c7"/>
+                <rect width="59" height="61" transform="translate(875.207 2135.073) rotate(45)" fill="#2de2c7"/>
+            </g>
+        </svg>
+    </div>
 	<div class="container">
         <div class="columns">
             <div class="column is-one-third is-desktop is-vcentered">

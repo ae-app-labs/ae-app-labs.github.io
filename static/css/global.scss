@@ -153,13 +153,13 @@ main{
         display: block;
     }
 }
-.footer{
-    background-image: url(img/footer_bg_graphic.svg);
-    background-repeat: no-repeat;
-    background-position: 50% 80%;
-    @include desktop {
-        background-position: 70% 83%;
-    }
+
+.bg-graphic{
+    position: absolute;
+    left: 40%;
+    text-align: center;
+    opacity: .6;
+    margin-top: -30px;
 }
 .footer-bottom{
     background-color: #04ad94;
