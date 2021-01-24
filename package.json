@@ -7,10 +7,10 @@
     "build": "sapper build --legacy",
     "export": "sapper export --legacy",
     "start": "node __sapper__/build",
-    "clean-docs": "rmdir /S /Q docs && mkdir docs", 
+    "clean-docs": "rmdir /S /Q docs && mkdir docs",
     "copy-export": "cp -a -r __sapper__/export/* docs/",
     "copy-nojekyll": "cp -a .nojekyll docs/",
-    "commit-export":"git add docs && git commit -m ",
+    "commit-export": "git add docs && git commit -m ",
     "update-docs": "npm run clean-docs && npm run export && npm run copy-export && npm run copy-nojekyll && npm run commit-export"
   },
   "keywords": [],
