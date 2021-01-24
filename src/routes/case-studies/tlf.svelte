@@ -28,7 +28,7 @@
 </svelte:head>
 
 <style>
-
+.design-process-bg{ background-color: #e4e4e4;}
 </style>
 
 <section class="section-header primary-bg">
@@ -104,6 +104,25 @@
                 <p class="is-size-4 mb-4 has-text-weight-bold">Design Mockup</p>
 				<p class="is-size-5">The second step in design was to create a mockup based on the approved wireframes.</p> <br/>
                 <p class="is-size-6">Stock images were used, and we finally made use of the color palette.</p>
+            </div>
+		</div>
+	</div>
+</section>
+
+<!-- Section - Design Process -->
+<section class="section section-full-width has-text-centered design-process-bg">
+    <img src="/img/case-studies/tlf/tlf_design.jpg" alt="design" />
+</section>
+
+<section class="section mt-2">
+	<div class="container">
+		<div class="columns is-vcentered">
+			<div class="column is-4 is-hidden-mobile">
+                &nbsp;
+            </div>
+			<div class="column is-4 stagger2">
+                <p class="is-size-4 mb-4 has-text-weight-bold">Design Process</p>
+				<p class="is-size-5">The website is designed completely with the help of Adobe XD, and drafts were shared with the team via XD seamlessly.</p> <br/>
             </div>
 		</div>
 	</div>
