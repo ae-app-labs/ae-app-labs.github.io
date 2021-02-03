@@ -19,7 +19,7 @@
                 {#if tags.length > 0}
                     <p class="subtitle is-6">
                         {#each tags as tag (tag.id)}
-                            <span class="tag {tag.className} is-light mr-2">{tag.name}</span>
+                            <span class="tag {tag.className} is-light mr-2 mt-2">{tag.name}</span>
                         {/each}
                     </p>
                 {/if}
