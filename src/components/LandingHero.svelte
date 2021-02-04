@@ -25,7 +25,7 @@
 
 				<div class="column is-one-third">
 					<div class="video-container stagger1">
-						<iframe width="560" height="315" title="Design Tutorial" src="https://www.youtube.com/embed/rAvU5qBP_ws" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<iframe width="560" height="315" title="Design Tutorial" src="https://www.youtube.com/embed/+latest?list=PLCwTpl0YtSmdzJsTW_MdN7jUbPFiMCwVn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
 					<!--
 					<div class="hero-graphic stagger1" style="float:right">
