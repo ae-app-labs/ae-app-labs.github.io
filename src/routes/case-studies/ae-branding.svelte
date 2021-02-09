@@ -97,7 +97,8 @@
 				<p class="is-size-4 mb-4 has-text-weight-bold has-text-left">A Modern Approach</p>
 				<p class="is-size-5">
 					The logo was simplified while retaining the idea of symmetry.
-					Also a dash of paint with a slight gradient is incorporated.
+					Also a dash of color with a slight gradient is incorporated.
+					An alternate monochrome variations are also present.
 				</p>
 				<br/>
 				<p class="is-size-6">2020 - Present</p>
