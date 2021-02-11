@@ -27,8 +27,9 @@
 		gsap.registerPlugin(ScrollTrigger)
 		gsap.from('.transition2', {
             scrollTrigger: {
-                trigger: '.transition2',
-                start: "top bottom"
+				trigger: '.transition2',
+				toggleActions : 'play pause resume none',
+				start: "top center"
             },
             y: 120,
             opacity: 0,
