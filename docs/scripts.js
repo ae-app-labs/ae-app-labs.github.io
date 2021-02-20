@@ -26,10 +26,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function scrollToSection(section) {
     const element = document.getElementById(section)
-    const y = element.getBoundingClientRect().top + window.scrollY;
+    const y = element.getBoundingClientRect().top + window.scrollY - 56;
     window.scroll({
-    top: y,
-    behavior: 'smooth'
+        top: y,
+        behavior: 'smooth'
     });
     return false
 }
