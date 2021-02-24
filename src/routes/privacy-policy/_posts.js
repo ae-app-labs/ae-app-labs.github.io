@@ -45,15 +45,17 @@ const posts = [
 	{
 		title: 'Random Contact',
 		slug: 'random-contact',
-		lastUpdated: "11 Dec 2013",
+		lastUpdated: "23 Feb 2021",
 		html: `
 			<p>
-				<strong>Random Contact (the "app")</strong> does not collect offer share any personal information.
+				<strong>Random Contact (the "app")</strong> does not collect or offer to share any personal information.
 			</p>
 			<br />
 			<p>
-				For displaying the data, the app accesses your contacts and call log databases stored in the phone.  <br />
-				However these information is not stored or shared by the app.
+				We respect your privacy and do not request you to provide any personal information. <br />
+				For displaying the data, the app accesses your contacts databases stored on the phone.  <br />
+				This information is only read and not stored in any form or shared by the app. <br />
+				The app <u>does not</u> collect or maintain your personal information including name, addresses, phone numbers etc.
 			</p>
 			<br />
 			<p>If you have any questions or concerns, please send an email to aeapplabs-support at live.in.</p>
