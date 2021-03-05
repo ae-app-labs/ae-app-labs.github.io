@@ -19,7 +19,7 @@
 </script>
 
 <svelte:head>
-	<title>{post.title}</title>
+	<title>{post.title} | Privacy Policy</title>
 </svelte:head>
 
 <CommonHero title="Privacy Policy" subtitle=""/>
