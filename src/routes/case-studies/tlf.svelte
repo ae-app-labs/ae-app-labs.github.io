@@ -151,7 +151,7 @@
 
 <!-- Section - Final Design -->
 <section class="section section-full-width">
-    <img src="/img/case-studies/tlf/tlf_final_design.png" alt="final design" />
+    <img src="/img/case-studies/tlf/tlf_final_design.jpg" alt="final design" />
 </section>
 
 <section class="section mt-2">
