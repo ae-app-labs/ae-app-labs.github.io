@@ -1,4 +1,4 @@
-import{L as e}from"./client.3c737539.js";
+import{L as e}from"./client.cb65cfde.js";
 /*!
  * ScrollTrigger 3.6.0
  * https://greensock.com
