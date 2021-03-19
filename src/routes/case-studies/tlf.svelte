@@ -130,7 +130,7 @@
 
 <!-- Section - Mission -->
 <section class="section section-full-width">
-    <img src="/img/case-studies/tlf/section_mission.jpg" alt="mission section" />
+    <img src="/img/case-studies/tlf/section_mission.png" alt="mission section" />
 </section>
 
 <section class="section mt-2 mb-6">

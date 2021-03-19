@@ -23,6 +23,14 @@ const cases = [
 		previewImage: 'img/case-studies/tlf/tlf-preview.jpg',
 		creationDate: "20 Jan 2021",
 		description: "The design and development of the website for The Lotus Foundation, a non profit organization."
+	},
+	{
+		title: 'Random Contact Redesign',
+		slug: 'random-contact',
+		type: 'app design',
+		previewImage: 'img/case-studies/random-contact/random-contact-preview.jpg',
+		creationDate: "20 Mar 2021",
+		description: "The redesign of our first Android app that was released on the Play Store."
 	}
 ];
 
