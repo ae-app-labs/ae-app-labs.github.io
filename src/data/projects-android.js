@@ -85,6 +85,12 @@ const androidProjectsData = {
         "description": "Random Contact is an Android app that shows the details of a random contact from the contacts list. This is an experimental, fun and personal project which is open source. And surprisingly it has a good user base.",
         "buttons": [
           {
+            "id": "3",
+            "isPrimary": false,
+            "text": "Case Study",
+            "target": "https://ae-app-labs.github.io/case-studies/random-contact"
+          },
+          {
             "id": "1",
             "isPrimary": true,
             "text": "View Page",
