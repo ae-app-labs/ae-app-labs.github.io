@@ -27,6 +27,23 @@
 	<title>Case Studies - Random Contact Redesign</title>
 </svelte:head>
 
+<style>
+    [data-letters]:before {
+    content:attr(data-letters);
+    display:inline-block;
+    font-size:2em;
+    width:3.5em;
+    height:3.5em;
+    line-height:3em;
+    text-align:center;
+    border-radius:50%;
+    background:orangered;
+    vertical-align:middle;
+    margin-right:1em;
+    color:white;
+    }
+</style>
+
 <section class="section-header primary-bg">
 	<div class="container">
 		<div class="columns is-vcentered">
@@ -126,6 +143,49 @@
             <div class="column is-4 stagger2">
                 <p class="is-size-4 mb-4 has-text-weight-bold">Dark Mode</p>
                 <p class="is-size-5">The latest Android design guidelines and resources makes it quite easy to provide users with light and dark themes. The light theme mockup was used as a basis to design a dark variant theme.</p> 
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section has-background-grey-light">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-4 is-offset-1">
+
+                <article class="media">
+                    <figure class="media-left">
+                        <p data-letters="A"></p>
+                    </figure>
+                    <div class="media-content">
+                      <div class="content">
+                        <p>
+                          <strong>Ashirbad Das</strong>
+                          <br>
+                          Best random contact app ever. It's so beautiful, it makes my eyes water.
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+
+            </div>
+            <div class="column is-4 is-offset-1">
+
+                <article class="media">
+                    <figure class="media-left">
+                        <p data-letters="E"></p>
+                    </figure>
+                    <div class="media-content">
+                      <div class="content">
+                        <p>
+                          <strong>eFeet eFeet</strong>
+                          <br><br>
+                          It fulfills its objective. Very good app, it fulfills what I was looking for LOL !!.
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+
             </div>
         </div>
     </div>
