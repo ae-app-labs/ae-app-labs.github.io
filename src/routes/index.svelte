@@ -3,7 +3,7 @@
 	import Services from '../components/Services.svelte'
 	import CategorySection from '../components/CategorySection.svelte'
 	import LandingHero from '../components/LandingHero.svelte'
-	import { desktopProjects, androidProjects } from '../data/store'
+	import { desktopProjects, androidProjects, webProjects } from '../data/store'
 	
 	import { onMount } from "svelte"
 	import { gsap, Power4 } from 'gsap'
@@ -54,8 +54,11 @@
 	<Services/>
 
 	<!-- Show projects by category -->
+	
 	<CategorySection sectionData={androidProjects}/>
 
 	<CategorySection sectionData={desktopProjects}/>
+	
+	<CategorySection sectionData={webProjects}/>
 
 </main>

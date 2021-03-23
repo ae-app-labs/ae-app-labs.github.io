@@ -5,9 +5,9 @@ const webProjectsData = {
     "projects": [
       {
         "id": "301",
-        "icon": "\\img\\portfolio\\icons\\icon_triton_player.png",
-        "title": "tlf",
-        "featured": true,
+        "icon": "\\img\\portfolio\\icons\\icon_tlf.png",
+        "title": "The Lotus Foundation",
+        "featured": false,
         "featuredImage": "\\img\\portfolio\\desktop\\project_screenshot_triton.png",
         "tags": [
             {
@@ -16,7 +16,7 @@ const webProjectsData = {
                 "className": "is-primary"
             }
         ],
-        "description": "We designed and developed the website for a non profit organization.",
+        "description": "Designed and developed the website for a non profit organization based on Ontario, Canada. The project was designed with Adobe XD and developed using wordpress and a custom theme engine.",
         "buttons": [
           {
             "id": "330101",
