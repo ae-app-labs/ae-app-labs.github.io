@@ -53,6 +53,6 @@
 
 <div class="footer-bottom p-3">
     <div class="container">
-        &copy; 2020 ae app labs | All rights reserved
+        &copy; 2021 ae app labs | All rights reserved
     </div>
 </div>

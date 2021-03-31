@@ -23,9 +23,11 @@
 	<title>Case Studies</title>
 </svelte:head>
 
+<!--
 <CommonHero title="Case Studies" subtitle="Case Studies from our previous projects"/>
+-->
 
-<section class="section">
+<section class="section list-cases">
 	<div class="container has-text-centered">
 		<p class="is-size-2 mb-2">“Every great design begins with an even better story.”</p>
 		<p>Lorinda Mamo, Designer</p>

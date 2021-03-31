@@ -43,7 +43,7 @@
                     </a>
                 </div>
 			</div>
-			<div class="column is-3">
+			<div class="column is-4">
 				<div class="pr-2">
 					<p class="is-size-4 stagger2">How we created a unique design, and developed the website for a non profit organization.</p>
 				</div>
@@ -60,7 +60,7 @@
             </div>
 			<div class="column is-4 is-offset-1 stagger2">
                 <p class="is-size-4 mb-4 has-text-weight-bold">Logo &amp; Palette</p>
-				<p class="is-size-5">The organization's current logo was already provided and we created a color palette based on the colors present in the logo.</p>
+				<p class="is-size-5">The organization's current logo was provided and we created a color palette based on the colors present in the logo.</p>
                 <br/>
                 <p class="is-size-6">More on the usage of the color palette later.</p>
             </div>
@@ -83,7 +83,7 @@
 			<div class="column is-4 stagger2">
                 <p class="is-size-4 mb-4 has-text-weight-bold">Wireframing</p>
 				<p class="is-size-5">The first step was to start with a few wireframes to capture the most important sections of the website as per the requirements.</p> <br/>
-                <p class="is-size-6">Designing without color is great at this stage since everyone gets to concentrate on the layouts and structures.</p>
+                <p class="is-size-6">Designing without color or real images is great at this stage since everyone gets to concentrate on the layouts and structures.</p>
             </div>
 		</div>
 	</div>
@@ -102,8 +102,8 @@
             </div>
 			<div class="column is-4 stagger2">
                 <p class="is-size-4 mb-4 has-text-weight-bold">Design Mockup</p>
-				<p class="is-size-5">The second step in design was to create a mockup based on the approved wireframes.</p> <br/>
-                <p class="is-size-6"><a href="https://unsplash.com/" target="_blank" title="Unsplash">Stock images</a> were used, and we finally made use of the color palette.</p>
+				<p class="is-size-5">The second step in the design process was to create a mockup based on the approved wireframes.</p> <br/>
+                <p class="is-size-6"><a href="https://unsplash.com/" target="_blank" title="Unsplash">Stock images</a> and the color palette was finally used.</p>
             </div>
 		</div>
 	</div>
@@ -122,7 +122,7 @@
             </div>
 			<div class="column is-4 stagger2">
                 <p class="is-size-4 mb-4 has-text-weight-bold">Design Process</p>
-				<p class="is-size-5">The website is designed completely with the help of Adobe XD, and drafts were shared with the team via XD seamlessly.</p> <br/>
+				<p class="is-size-5">The website is designed completely with the help of Adobe XD, and drafts of the design were shared with the team via XD seamlessly. It also helped to capture review comments.</p> <br/>
             </div>
 		</div>
 	</div>
@@ -142,7 +142,7 @@
 					and we decided to signify each with a unique color from the palette which was created from the logo.</p> <br/>
                 <p class="is-size-6">A number of ideas were bounced around to incorporate this, and finally selected the above layout.</p>
             </div>
-			<div class="column is-6 stagger2 p-2">
+			<div class="column is-6 stagger2 p-2 is-hidden-mobile">
 				<svg xmlns="http://www.w3.org/2000/svg" width="264.588" height="206.216" viewBox="0 0 264.588 206.216"><g transform="translate(-750.762 -187.108)"><path d="M-1111.191,10567.267s276.272,6.585,241.531-199.583" transform="translate(1864 -10176)" fill="none" stroke="#db3069" stroke-linecap="round" stroke-width="4" stroke-dasharray="12 13"/><path d="M-637.484,10411.053l14.511-16.557,17.953,16.557" transform="translate(1617.543 -10204.526)" fill="none" stroke="#db3069" stroke-linecap="round" stroke-width="4"/></g></svg>
 			</div>
 		</div>

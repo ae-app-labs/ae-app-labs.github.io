@@ -32,12 +32,12 @@
 	<div class="container">
 		<div class="columns is-vcentered">
 			<div class="column is-6 is-offset-1">
-				<div class="is-size-2 stagger1">The brand of ae</div>
+				<div class="is-size-2 stagger1">THE BRAND OF AE</div>
 			</div>
-			<div class="column is-3">
+			<div class="column is-4">
 				<div class="pr-2">
 					<p class="is-size-4 stagger2">The history of creating a unique brand identity for ae.</p>
-					<p class="is-size-5 mt-2 stagger2">AE is all about UX &amp; UI. Excellence in all design efforts were always of the highest priority.</p>
+					<p class="is-size-5 mt-2 stagger2">AE is mainly about UX &amp; UI. Excellence in all design efforts are always of the highest priority.</p>
 				</div>
 			</div>
 		</div>
@@ -97,8 +97,8 @@
 				<p class="is-size-4 mb-4 has-text-weight-bold has-text-left">A Modern Approach</p>
 				<p class="is-size-5">
 					The logo was simplified while retaining the idea of symmetry.
-					Also a dash of color with a slight gradient is incorporated.
-					An alternate monochrome variations are also present.
+					Also a dash of color with a slight gradient was added, with 
+					alternate monochrome variations as well.
 				</p>
 				<br/>
 				<p class="is-size-6">2020 - Present</p>

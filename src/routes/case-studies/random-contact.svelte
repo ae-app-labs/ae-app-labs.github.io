@@ -52,7 +52,7 @@
 			</div>
 			<div class="column is-6">
 				<div class="pr-2">
-					<p class="is-size-4 stagger2">Redesign the app to improve user experience and add additional features.</p>
+					<p class="is-size-4 stagger2">Redesign the app to improve user experience.</p>
 				</div>
 			</div>
 		</div>
@@ -121,9 +121,9 @@
             </div>
 			<div class="column is-4 stagger2">
                 <p class="is-size-4 mb-4 has-text-weight-bold">Mocking Up</p>
-				<p class="is-size-5">Moving away from the colorful and Card style design to a more modern and streamlined design was always the plan.</p> <br/>
+				<p class="is-size-5">Moving away from the colorful and Card style design to a more modern and streamlined design had been the plan.</p> <br/>
                 <p class="is-size-6">The colors of the icon are used carefully as accents in the interface.</p><br/>
-                <p class="is-size-6">The toolbar was cleaned up in the final design and made use of a bottom navigation bar.</p>
+                <p class="is-size-6">The toolbar was cleaned up in the final design along with the bottom navigation bar.</p>
             </div>
 		</div>
 	</div>
@@ -179,7 +179,7 @@
                       <div class="content">
                         <p>
                           <strong>eFeet eFeet</strong>
-                          <br><br>
+                          <br>
                           It fulfills its objective. Very good app, it fulfills what I was looking for LOL !!.
                         </p>
                       </div>
@@ -204,6 +204,6 @@
 </section>
 
 <!-- Section - Promotional -->
-<section class="section section-full-width">
+<section class="section section-full-width is-hidden-mobile">
     <img src="/img/case-studies/random-contact/promotional.png" alt="mockup" />
 </section>
