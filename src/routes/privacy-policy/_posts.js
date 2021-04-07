@@ -97,6 +97,23 @@ const posts = [
 			<br />
 			<p>If you have any questions or concerns, please send an email to aeapplabs-support at live.in.</p>
 		`
+	},
+
+	{
+		title: 'C19 Counter App',
+		slug: 'c19-counter-app',
+		lastUpdated: "06 Apr 2021",
+		html: `
+			<p>
+				C19 Counter App (the "app") does not collect or offer to share any personal information or Personally Identifiable Information (PII).
+			</p>
+			<br />
+			<p>
+				The app uses a REST web service to display the data, and no information about your device or location is captured or shared.
+			</p>
+			<br />
+			<p>If you have any questions or concerns, please send an email to aeapplabs-support at live.in.</p>
+		`
 	}
 ];
 
