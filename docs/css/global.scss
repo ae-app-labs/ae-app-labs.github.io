@@ -13,8 +13,14 @@ $desktop: 840px;
     }
 }
 
+.hero{
+    background: #fff impo !important;
+}
 .hero-landing{
-    background: $primaryDark !important;
+    background-image: url('\\img\\header_bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     .hero-body{
         @include desktop {
             padding: 4rem 1.5rem !important;
