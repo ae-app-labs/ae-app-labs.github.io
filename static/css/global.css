@@ -1,5 +1,12 @@
+.hero {
+  background: #fff impo !important;
+}
+
 .hero-landing {
-  background: #05C6A9 !important;
+  background-image: url("\\img\\header_bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media (min-width: 840px) {

@@ -10,10 +10,26 @@
 	}
 </script>
 
-<section class="hero is-medium is-primary hero-landing">
+<section class=" is-medium hero-landing">
 	<div class="hero-body">
-		<div class="container">
+		<div class="container has-text-centered pt-4 pb-6">
 
+			<h1 class="is-size-1 has-text-weight-bold stagger1">We are Ae App Labs</h1>
+
+			<div class="columns mt-4 mb-4 is-centered stagger1">
+				<column class="column is-half">
+					<h3 class="is-size-4">
+						Research, Learning, and Development 
+						with UX, Web and Mobile.
+					</h3>
+				</column>
+			</div>
+
+			<div class="has-text-link mb-4 mt-2">
+				<button class="button is-warning is-medium btn btn-hover-effect p-2 stagger1" on:click={ () => scrollToSection('projects-android')}>See Projects &rsaquo;</button>
+			</div>
+
+			<!--
 			<div class="columns is-vcentered is-12">
             	<div class="column is-half">
 					<div class="has-text-link">
@@ -27,7 +43,7 @@
 					<div class="video-container stagger1">
 						<iframe width="560" height="315" title="Design Tutorial" src="https://www.youtube.com/embed/+latest?list=PLCwTpl0YtSmdzJsTW_MdN7jUbPFiMCwVn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
-					<!--
+					
 					<div class="hero-graphic stagger1" style="float:right">
 						<svg width="172" height="207" viewBox="0 0 240.799 285.893">
                             <g id="labs_icon" transform="translate(-1291.29 -214.685)">
@@ -36,8 +52,9 @@
                             </g>
                         </svg>
 					</div>
-					-->
+					
 				</div>
+			-->
 		</div>
 	</div>
 </section>

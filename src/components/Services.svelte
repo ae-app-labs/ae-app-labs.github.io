@@ -20,7 +20,7 @@
                         </figure>
                     </div>
                     <p class="title is-5 p-4 has-text-centered ">Android &amp; Desktop Apps</p>
-                    <p>Research and development of native Android and desktop applications.</p>
+                    <p>Development and maintainence of native Android and desktop applications.</p>
                 </div>
             </div>
             <div class="column is-one-third">
