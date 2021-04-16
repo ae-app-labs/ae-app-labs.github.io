@@ -77,14 +77,9 @@ function renderXmlAtomFeed(projects) {
             <updated>${toRFC3339(new Date())}</updated>
             <content type="xhtml">
                 <div xmlns="http://www.w3.org/1999/xhtml">
-                ${project.description}
+                    <![CDATA[${project.description}]]
                 </div>
             </content>
-            <summary type="xhtml">
-                <div xmlns="http://www.w3.org/1999/xhtml">
-                ${project.icon}
-                </div>
-            </summary>
         </entry>
     `).join('\n')}
 </feed>`
@@ -95,7 +90,7 @@ function renderXmlAtomFeed(projects) {
 
     res.writeHead(200, {
         'Cache-Control' : `max-age=0, s-max-age=${600}`,
-        'Content-Type' : 'text/xml'
+        'Content-Type' : 'application/atom+xml'
     })
 
     const allProjects = await readAllProjects()
