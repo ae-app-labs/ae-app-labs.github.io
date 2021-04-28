@@ -153,6 +153,8 @@ main{
 }
 .section-full-width{
     padding: 0 !important;
+    display: grid;
+	place-content:center;
     .img{
         width: 100%;
         height: auto;
