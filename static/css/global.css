@@ -178,6 +178,9 @@ main .section-title::after {
 
 .section-full-width {
   padding: 0 !important;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
 }
 
 .section-full-width .img {

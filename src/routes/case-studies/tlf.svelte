@@ -10,7 +10,7 @@
 		tl.from('.stagger1',{opacity: 0, delay: .5,y: -60,stagger: .4})
 		tl.from('.stagger2', {opacity: 0, delay: 0, y: 100, stagger:.2},"-=1")
 
-		gsap.from('.section', {
+		gsap.from('.anim-section', {
             scrollTrigger: {
                 trigger: '.section',
                 start: "top bottom"
@@ -31,28 +31,47 @@
 .design-process-bg{ background-color: #e4e4e4;}
 </style>
 
-<section class="section-header primary-bg">
+<section class="section section-header primary-bg">
+	<div class="container py-8">
+		<h1 class="is-size-1">The Lotus Foundation</h1>
+	</div>
+</section>
+
+<section class="section mt-4">
 	<div class="container">
-		<div class="columns is-vcentered">
-			<div class="column is-6 is-offset-1 is-dark-link">
-				<div class="is-size-2 stagger1">The Lotus Foundation</div>
-                <div class="stagger1">
-                    <a href="https://www.thelotusfoundation.org/" target="_blank">
-                        See the Project
-                        <i class="fa fa-arrow-right ml-2" aria-hidden="true"></i>
-                    </a>
-                </div>
+		<div class="columns">
+			<div class="column is-7 stagger1 pr-4">
+				<h2 class="is-size-2 has-text-weight-bold">Overview</h2>
+				<p class="is-size-5 my-2">
+					The Lotus Foundation is an Ontario registered Non Profit Organization that focuses on ethics learning, organic farming, nutrition and wellness to name a few.
+				</p>
+				<br/>
+				<p class="is-size-5 my-2">
+					In the current age, a digital presence is important to keep the community connected and informed. The task was to design and develop a dynamic website for new visitors to learn and be part of the community and engage and inform members of any new initiatives..
+				</p>
 			</div>
-			<div class="column is-4">
-				<div class="pr-2">
-					<p class="is-size-4 stagger2">How we created a unique design, and developed the website for a non profit organization.</p>
-				</div>
+			<div class="column is-4 is-offset-1 stagger2">
+				<h3 class="is-size-3 has-text-weight-bold">Client</h3>
+				<p class="is-size-5">The Lotus Foundation</p>
+
+				<h3 class="is-size-3 has-text-weight-bold mt-3">Effort</h3>
+				<p class="is-size-5">Design and Development</p>
+				
+				<h3 class="is-size-3 has-text-weight-bold mt-3">Deliverables</h3>
+				<p class="is-size-5">Digital Assets</p>
+				
+				<h3 class="is-size-3 has-text-weight-bold mt-3">Website</h3>
+				<p class="is-size-5 has-text-link-dark">
+					<a href="https://www.thelotusfoundation.org/" target="_blank">
+						https://www.thelotusfoundation.org
+					</a>
+				</p>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section class="section">
+<section class="section anim-section">
 	<div class="container">
 		<div class="columns is-vcentered">
 			<div class="column is-half">
@@ -74,7 +93,7 @@
     <img src="/img/case-studies/tlf/tlf_wireframes.png" alt="wireframes" />
 </section>
 
-<section class="section mt-2 mb-6">
+<section class="section anim-section mt-2 mb-6">
 	<div class="container">
 		<div class="columns is-vcentered">
 			<div class="column is-8 is-hidden-mobile">
@@ -90,11 +109,11 @@
 </section>
 
 <!-- Section - Mockups -->
-<section class="section section-full-width">
+<section class="section anim-section section-full-width">
     <img src="/img/case-studies/tlf/tlf_mockups.png" alt="mockups" />
 </section>
 
-<section class="section mt-2 mb-6">
+<section class="section anim-section mt-2 mb-6">
 	<div class="container">
 		<div class="columns is-vcentered">
 			<div class="column is-6 is-hidden-mobile">
@@ -110,11 +129,11 @@
 </section>
 
 <!-- Section - Design Process -->
-<section class="section section-full-width has-text-centered design-process-bg">
+<section class="section anim-section section-full-width has-text-centered design-process-bg">
     <img src="/img/case-studies/tlf/tlf_design.jpg" alt="design" />
 </section>
 
-<section class="section mt-2">
+<section class="section anim-section mt-2">
 	<div class="container">
 		<div class="columns is-vcentered">
 			<div class="column is-4 is-hidden-mobile">
@@ -129,11 +148,11 @@
 </section>
 
 <!-- Section - Mission -->
-<section class="section section-full-width">
+<section class="section anim-section section-full-width">
     <img src="/img/case-studies/tlf/section_mission.png" alt="mission section" />
 </section>
 
-<section class="section mt-2 mb-6">
+<section class="section anim-section mt-2 mb-6">
 	<div class="container">
 		<div class="columns is-vcentered">
 			<div class="column is-4 stagger2 is-offset-2">
@@ -150,11 +169,11 @@
 </section>
 
 <!-- Section - Final Design -->
-<section class="section section-full-width">
+<section class="section anim-section section-full-width">
     <img src="/img/case-studies/tlf/tlf_final_design.jpg" alt="final design" />
 </section>
 
-<section class="section mt-2">
+<section class="section anim-section mt-2">
 	<div class="container">
 		<div class="columns is-vcentered">
 			<div class="column is-4 is-hidden-mobile">
@@ -169,7 +188,7 @@
 	</div>
 </section>
 
-<section class="section">
+<section class="section anim-section	">
 	<div class="container">
 		<div class="columns is-vcentered">
 			<div class="column has-text-centered">

@@ -10,7 +10,7 @@
     </div>
 	<div class="container">
         <div class="columns">
-            <div class="column is-one-third is-desktop is-vcentered">
+            <div class="column is-one-quarter is-desktop is-vcentered">
                 <svg  width="200" height="120" viewBox="0 0 209.313 131.46">
                     <g transform="translate(-504.327 -2063.881)">
                         <path d="M72.4,164.685s69.683-51.825,88.36,29.4c5.864,25.5-1.8,58.854-36.674,68.33-43.769,5.688-46.853-48.027-46.853-48.027l83.527-18.247" transform="translate(437 1924)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="17"/>
@@ -18,6 +18,7 @@
                     </g>
                 </svg>
             </div>
+            
             <div class="column is-one-quarter">
                 <b>Links</b>
                 <br /><br />
@@ -28,8 +29,10 @@
                     <li class="pt-1"><a href="case-studies">Case Studies</a></li>
                 </ul>
             </div>
-            <div class="column">
 
+            <div class="column is-one-quarter"></div>
+
+            <div class="column is-one-quarter">
                 <a class="button is-primary" href="https://play.google.com/store/apps/dev?id=6177347481993841752&hl=en_US" name="Play Store">
                     <span class="icon"><i class="fab fa-google-play"></i></span>
                 </a>
