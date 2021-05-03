@@ -15,6 +15,7 @@
             <div class="navbar-start">
                 <a class="navbar-item" href="/about">about</a>
                 <a class="navbar-item" href="/case-studies">case studies</a>
+                <a class="navbar-item" href="/tutorials">tutorials</a>
             </div>
             <div class="navbar-end nav-social">
                 <div class="navbar-item">
