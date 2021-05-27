@@ -14,11 +14,11 @@
 	<div class="hero-body">
 		<div class="container has-text-centered pt-4 pb-6">
 
-			<h1 class="is-size-1 has-text-weight-bold has-text-black stagger1">We are Ae App Labs</h1>
+			<h1 class="is-size-1 is-size-3-mobile has-text-weight-bold has-text-black stagger1">We are Ae App Labs</h1>
 
 			<div class="columns mt-4 mb-4 is-centered stagger1">
 				<column class="column is-half">
-					<h3 class="is-size-4">
+					<h3 class="is-size-4 is-size-6-mobile">
 						Research, Learning, and Development 
 						with UX, Web and Mobile.
 					</h3>
