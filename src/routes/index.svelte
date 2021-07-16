@@ -60,5 +60,4 @@
 	<CategorySection sectionData={desktopProjects}/>
 	
 	<CategorySection sectionData={webProjects}/>
-
 </main>

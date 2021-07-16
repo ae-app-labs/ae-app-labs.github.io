@@ -70,7 +70,7 @@ const tutorialsData = {
       },
       {
         "id": "5",
-        "title": "Let's build a landing page with Bulma CSS # 1",
+        "title": "Let's build a landing page with Bulma CSS Part 1",
         "videoUrl": "https://www.youtube.com/embed/kp-JVtnETWI",
         "tags":[
           {
@@ -87,8 +87,25 @@ const tutorialsData = {
       },
       {
         "id": "6",
-        "title": "Let's build a landing page with Bulma CSS # 2",
+        "title": "Let's build a landing page with Bulma CSS Part 2",
         "videoUrl": "https://www.youtube.com/embed/0hj3ZVn1c-I",
+        "tags":[
+          {
+            "id":"1",
+            "name":"Bulma",
+            "className": "is-light is-primary",
+          },
+          {
+            "id":"2",
+            "name":"SASS",
+            "className": "is-light is-info",
+          },
+        ]
+      },
+      {
+        "id": "7",
+        "title": "Let's build a landing page with Bulma CSS Part 3",
+        "videoUrl": "https://www.youtube.com/embed/AntRJWRWKEc",
         "tags":[
           {
             "id":"1",

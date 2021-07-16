@@ -27,6 +27,7 @@
 
 			<div class="has-text-link mb-4 mt-2">
 				<button class="button is-warning is-medium btn btn-hover-effect p-2 stagger1" on:click={ () => scrollToSection('projects-android')}>See Projects &rsaquo;</button>
+				<button class="button is-outlined is-medium is-warning btn p-2 stagger1" on:click={ () => scrollToSection('contact')}>Contact</button>
 			</div>
 
 			<!--
