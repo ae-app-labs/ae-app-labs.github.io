@@ -194,7 +194,6 @@ main .section-title::after {
   left: 40%;
   text-align: center;
   opacity: .6;
-  margin-top: -30px;
 }
 
 .footer-bottom {
