@@ -6,7 +6,7 @@
             <div class="field">
                 <label class="label" for="_replyto">Your Email</label>
                 <div class="control has-icons-left">
-                    <input class="input" type="email" name="_replyto" placeholder="Email input" value="hello@">
+                    <input class="input" type="email" name="_replyto" placeholder="Type your email">
                     <span class="icon is-small is-left">
                     <i class="fas fa-envelope"></i>
                     </span>

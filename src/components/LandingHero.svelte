@@ -20,14 +20,14 @@
 				<column class="column is-half">
 					<h3 class="is-size-4 is-size-6-mobile">
 						Research, Learning, and Development 
-						with UX, Web and Mobile.
+						for UX, Web and Mobile.
 					</h3>
 				</column>
 			</div>
 
 			<div class="has-text-link mb-4 mt-2">
-				<button class="button is-warning is-medium btn btn-hover-effect p-2 stagger1" on:click={ () => scrollToSection('projects-android')}>See Projects &rsaquo;</button>
-				<button class="button is-outlined is-medium is-warning btn p-2 stagger1" on:click={ () => scrollToSection('contact')}>Contact</button>
+				<button class="button is-warning is-medium btn btn-hover-effect p-2 m-2 stagger1" on:click={ () => scrollToSection('projects-android')}>See Projects &rsaquo;</button>
+				<button class="button is-outlined is-medium is-warning btn p-2 m-2 stagger1" on:click={ () => scrollToSection('contact')}>Contact</button>
 			</div>
 
 			<!--
