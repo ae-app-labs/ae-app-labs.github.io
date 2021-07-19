@@ -1,6 +1,6 @@
 {
   "name": "ae-app-labs",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "",
   "scripts": {
     "dev": "sapper dev",
