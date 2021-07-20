@@ -11,7 +11,7 @@ const posts = [
 	{
 		title: 'Message Counter',
 		slug: 'message-counter',
-		lastUpdated: "24 Nov 2020",
+		lastUpdated: "20 Jul 2021",
 		html: `
 			<p>
 				<strong>Message Counter (the "app")</strong> does not collect or offer to share any personal information or Personally Identifiable Information (PII).
@@ -38,14 +38,14 @@ const posts = [
 				<a href="https://firebase.google.com/policies/analytics">Google Analytics for Firebase Use Policy</a>
 			</p>
 			<br />
-			<p>If you have any questions or concerns, please submit a comment or send an email to aeapplabs-support at live.in.</p>
+			<p>If you have any questions or concerns, please submit a comment or send an email to [<i>aeapplabs.ca+support at gmail.com</i>]</p>
 		`
 	},
 
 	{
 		title: 'Random Contact',
 		slug: 'random-contact',
-		lastUpdated: "23 Feb 2021",
+		lastUpdated: "20 Jul 2021",
 		html: `
 			<p>
 				<strong>Random Contact (the "app")</strong> does not collect or offer to share any personal information.
@@ -58,14 +58,14 @@ const posts = [
 				The app <u>does not</u> collect or maintain your personal information including name, addresses, phone numbers etc.
 			</p>
 			<br />
-			<p>If you have any questions or concerns, please send an email to aeapplabs-support at live.in.</p>
+			<p>If you have any questions or concerns, please send an email to [<i>aeapplabs.ca+support at gmail.com</i>]</p>
 		`
 	},
 
 	{
 		title: 'PNR Status App',
 		slug: 'pnr-status-app',
-		lastUpdated: "17 Mar 2019",
+		lastUpdated: "20 Jul 2021",
 		html: `
 			<p>
 				<strong>PNRStatusApp (the "app")</strong> does not collect offer share any personal information.
@@ -76,14 +76,14 @@ const posts = [
 				No part of the PNR information retrieved from the internet is persisted by the app.
 			</p>
 			<br />
-			<p>If you have any questions or concerns, please send an email to aeapplabs-support at live.in.</p>
+			<p>If you have any questions or concerns, please send an email to [<i>aeapplabs.ca+support at gmail.com</i>]</p>
 		`
 	},
 
 	{
 		title: 'AE Sticker App',
 		slug: 'ae-sticker-app',
-		lastUpdated: "11 Feb 2018",
+		lastUpdated: "20 Jul 2021",
 		html: `
 			<p>
 				<strong>AE Sticker App (the "app")</strong> does not collect or offer to share any personal information or Personally Identifiable Information (PII).
@@ -95,14 +95,14 @@ const posts = [
 				<a href="https://firebase.google.com/policies/analytics">Google Analytics for Firebase Use Policy</a>
 			</p>
 			<br />
-			<p>If you have any questions or concerns, please send an email to aeapplabs-support at live.in.</p>
+			<p>If you have any questions or concerns, please send an email to [<i>aeapplabs.ca+support at gmail.com</i>]</p>
 		`
 	},
 
 	{
 		title: 'C19 Counter App',
 		slug: 'c19-counter-app',
-		lastUpdated: "06 Apr 2021",
+		lastUpdated: "20 Jul 2021",
 		html: `
 			<p>
 				C19 Counter App (the "app") does not collect or offer to share any personal information or Personally Identifiable Information (PII).
@@ -112,7 +112,7 @@ const posts = [
 				The app uses a REST web service to display the data, and no information about your device or location is captured or shared.
 			</p>
 			<br />
-			<p>If you have any questions or concerns, please send an email to aeapplabs-support at live.in.</p>
+			<p>If you have any questions or concerns, please send an email to [<i>aeapplabs.ca+support at gmail.com</i>]</p>
 		`
 	},
 
