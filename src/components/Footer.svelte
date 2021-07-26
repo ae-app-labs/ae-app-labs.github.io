@@ -40,6 +40,9 @@
                     <a class="button is-primary" href="https://play.google.com/store/apps/dev?id=6177347481993841752&hl=en_US" name="Play Store">
                         <span class="icon"><i class="fab fa-google-play"></i></span>
                     </a>
+                    <a class="button is-primary" href="https://www.behance.net/midhunharikumar" name="Behance Profile">
+                        <span class="icon"><i class="fab fa-behance"></i></span>
+                    </a>
                     <a class="button is-primary" href="https://www.facebook.com/AeAppLabs/" name="Facebook Page">
                         <span class="icon"><i class="fab fa-facebook"></i></span>
                     </a>
