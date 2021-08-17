@@ -46,7 +46,7 @@
 
 <section class="section-header primary-bg">
 	<div class="container py-4">
-        <p class="is-size-2 has-text-weight-bold stagger1">A Mobile app <br/> Redesign Project</p>
+        <p class="is-size-1 has-text-weight-bold stagger1">A Mobile app <br/> Redesign Project</p>
         <p class="is-size-4 stagger2 mt-4">UI/UX App Design</p>
 	</div>
 </section>

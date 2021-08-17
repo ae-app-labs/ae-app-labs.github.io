@@ -29,17 +29,13 @@
 </svelte:head>
 
 <section class="section-header primary-bg">
-	<div class="container">
-		<div class="columns is-vcentered">
-			<div class="column is-6 is-offset-1">
-				<div class="is-size-2 stagger1">THE BRAND OF AE</div>
-			</div>
-			<div class="column is-4">
-				<div class="pr-2">
-					<p class="is-size-4 stagger2">The history of creating a unique brand identity for ae.</p>
-					<p class="is-size-5 mt-2 stagger2">AE is mainly about UX &amp; UI. Excellence in all design efforts are always of the highest priority.</p>
-				</div>
-			</div>
+	<div class="container py-4">
+        <p class="is-size-1 has-text-weight-bold stagger1">The Brand of AE</p>
+        <p class="is-size-4 stagger2 mt-4">UI/UX App Design</p>
+
+		<div class="mt-4">
+			<p class="is-size-4 stagger2">The history of creating a unique brand identity for ae.</p>
+			<p class="is-size-5 mt-2 stagger2">AE is mainly about UX &amp; UI. Excellence in all design efforts are always of the highest priority.</p>
 		</div>
 	</div>
 </section>
@@ -47,15 +43,15 @@
 <section class="section">
 	<div class="container">
 		<div class="columns">
+			<div class="column is-4 has-text-centered">
+				<img src="img/case-studies/ae-branding/ae_logo_v0.png" alt="first logo" class="fadeIn">
+			</div>
 			<div class="column is-4 is-centered-content is-offset-2 stagger2">
 				<p class="is-size-4 mb-4 has-text-weight-bold">The First Logo</p>
 				<p class="is-size-5">The initial and short lived logo for AE was very simple, but blocky.</p>
 				<br/>
 				<p class="is-size-6">2005</p>
 				<p class="is-size-6">It was created with Adobe Flash as a vector graphic.</p>
-			</div>
-			<div class="column is-4">
-				<img src="img/case-studies/ae-branding/ae_logo_v0.png" alt="first logo" class="fadeIn">
 			</div>
 			<div class="column is-2"></div>
 		</div>

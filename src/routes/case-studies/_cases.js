@@ -27,7 +27,7 @@ const cases = [
 	{
 		title: 'Random Contact Redesign',
 		slug: 'random-contact',
-		type: 'UI/UX Design',
+		type: 'UI/UX App Design',
 		previewImage: 'img/case-studies/random-contact/random-contact-preview.png',
 		creationDate: "20 Mar 2021",
 		description: "The redesign of our first Android app that was released on the Play Store."

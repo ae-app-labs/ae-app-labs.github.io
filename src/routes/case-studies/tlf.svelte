@@ -32,16 +32,12 @@
 </style>
 
 <section class="section section-header primary-bg">
-	<div class="container py-8">
-		<h1 class="is-size-1">The Lotus Foundation</h1>
-	</div>
-</section>
+	<div class="container py-4">
+		<p class="is-size-1 has-text-weight-bold stagger1">The Lotus Foundation</p>
+        <p class="is-size-4 stagger1">UI/UX Web Design &amp; Development</p>
 
-<section class="section mt-4">
-	<div class="container">
-		<div class="columns">
-			<div class="column is-7 stagger1 pr-4">
-				<h2 class="is-size-2 has-text-weight-bold">Overview</h2>
+		<div class="columns mt-4">
+			<div class="column is-8 stagger1 pr-4">
 				<p class="is-size-5 my-2">
 					The Lotus Foundation is an Ontario registered Non Profit Organization that focuses on ethics learning, organic farming, nutrition and wellness to name a few.
 				</p>
@@ -50,20 +46,26 @@
 					In the current age, a digital presence is important to keep the community connected and informed. The task was to design and develop a dynamic website for new visitors to learn and be part of the community and engage and inform members of any new initiatives..
 				</p>
 			</div>
-			<div class="column is-4 is-offset-1 stagger2">
-				<h3 class="is-size-3 has-text-weight-bold">Client</h3>
-				<p class="is-size-5">The Lotus Foundation</p>
+		</div>
 
-				<h3 class="is-size-3 has-text-weight-bold mt-3">Effort</h3>
-				<p class="is-size-5">Design and Development</p>
-				
-				<h3 class="is-size-3 has-text-weight-bold mt-3">Deliverables</h3>
-				<p class="is-size-5">Digital Assets</p>
-				
-				<h3 class="is-size-3 has-text-weight-bold mt-3">Website</h3>
-				<p class="is-size-5 has-text-link-dark">
+		<div class="columns stagger2 mt-4">
+			<div class="column is-2">
+				<h3 class="is-size-4 has-text-weight-bold">Client</h3>
+				<p class="is-size-6">The Lotus Foundation</p>
+			</div>
+			<div class="column is-2">
+				<h3 class="is-size-4 has-text-weight-bold">Effort</h3>
+				<p class="is-size-6">Design and Development</p>
+			</div>
+			<div class="column is-2">
+				<h3 class="is-size-4 has-text-weight-bold">Deliverables</h3>
+				<p class="is-size-6">Digital Assets</p>
+			</div>
+			<div class="column is-2">
+				<h3 class="is-size-4 has-text-weight-bold">Website</h3>
+				<p class="is-size-6 has-text-link-dark">
 					<a href="https://www.thelotusfoundation.org/" target="_blank">
-						https://www.thelotusfoundation.org
+						Visit the TLF Website <i class="fas fa-external-link-alt"></i>
 					</a>
 				</p>
 			</div>

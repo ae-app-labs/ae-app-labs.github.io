@@ -150,6 +150,12 @@ main{
 }
 .section-header{
     padding: 2em 0;
+    background: #00d1b2;
+    background-image: url('\\img\\banner_bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fafafa !important;
 }
 .section-full-width{
     padding: 0 !important;
