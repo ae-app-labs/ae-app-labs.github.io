@@ -42,6 +42,11 @@
     margin-right:1em;
     color:white;
     }
+
+    .banner-bg {
+        background: rgb(255,52,103);
+        background: linear-gradient(180deg, rgba(255,52,103,1) 0%, rgba(253,128,158,1) 100%);
+    }
 </style>
 
 <section class="section-header primary-bg">
@@ -68,7 +73,7 @@
 </section>
 
 <!-- Section - Banner -->
-<section class="section section-full-width is-hidden-mobile">
+<section class="section section-full-width is-hidden-mobile banner-bg">
     <img src="/img/case-studies/random-contact/banner.png" alt="mockup" />
 </section>
 
@@ -85,7 +90,7 @@
 </section>
 
 <!-- Section - Wireframe -->
-<section class="section section-full-width">
+<section class="section section-full-width" style="background-color: #9999ff;">
     <img src="/img/case-studies/random-contact/wireframes.png" alt="wireframes" />
 </section>
 
@@ -106,7 +111,7 @@
 </section>
 
 <!-- Section - Light Mockup -->
-<section class="section section-full-width">
+<section class="section section-full-width" style="background-color: #517bbb;">
     <img src="/img/case-studies/random-contact/mockup_light.png" alt="mockup" />
 </section>
 
@@ -127,7 +132,7 @@
 </section>
 
 <!-- Section - dark Mockup -->
-<section class="section section-full-width">
+<section class="section section-full-width" style="background-color: #fa678c;">
     <img src="/img/case-studies/random-contact/mockup_dark.png" alt="mockup" />
 </section>
 
