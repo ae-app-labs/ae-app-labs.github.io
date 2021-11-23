@@ -119,7 +119,7 @@ const posts = [
 	{
 		title: 'midhunhk.com',
 		slug: 'midhunhk-blog',
-		lastUpdated: "25 Apr 2021",
+		lastUpdated: "22 Nov 2021",
 		html: `
 		<p>
 			The website for "midhunhk" located at <a href="https://www.midhunhk.com/">https://www.midhunhk.com</a>, from here onwards referred to as "site"
@@ -139,7 +139,14 @@ const posts = [
 		</p><br/>
 		<p>Privacy Policy for <a href="https://policies.google.com/privacy?hl=en-US">Google Analytics</a></p>
 		<br />
-		<p>If you have any questions or concerns, please send an email to [<i>aeapplabs.ca at google.com</i>].</p>
+		<p>If you have any questions or concerns, please send an email to [<i>aeapplabs.ca at gmail.com</i>].</p>
+		<br />
+		<p class="subtitle">Website Advertisements</p>
+		<p>
+			We may partner with a third party vendor inorder to incorporate native ads on selected pages of the website.
+			<br/>
+			Privacy Policy for <a href="https://www.infolinks.com/privacy-policy/" target="_blank">Infolinks </a>
+		</p>
 		`
 	}
 ];
