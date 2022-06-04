@@ -1,16 +1,21 @@
-/* eslint-disable import/no-extraneous-dependencies */
-const sveltePreprocess = require('svelte-preprocess');
+import adapter from '@sveltejs/adapter-static';
 
-module.exports = {
-  preprocess: sveltePreprocess({
-    defaults: {
-      style: 'scss',
-    },
-    scss: {
-      // We can use a path relative to the root because
-      // svelte-preprocess automatically adds it to `includePaths`
-      // if none is defined.
-      prependData: `@import 'src/styles/variables.scss';`,
-    },
-  }),
+/** @type {import('@sveltejs/kit').Config} */
+const config = {
+	kit: {
+		adapter: adapter({
+			// default options are shown
+			pages: 'build',
+			assets: 'build',
+			fallback: null,
+			precompress: false
+		  }),
+		  
+		  prerender: {
+			// This can be false if you're using a fallback (i.e. SPA mode)
+			default: true
+		  }
+	}
 };
+
+export default config;

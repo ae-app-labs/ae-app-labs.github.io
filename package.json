@@ -1,45 +1,27 @@
 {
-  "name": "ae-app-labs",
-  "version": "2.0.4",
-  "description": "",
+  "name": "app-labs-v3",
+  "version": "3.0.2",
   "scripts": {
-    "dev": "sapper dev",
-    "build": "sapper build --legacy",
-    "export": "sapper export --legacy",
-    "start": "node __sapper__/build",
+    "dev": "svelte-kit dev",
+    "dev-host": "svelte-kit dev --host",
+    "css-build": "node-sass --omit-source-map-url public/css/main.scss public/css/main.css",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview",
+    "prepare": "svelte-kit sync",
     "clean-docs": "rmdir /S /Q docs && mkdir docs",
-    "copy-export": "cp -a -r __sapper__/export/* docs/",
     "copy-nojekyll": "cp -a .nojekyll docs/",
+    "copy-export": "cp -a -r build/* docs/",
     "commit-export": "git add docs && git commit -m ",
-    "update-docs": "npm run clean-docs && npm run export && npm run copy-export && npm run copy-nojekyll && npm run commit-export"
-  },
-  "keywords": [],
-  "author": "midhunhk",
-  "license": "ISC",
-  "dependencies": {
-    "compression": "^1.7.1",
-    "gsap": "^3.6.0",
-    "is-svg": "^4.3.1",
-    "polka": "next",
-    "rollup-plugin-postcss": "^3.1.8",
-    "sirv": "^1.0.0"
+    "update-docs": "npm run clean-docs && npm run build && npm run copy-export && npm run copy-nojekyll && npm run commit-export"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
-    "@babel/plugin-transform-runtime": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
-    "@babel/runtime": "^7.0.0",
-    "@rollup/plugin-babel": "^5.0.0",
-    "@rollup/plugin-commonjs": "^14.0.0",
-    "@rollup/plugin-json": "^4.1.0",
-    "@rollup/plugin-node-resolve": "^8.4.0",
-    "@rollup/plugin-replace": "^2.2.0",
-    "@rollup/plugin-url": "^5.0.0",
-    "rollup": "^2.3.4",
-    "rollup-plugin-svelte": "^6.0.0",
-    "rollup-plugin-terser": "^7.0.0",
-    "sapper": "^0.28.0",
-    "svelte": "^3.17.3"
-  }
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/adapter-static": "^1.0.0-next.34",
+    "@sveltejs/kit": "next",
+    "bulma": "^0.9.4",
+    "node-sass": "^7.0.1",
+    "svelte": "^3.44.0"
+  },
+  "type": "module"
 }

@@ -1,40 +1,106 @@
-<section class="section section-services fadeIn">
+<section class="section has-background-info py-6">
     <div class="container">
-        <div class="columns is-vcentered is-12">
-            <div class="column is-one-third">
-                <div class="box stagger2">
-                    <div class="has-text-centered">
-                        <figure class="image">
-                            <img src="/img/icons/icon_uiux.svg" alt="ui ux" class="v-lazy-image v-lazy-image-loaded"/>
-                        </figure>
-                    </div>
-                    <p class="title is-5 p-4 has-text-centered">UI/UX Design</p>
-                    <p>Research in creating rich User Interfaces and User Experience.</p>
-                </div>
+        <div class="columns is-vcentered py-6">
+            <div class="column is-half-desktop is-12-tablet service-content">
+                <div class="title is-family-secondary">Our Services</div>
+                <p class="is-size-5">We are an indie design studio that creates unique UI UX designs, technical tutorials, design reviews and software development for Web and Mobile.</p>
+                <br/>
+                <p class="is-size-5">In addition, talk to us for technical consultation for any web or mobile projects.</p>
             </div>
-            <div class="column is-one-third">
-                <div class="box stagger2">
-                    <div class="has-text-centered">
-                        <figure class="image">
-                            <img src="/img/icons/icon_apps.svg" alt="android" class="v-lazy-image v-lazy-image-loaded"/>
-                        </figure>
+            <div class="column is-half-desktop is-12-mobile">
+                <div class="columns">
+                    <div class="column is-half service-tile">
+                        <svg width="152" height="82" viewBox="0 0 152 82">
+                            <g id="service_ui_ux" transform="translate(-214 -870)">
+                              <g id="icon_uiux" transform="translate(214 870)">
+                                <circle id="Ellipse_1" data-name="Ellipse 1" cx="41" cy="41" r="41" transform="translate(0)" fill="#f3d55f"/>
+                                <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="40.5" cy="41" rx="40.5" ry="41" transform="translate(71)" fill="#9090ff"/>
+                                <path id="Path_5" data-name="Path 5" d="M395.769,888.879s-16.451,18.454.278,42.324a35.368,35.368,0,0,0,8.009-21.8A29.5,29.5,0,0,0,395.769,888.879Z" transform="translate(-319.455 -868.68)" fill="#1fa591"/>
+                                <text id="UI" transform="translate(40 55)" fill="#fff" font-size="42" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-21" y="0">UI</tspan></text>
+                                <text id="UX" transform="translate(114 55)" fill="#fff" font-size="42" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-29.82" y="0">UX</tspan></text>
+                              </g>
+                            </g>
+                          </svg>
+                          
+                        <p>UI/UX Design</p>
                     </div>
-                    <p class="title is-5 p-4 has-text-centered ">Android &amp; Desktop Apps</p>
-                    <p>Development and maintainence of native Android and desktop applications.</p>
-                </div>
-            </div>
-            <div class="column is-one-third">
-                <div class="box stagger2">
-                    <div class="has-text-centered">
-                        <figure class="image">
-                            <img src="/img/icons/icon_web.svg" alt="web" class="v-lazy-image v-lazy-image-loaded"/>
-                        </figure>
+                    <div class="column is-half service-tile">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="130.031" height="82.037" viewBox="0 0 130.031 82.037">
+                            <g id="service_web" transform="translate(-202.459 -867)">
+                              <g id="Group_47" data-name="Group 47" transform="translate(202.459 867)">
+                                <g id="Rectangle_49" data-name="Rectangle 49" fill="#1fa591" stroke="#1fa591" stroke-width="2">
+                                  <rect width="130.031" height="82.037" rx="10" stroke="none"/>
+                                  <rect x="1" y="1" width="128.031" height="80.037" rx="9" fill="none"/>
+                                </g>
+                                <g id="Group_44" data-name="Group 44" transform="translate(72.502 31.926)">
+                                  <path id="ic_arrow_left" d="M0,0,12.792,12.792,25.584,0" transform="translate(12.792) rotate(90)" fill="none" stroke="#9090ff" stroke-width="4"/>
+                                  <path id="ic_arrow_left-2" data-name="ic_arrow_left" d="M0,12.792,12.792,0,25.584,12.792" transform="translate(34.675) rotate(90)" fill="none" stroke="#9090ff" stroke-width="4"/>
+                                </g>
+                                <line id="Line_15" data-name="Line 15" y1="0.084" x2="129.156" transform="translate(0.279 14.705)" fill="none" stroke="#9090ff" stroke-width="2"/>
+                                <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(6.139 4.465)" fill="#f3d55f" stroke="#f3d55f" stroke-width="2">
+                                  <circle cx="3.627" cy="3.627" r="3.627" stroke="none"/>
+                                  <circle cx="3.627" cy="3.627" r="2.627" fill="none"/>
+                                </g>
+                                <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(15.626 4.465)" fill="#f3d55f" stroke="#f3d55f" stroke-width="2">
+                                  <circle cx="3.627" cy="3.627" r="3.627" stroke="none"/>
+                                  <circle cx="3.627" cy="3.627" r="2.627" fill="none"/>
+                                </g>
+                                <g id="Ellipse_7" data-name="Ellipse 7" transform="translate(25.113 4.465)" fill="#f3d55f" stroke="#f3d55f" stroke-width="2">
+                                  <circle cx="3.627" cy="3.627" r="3.627" stroke="none"/>
+                                  <circle cx="3.627" cy="3.627" r="2.627" fill="none"/>
+                                </g>
+                              </g>
+                            </g>
+                          </svg>
+                          
+                        <p>Web Design &amp; Dev</p>
                     </div>
-                    <p class="title is-5 p-4 has-text-centered ">Web Design &amp; Development</p>
-                    <p>Web design and development solutions with modern technologies and frameworks.</p>
                 </div>
-            </div>
+                <div class="columns">
+                    <div class="column is-half service-tile">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="123.749" height="78.073" viewBox="0 0 123.749 78.073">
+                            <g id="service_research" transform="translate(-199.459 -870)">
+                              <rect id="Rectangle_50" data-name="Rectangle 50" width="123.749" height="78.073" rx="10" transform="translate(199.459 870)" fill="#1fa591"/>
+                              <g id="Polygon_1" data-name="Polygon 1" transform="translate(281.058 893.843) rotate(90)" fill="#f3d55f">
+                                <path d="M 27.02596664428711 27.48837471008301 L 3.361407518386841 27.48837471008301 C 2.827317476272583 27.48837471008301 2.345417499542236 27.21435546875 2.072327375411987 26.7553653717041 C 1.799227476119995 26.2963752746582 1.788317441940308 25.74211502075195 2.043127536773682 25.27273559570312 L 13.87540721893311 3.476435422897339 C 14.14202785491943 2.985285520553589 14.63483715057373 2.692065477371216 15.19368743896484 2.692065477371216 C 15.75252723693848 2.692065477371216 16.24534797668457 2.985285520553589 16.51196670532227 3.476435422897339 L 28.34424781799316 25.27273559570312 C 28.59905815124512 25.74211502075195 28.58814811706543 26.2963752746582 28.31504821777344 26.7553653717041 C 28.04195785522461 27.21435546875 27.56005668640137 27.48837471008301 27.02596664428711 27.48837471008301 Z" stroke="none"/>
+                                <path d="M 15.19368743896484 3.192054748535156 C 15.0147876739502 3.192054748535156 14.57103729248047 3.243005752563477 14.31482696533203 3.7149658203125 L 2.482547760009766 25.51127624511719 C 2.237697601318359 25.96232604980469 2.414596557617188 26.3527660369873 2.502017974853516 26.49969482421875 C 2.589437484741211 26.64662551879883 2.848186492919922 26.98837471008301 3.361408233642578 26.98837471008301 L 27.02596664428711 26.98837471008301 C 27.53918838500977 26.98837471008301 27.79793739318848 26.64662551879883 27.88535690307617 26.49969482421875 C 27.9727783203125 26.3527660369873 28.14967727661133 25.96232604980469 27.90482711791992 25.51127624511719 L 16.07254791259766 3.714975357055664 C 15.81633758544922 3.243005752563477 15.37258720397949 3.192054748535156 15.19368743896484 3.192054748535156 M 15.19368362426758 2.192060470581055 C 15.8832950592041 2.192060470581055 16.57290649414062 2.540664672851562 16.95139694213867 3.237874984741211 L 28.78367805480957 25.0341854095459 C 29.50711822509766 26.36683654785156 28.54231643676758 27.98837471008301 27.02596664428711 27.98837471008301 L 3.361408233642578 27.98837471008301 C 1.845056533813477 27.98837471008301 0.8802566528320312 26.36683654785156 1.603696823120117 25.0341854095459 L 13.43597793579102 3.237874984741211 C 13.81446266174316 2.540664672851562 14.50407218933105 2.192060470581055 15.19368362426758 2.192060470581055 Z" stroke="none" fill="#f3d55f"/>
+                              </g>
+                            </g>
+                          </svg>
+                        <p>Research &amp; Tutorials</p>                          
+                    </div>
+                    <div class="column is-half service-tile">
+                        <svg width="58.443" height="104.562" viewBox="0 0 58.443 104.562">
+                            <g transform="translate(-250.778 -859)">
+                              <g transform="translate(-269.222 -27)">
+                                <path d="M5.566,0H52.877c3.074,0,5.566,3.185,5.566,7.113V97.449c0,3.928-2.492,7.113-5.566,7.113H5.566C2.492,104.562,0,101.377,0,97.449V7.113C0,3.185,2.492,0,5.566,0Z" transform="translate(520 886)" fill="#1fa591"/>
+                                <g transform="translate(544.896 977.047)" fill="#f3d55f" stroke="#f3d55f" stroke-width="2">
+                                  <circle cx="4.623" cy="4.623" r="4.623" stroke="none"/>
+                                  <circle cx="4.623" cy="4.623" r="3.623" fill="none"/>
+                                </g>
+                                <g transform="translate(547.088 928.93)">
+                                  <path d="M0,0,9.351,9.351,18.7,0" transform="translate(9.351) rotate(90)" fill="none" stroke="#9090ff" stroke-width="4"/>
+                                  <path d="M0,9.351,9.351,0,18.7,9.351" transform="translate(25.348) rotate(90)" fill="none" stroke="#9090ff" stroke-width="4"/>
+                                </g>
+                              </g>
+                            </g>
+                          </svg>
+                        <p>Mobile Design &amp; Dev</p>                          
+                    </div>    
 
+                </div> <!-- End Columns -->
+
+               <div class="columns">
+                <div class="column is-12 service-tile">
+                    <svg iwidth="91" height="91" viewBox="0 0 91 91">
+                        <path d="M86.864,33.091H80.607a36.912,36.912,0,0,0-1.51-3.639l4.426-4.426a4.136,4.136,0,0,0,0-5.85l-11.7-11.7a4.136,4.136,0,0,0-5.85,0L61.548,11.9a37.083,37.083,0,0,0-3.639-1.51V4.136A4.136,4.136,0,0,0,53.773,0H37.227a4.136,4.136,0,0,0-4.136,4.136v6.257a37.009,37.009,0,0,0-3.639,1.51L25.026,7.477a4.136,4.136,0,0,0-5.85,0l-11.7,11.7a4.136,4.136,0,0,0,0,5.849L11.9,29.452a37.071,37.071,0,0,0-1.51,3.639H4.136A4.136,4.136,0,0,0,0,37.227V53.772a4.136,4.136,0,0,0,4.136,4.136h6.257a37.042,37.042,0,0,0,1.51,3.639L7.477,65.974a4.136,4.136,0,0,0,0,5.849l11.7,11.7a4.136,4.136,0,0,0,5.85,0L29.453,79.1a37.006,37.006,0,0,0,3.638,1.51v6.257A4.136,4.136,0,0,0,37.227,91H53.773a4.136,4.136,0,0,0,4.136-4.136V80.607a37.055,37.055,0,0,0,3.639-1.51l4.426,4.426a4.137,4.137,0,0,0,5.85,0l11.7-11.7a4.136,4.136,0,0,0,0-5.85L79.1,61.548a36.934,36.934,0,0,0,1.51-3.639h6.256A4.136,4.136,0,0,0,91,53.772V37.227A4.136,4.136,0,0,0,86.864,33.091ZM82.727,49.636H77.548a4.136,4.136,0,0,0-4.006,3.106,28.729,28.729,0,0,1-3.1,7.462,4.136,4.136,0,0,0,.636,5.029L74.749,68.9l-5.85,5.85-3.666-3.666a4.137,4.137,0,0,0-5.029-.636,28.757,28.757,0,0,1-7.463,3.1,4.137,4.137,0,0,0-3.105,4.006v5.179H41.364V77.548a4.136,4.136,0,0,0-3.105-4.006,28.769,28.769,0,0,1-7.462-3.1,4.136,4.136,0,0,0-5.029.636L22.1,74.749l-5.85-5.85,3.666-3.666a4.136,4.136,0,0,0,.636-5.029,28.765,28.765,0,0,1-3.1-7.463,4.136,4.136,0,0,0-4.006-3.105H8.273V41.364h5.179a4.136,4.136,0,0,0,4.006-3.105,28.769,28.769,0,0,1,3.1-7.463,4.136,4.136,0,0,0-.636-5.029L16.251,22.1l5.85-5.85,3.666,3.666a4.137,4.137,0,0,0,5.029.636,28.759,28.759,0,0,1,7.462-3.1,4.136,4.136,0,0,0,3.105-4.006V8.273h8.273v5.179a4.136,4.136,0,0,0,3.105,4.006,28.757,28.757,0,0,1,7.463,3.1,4.137,4.137,0,0,0,5.029-.636L68.9,16.251l5.85,5.85-3.666,3.666a4.136,4.136,0,0,0-.636,5.029,28.735,28.735,0,0,1,3.1,7.462,4.137,4.137,0,0,0,4.006,3.106h5.179Z" fill="#1fa591"/>
+                        <path d="M17.028,17.649a6.444,6.444,0,0,0,6.264-6.574A6.444,6.444,0,0,0,17.028,4.5a6.444,6.444,0,0,0-6.264,6.574A6.444,6.444,0,0,0,17.028,17.649Zm0,3.287c-4.15,0-12.528,2.219-12.528,6.574V30.8H29.556V27.51C29.556,23.155,21.177,20.936,17.028,20.936Z" transform="translate(28.472 27.851)" fill="#f3d55f"/>
+                      </svg>
+                    <p>Technology Consulting</p>
+                </div>
+               </div>
+
+            </div>
         </div>
     </div>
 </section>

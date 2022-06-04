@@ -1,12 +1,8 @@
-<script>
-    import ContactForm from '../components/ContactForm.svelte';
-</script>
-
-<footer class="footer py-4">
+<footer class="footer has-background-primary py-4">
     <div id="footer_bg_graphic" class="bg-graphic is-hidden-mobile">
         <svg width="254.853" height="140.007" viewBox="0 0 254.853 140.007">
-            <g transform="translate(-832.074 -2107.496)" opacity="0.6">
-                <rect width="99" height="99" transform="translate(960.5 2107.496) rotate(45)" fill="#09bfa4"/>
+            <g transform="translate(-832.074 -2107.496)">
+                <rect width="99" height="99" transform="translate(960.5 2107.496) rotate(45)" fill="#F3D55F"/>
                 <rect width="59" height="61" transform="translate(1045.207 2135.073) rotate(45)" fill="#2de2c7"/>
                 <rect width="59" height="61" transform="translate(875.207 2135.073) rotate(45)" fill="#2de2c7"/>
             </g>
@@ -26,6 +22,7 @@
 
             </div>
             
+            <!--
             <div class="column is-one-quarter">
                 <h2 class="subtitle has-text-light has-text-weight-bold">Links</h2>
                 <ul>
@@ -43,9 +40,6 @@
                     <a class="button is-primary" href="https://www.behance.net/midhunharikumar" name="Behance Profile">
                         <span class="icon"><i class="fab fa-behance"></i></span>
                     </a>
-                    <a class="button is-primary" href="https://www.facebook.com/AeAppLabs/" name="Facebook Page">
-                        <span class="icon"><i class="fab fa-facebook"></i></span>
-                    </a>
                     <a class="button is-primary" href="https://twitter.com/aeapplabs" name="Twitter">
                         <span class="icon"><i class="fab fa-twitter"></i></span>
                     </a>
@@ -57,16 +51,13 @@
                     </a>
                 </div>
             </div>
-
+            -->
             <div class="column is-half">
-                <ContactForm />
+                
             </div>
+        </div>
+        <div class=" has-text-light py-3">
+            &copy; 2022 ae app labs | All rights reserved
         </div>
 	</div>
 </footer>
-
-<div class="footer-bottom p-3">
-    <div class="container has-text-light">
-        &copy; 2021 ae app labs | All rights reserved
-    </div>
-</div>
