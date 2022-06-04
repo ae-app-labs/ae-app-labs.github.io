@@ -170,7 +170,18 @@
         padding: 0;
     }
 }
-@media(max-width:700px) {
+
+// Responsiveness for Small Screen
+@media only screen and (max-width: 600px) {
+    .landing-hero {
+        .content-layer {
+            padding-left: 1em;
+            padding-right: 1em;
+            .scroller {
+                display: none;
+            }
+        }
+    }
     .slider-section {
         flex-direction: column;
         flex-wrap: wrap;
@@ -178,6 +189,11 @@
 
         .glider-contain {
             width: 100% !important;
+        }
+    }
+    .contact-form {
+        .content-layer {
+            width: 100%;
         }
     }
 }

@@ -46,7 +46,7 @@
     <div id="contact" class="content-layer">
         <form class="form" id="contactForm" onsubmit="event.preventDefault();" method="GET">
             <div class="columns is-centered">
-                <div class="column is-12 py-6">
+                <div class="column is-12 py-6 is-12-mobile">
                     <div class="card has-background-info is-shadowless is-rounded">
                         <div class="card-content">
                             <div class="content">

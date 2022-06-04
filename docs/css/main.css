@@ -13157,28 +13157,8 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-figure {
-  background: #31718B !important;
-  border-radius: 1em;
-  display: block;
-  margin: 1.5em;
-  padding: .7em;
-}
-
-figure blockquote {
-  padding: .5em;
-  font-size: 1.3em;
-  font-style: italic;
-  text-align: center;
-}
-
-figure figcaption {
-  text-align: center;
-  margin-bottom: 1em;
-  font-size: .9em;
-  text-transform: uppercase;
-  color: gray;
-  font-weight: bold;
+.is-link:hover {
+  color: #f3d55f;
 }
 
 .slider-section {
@@ -13196,7 +13176,85 @@ figure figcaption {
   margin-bottom: 2em;
 }
 
-.glider-contain {
-  width: 80% !important;
+.slider-section .glider-contain {
+  width: 70% !important;
+}
+
+.slider-section figure {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 700px) {
+  .slider-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .slider-section .glider-contain {
+    width: 100% !important;
+  }
+}
+
+.wave {
+  animation: waveAnimation 5s infinite alternate-reverse;
+}
+
+@-webkit-keyframes waveAnimation {
+  from {
+    -webkit-transform: translate(0, -20px);
+            transform: translate(0, -20px);
+    z-index: 5;
+  }
+  to {
+    -webkit-transform: translate(0, 20px);
+            transform: translate(0, 20px);
+  }
+}
+
+@keyframes waveAnimation {
+  from {
+    -webkit-transform: translate(0, -20px);
+            transform: translate(0, -20px);
+    z-index: 5;
+  }
+  to {
+    -webkit-transform: translate(0, 20px);
+            transform: translate(0, 20px);
+  }
+}
+
+.ellipse {
+  animation: ellipseAnimation 4s infinite alternate-reverse;
+}
+
+@-webkit-keyframes ellipseAnimation {
+  from {
+    -webkit-transform: translate(30px, 120px);
+            transform: translate(30px, 120px);
+    z-index: 5;
+  }
+  to {
+    -webkit-transform: translate(30px, 50px);
+            transform: translate(30px, 50px);
+  }
+}
+
+@keyframes ellipseAnimation {
+  from {
+    -webkit-transform: translate(30px, 120px);
+            transform: translate(30px, 120px);
+    z-index: 5;
+  }
+  to {
+    -webkit-transform: translate(30px, 50px);
+            transform: translate(30px, 50px);
+  }
 }
 /*# sourceMappingURL=main.css.map */

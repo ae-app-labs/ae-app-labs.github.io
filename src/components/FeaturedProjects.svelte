@@ -1,6 +1,6 @@
 
-<div id="featuredProjects" class="container py-6 projects">
-    <section class="section px-0">
+<section class="section">
+    <div id="featuredProjects" class="container py-6 projects">
         <h1 class="title is-family-secondary">
             Featured Projects
           </h1>
@@ -52,8 +52,8 @@
 
         </div>
 
-        <a href="/about" class="is-uppercase is-link">
+        <a href="/projects" class="is-uppercase is-link">
             All Projects <i class="fas fa-arrow-right"></i>
         </a>
-    </section>
-</div>
+    </div>
+</section>

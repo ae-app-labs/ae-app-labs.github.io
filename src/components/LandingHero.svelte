@@ -22,7 +22,7 @@
                     <button class="button is-outlined is-medium is-warning btn p-2 m-2 stagger1"  onclick="javascript:scrollToSection('contact')">Contact</button></div>
             </div>
         </div>
-        <div class="mb-4">
+        <div class="scroller mb-4 is-hidden-mobile">
           <svg  width="75" height="173" viewBox="0 0 75 173">
             <g id="scroll_down">
               <g fill="none" stroke="#fff" stroke-width="5">

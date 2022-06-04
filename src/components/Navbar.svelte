@@ -13,11 +13,9 @@
 
         <div class="navbar-menu" id="navMenu">
             <div class="navbar-start">
-                <!--
-                    <a class="navbar-item has-text-white" href="/case-studies">Case Studies</a>
+                <a class="navbar-item has-text-white" href="/case-studies">Case Studies</a>
                 <a class="navbar-item has-text-white" href="/projects">Projects</a>
                 <a class="navbar-item has-text-white" href="/tutorials">Tutorials</a>
-                -->
                 <a class="navbar-item has-text-white" href="/about">About</a>
             </div>
             <div class="navbar-end nav-social">
