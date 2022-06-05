@@ -1,5 +1,8 @@
 <script>
+	import { caseStudies } from './../data/store.js';
 	import { onMount } from 'svelte';
+    
+    $: caseStudiesData = $caseStudies.data
 
 	onMount(async () => {
         new Glider(document.querySelector('.glider'), {
@@ -15,8 +18,8 @@
                 {
                     breakpoint: 900,
                     settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 0
+                        slidesToShow: 2,
+                        slidesToScroll: 2
                     }
                 },
                 {
@@ -49,111 +52,36 @@
                 <div class="glider mx-4">
     
                     <!-- one glider box -->
-                    <div class="card is-shadowless is-rounded mx-2" style="transform: translate(0px, 0px); opacity: 1; background:#31718B;">
-                        <div class="card-image grow-effect">
-                            <figure class="image">
-                                <a href="about"><img src="img/case-studies/ae-branding/ae-preview.jpg" alt="AE Branding"></a>
-                            </figure>
-                        </div> 
-                        <div class="card-content">
-                            <div class="content">
-                                <p>
-                                    <span class="tag is-link">Branding</span>
-                                    <span class="ml-2 block">01 Jan 2021</span>
-                                </p> 
-                                <p>
-                                    <span class="title is-capitalized is-4 mb-2 pb-2">
-                                        AE Branding
-                                    </span>
-                                </p> 
-                                <p>Take a look at the history and the rebranding for AE and the designs that we have gone through.</p> <p>
-                                    <a href="about" class="button is-rounded has-text-black">
-                                        <span>Read Article</span>
-                                    </a>
-                                </p>
+                    {#each caseStudiesData as caseStudy, index (caseStudy.slug) }
+                        <div class="card is-shadowless is-rounded mx-2" style="transform: translate(0px, 0px); opacity: 1; background:#31718B;">
+                            <div class="card-image grow-effect">
+                                <figure class="image">
+                                    <a href="about"><img src="{caseStudy.previewImage}" alt="AE Branding"></a>
+                                </figure>
+                            </div> 
+                            <div class="card-content">
+                                <div class="content">
+                                    <p>
+                                        <span class="tag is-link">{caseStudy.type}</span>
+                                        <span class="ml-2 block">{caseStudy.creationDate}</span>
+                                    </p> 
+                                    <p>
+                                        <span class="title is-capitalized is-4 mb-2 pb-2">
+                                            {caseStudy.title}
+                                        </span>
+                                    </p> 
+                                    <p>{caseStudy.description}</p> 
+                                    <p>
+                                        <a href="about" class="button is-rounded has-text-black">
+                                            <span>Read Article</span>
+                                        </a>
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    {/each}
                     <!-- end glider box -->
                     
-                    <div class="card is-shadowless is-rounded mx-2" style="transform: translate(0px, 0px); opacity: 1; background:#31718B;">
-                        <div class="card-image grow-effect">
-                            <figure class="image">
-                                <a href="about"><img src="img/case-studies/ae-branding/ae-preview.jpg" alt="AE Branding"></a>
-                            </figure>
-                        </div> 
-                        <div class="card-content">
-                            <div class="content">
-                                <p>
-                                    <span class="tag is-link">Branding</span>
-                                    <span class="ml-2 block">01 Jan 2021</span>
-                                </p> 
-                                <p>
-                                    <span class="title is-capitalized is-4 mb-2 pb-2">
-                                        AE Branding
-                                    </span>
-                                </p> 
-                                <p>Take a look at the history and the rebranding for AE and the designs that we have gone through.</p> <p>
-                                    <a href="about" class="button is-rounded has-text-black">
-                                        <span>Read Article</span>
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="card is-shadowless is-rounded mx-2" style="transform: translate(0px, 0px); opacity: 1; background:#31718B;">
-                        <div class="card-image grow-effect">
-                            <figure class="image">
-                                <a href="about"><img src="img/case-studies/ae-branding/ae-preview.jpg" alt="AE Branding"></a>
-                            </figure>
-                        </div> 
-                        <div class="card-content">
-                            <div class="content">
-                                <p>
-                                    <span class="tag is-link">Branding</span>
-                                    <span class="ml-2 block">01 Jan 2021</span>
-                                </p> 
-                                <p>
-                                    <span class="title is-capitalized is-4 mb-2 pb-2">
-                                        AE Branding
-                                    </span>
-                                </p> 
-                                <p>Take a look at the history and the rebranding for AE and the designs that we have gone through.</p> <p>
-                                    <a href="about" class="button is-rounded has-text-black">
-                                        <span>Read Article</span>
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="card is-shadowless is-rounded mx-2" style="transform: translate(0px, 0px); opacity: 1; background:#31718B;">
-                        <div class="card-image grow-effect">
-                            <figure class="image">
-                                <a href="about"><img src="img/case-studies/ae-branding/ae-preview.jpg" alt="AE Branding"></a>
-                            </figure>
-                        </div> 
-                        <div class="card-content">
-                            <div class="content">
-                                <p>
-                                    <span class="tag is-link">Branding</span>
-                                    <span class="ml-2 block">01 Jan 2021</span>
-                                </p> 
-                                <p>
-                                    <span class="title is-capitalized is-4 mb-2 pb-2">
-                                        AE Branding
-                                    </span>
-                                </p> 
-                                <p>Take a look at the history and the rebranding for AE and the designs that we have gone through.</p> <p>
-                                    <a href="about" class="button is-rounded has-text-black">
-                                        <span>Read Article</span>
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-    
                 </div>
         
                 <button class="glider-next">

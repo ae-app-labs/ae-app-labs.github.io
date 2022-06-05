@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="127.671" height="78.955" viewBox="0 0 127.671 78.955">
+  <g id="icon_apps" transform="translate(-343.364 -882)">
+    <g id="Rectangle_22" data-name="Rectangle 22" transform="translate(351.148 882)" fill="#fff" stroke="#9090ff" stroke-width="6">
+      <rect width="78" height="54" stroke="none"/>
+      <rect x="3" y="3" width="72" height="48" fill="none"/>
+    </g>
+    <g id="Path_8" data-name="Path 8" transform="translate(350.699 929)" fill="#fff">
+      <path d="M 84.06142425537109 28.9552001953125 L -3.459077119827271 28.9552001953125 L 3.262547492980957 3 L 75.50661468505859 3 L 84.06142425537109 28.9552001953125 Z" stroke="none"/>
+      <path d="M 5.584587097167969 6 L 0.416778564453125 25.9552001953125 L 79.91387176513672 25.9552001953125 L 73.33666229248047 6 L 5.584587097167969 6 M 0.9404830932617188 0 L 77.67657470703125 0 L 88.20897674560547 31.9552001953125 L -7.334968566894531 31.9552001953125 L 0.9404830932617188 0 Z" stroke="none" fill="#9090ff"/>
+    </g>
+    <g id="Path_6" data-name="Path 6" transform="translate(337.058 933)" fill="#fff">
+      <path d="M113.329,0l20.649,25.27Z" stroke="none"/>
+      <path d="M 113.3285217285156 0 L 133.9771728515625 25.2701416015625 L 113.3285217285156 0 Z" stroke="none" fill="#9090ff"/>
+    </g>
+    <text id="_" data-name="&lt;/&gt;" transform="translate(391.148 917)" fill="#9090ff" font-size="22" font-family="Rubik-Medium, Rubik" font-weight="500"><tspan x="-16.676" y="0">&lt;/&gt;</tspan></text>
+    <path id="Path_7" data-name="Path 7" d="M372.646,984.767h39.606" transform="translate(-2.106 -32)" fill="none" stroke="#9090ff" stroke-linecap="round" stroke-width="8"/>
+  </g>
+</svg>
