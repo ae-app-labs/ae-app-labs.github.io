@@ -30,6 +30,13 @@
             })
     }
 
+    const formSubmit = () => {
+        console.log("form submitted")
+        sendContactForm(); 
+        document.querySelector("#messageSent").classList.remove('is-hidden')
+        document.querySelector("#formContainer").classList.add('is-hidden')
+    }
+
 </script>
 
 <div class="contact-form">
@@ -50,49 +57,50 @@
                     <div class="card has-background-info is-shadowless is-rounded">
                         <div class="card-content">
                             <div class="content">
-                                <p class="is-family-secondary title is-size-4 has-text-centered">Contact us by sending a message</p>
-                            
-                                    <div class="columns">
-                                        <div class="column is-half">
-                                            <div class="field">
-                                                <label class="label has-text-white-ter" for="_fullname">Your Name</label>
-                                                <div class="control has-icons-left">
-                                                    <input class="input is-medium has-text-dark" type="text" name="_fullname" placeholder="" bind:value={fullname}>
-                                                    <span class="icon is-small is-left">
-                                                        <i class="fas fa-user has-text-dark" aria-hidden="true"></i>
-                                                    </span>
+                                
+                                <div id="formContainer">
+                                        <p class="is-family-secondary title is-size-4 has-text-centered">Contact us by sending a message</p>
+                                        <div class="columns">
+                                            <div class="column is-half">
+                                                <div class="field">
+                                                    <label class="label has-text-white-ter" for="_fullname">Your Name</label>
+                                                    <div class="control has-icons-left">
+                                                        <input class="input is-medium has-text-dark" type="text" name="_fullname" placeholder="" bind:value={fullname}>
+                                                        <span class="icon is-small is-left">
+                                                            <i class="fas fa-user has-text-dark" aria-hidden="true"></i>
+                                                        </span>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="field">
-                                                <label class="label has-text-white-ter" for="_replyto">Your Email</label>
-                                                <div class="control has-icons-left">
-                                                    <input class="input is-medium has-text-dark" type="email" name="_replyto" placeholder="" bind:value={email}>
-                                                    <span class="icon is-small is-left">
-                                                        <i class="fas fa-envelope has-text-dark" aria-hidden="true"></i>
-                                                    </span>
+                                                <div class="field">
+                                                    <label class="label has-text-white-ter" for="_replyto">Your Email</label>
+                                                    <div class="control has-icons-left">
+                                                        <input class="input is-medium has-text-dark" type="email" name="_replyto" placeholder="" bind:value={email}>
+                                                        <span class="icon is-small is-left">
+                                                            <i class="fas fa-envelope has-text-dark" aria-hidden="true"></i>
+                                                        </span>
+                                                    </div>
                                                 </div>
+
                                             </div>
-
-                                            <p id="messageSent" class="is-hidden my-2">
-                                                <span class="tag is-warning">Message sent, Thank you!</span>
-                                            </p>
-
-                                        </div>
-                                        <div class="column is-half">
-                                            <div class="field">
-                                                <label class="label has-text-white-ter" for="message">Message</label>
-                                                <div class="control ">
-                                                    <textarea name="message" class="textarea is-rounded has-text-dark" placeholder="" required="" bind:value={message}></textarea>
+                                            <div class="column is-half">
+                                                <div class="field">
+                                                    <label class="label has-text-white-ter" for="message">Message</label>
+                                                    <div class="control ">
+                                                        <textarea name="message" class="textarea is-rounded has-text-dark" placeholder="" required="" bind:value={message}></textarea>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="field">
-                                        <div class="control has-text-centered">
-                                            <button type="submit" class="button is-success is-medium my-2 btn btn-hover-effect" style="transform: translate(0px, 0px); opacity: 1;" on:click="{ () => { sendContactForm(); document.querySelector("#messageSent").classList.remove('is-hidden')} }">Send message</button>
+                                        <div class="field">
+                                            <div class="control has-text-centered">
+                                                <button type="submit" class="button is-success is-medium my-2 btn btn-hover-effect" style="transform: translate(0px, 0px); opacity: 1;" on:click="{ formSubmit }">Send message</button>
+                                            </div>
                                         </div>
                                     </div>
 
+                                    <p id="messageSent" class="is-hidden my-2 has-text-centered">
+                                        <span class="is-size-4">Message sent, Thank you for yout time!</span>
+                                    </p>
                             </div>
                         </div>
                     </div>

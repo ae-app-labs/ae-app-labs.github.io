@@ -7,7 +7,7 @@
 
 <section class="section">
     <div id="featuredProjects" class="container py-6 projects">
-        <h1 class="title is-family-secondary">
+        <h1 class="is-size-1 is-family-secondary">
             Featured Projects
           </h1>
         

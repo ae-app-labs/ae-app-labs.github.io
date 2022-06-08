@@ -7,14 +7,14 @@
 
 <section class="section">
     <div class="container py-6 tutorials">
-        <h1 class="title is-family-secondary">Video Tutorials</h1>
+        <h1 class="is-size-1 is-family-secondary">Video Tutorials</h1>
         <div class="columns">
             <!-- Column 1-->
             {#each displayData as data, index}
                 <div class="card mb-4 mx-4">
                     <div class="card-content has-background-info">
                         <div class="grow-effect">
-                            <a href="{data.videoUrl }">
+                            <a href="{data.videoUrl }" target="_blank">
                                 <figure class="image">
                                     <img src="{data.coverImage }" alt="Placeholder">
                                 </figure>

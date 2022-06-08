@@ -19,7 +19,7 @@
     <div class="container content">
         <div class="columns">
             <div class="column is-5">
-                <h3 class="is-size-3 is-size-4-mobile title is-family-secondary pb-4">Design and Development Tutorials</h3>
+                <p class="is-size-3 is-family-secondary">Design and Development Tutorials</p>
                 <p class="subtitle">See a list of curated video tutorials hosted on Youtube. These range from tutorials on UI design, to complete landing page development.</p>
                 <p class="is-size-4 pt-4">
                     <a href="https://www.youtube.com/channel/UCCYOqc-QhZCbWtjpHZ5ROXw" class="button is-primary is-rounded is-medium" target="_blank"> 
@@ -52,7 +52,7 @@
 										id="video_{index}"
 										width="560"
 										height="315"
-										src="{ tutorial.videoUrl }?controls=1"
+										src="{ tutorial.embedUrl }?controls=1"
 										title="YouTube video player"
 										frameborder="0"
 										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

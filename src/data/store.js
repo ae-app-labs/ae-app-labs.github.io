@@ -14,8 +14,6 @@ export const caseStudies = readable(null, set => {
 })
 
 export const privacyPolicies = readable(null, set => {
-    console.log("Hrllo")
-    console.log(privacyPolicyData)
     set(privacyPolicyData)
 })
 

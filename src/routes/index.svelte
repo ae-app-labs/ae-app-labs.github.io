@@ -1,9 +1,9 @@
 <script>
 	import ContactForm from './../components/ContactForm.svelte';
 	import SocialLinks from './../components/SocialLinks.svelte';
-	import Tutorials from './../components/Tutorials.svelte';
-	import RecentWork from './../components/RecentWork.svelte';
-	import CaseStudies from './../components/CaseStudies.svelte';
+	import TutorialsSection from './../components/TutorialsSection.svelte';
+	import RecentWorkSection from './../components/RecentWorkSection.svelte';
+	import CaseStudiesSection from '../components/CaseStudiesSection.svelte';
 	import FeaturedProjects from './../components/FeaturedProjects.svelte';
 	import Services from './../components/Services.svelte';
     import LandingHero from './../components/LandingHero.svelte';
@@ -15,11 +15,11 @@
 
 <FeaturedProjects/>
 
-<CaseStudies/>
+<CaseStudiesSection/>
 
-<RecentWork/>
+<RecentWorkSection/>
 
-<Tutorials/>
+<TutorialsSection/>
 
 <SocialLinks/>
 

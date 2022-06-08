@@ -2,7 +2,7 @@
     <div class="container">
         <div class="columns is-vcentered py-6">
             <div class="column is-half-desktop is-12-tablet service-content">
-                <div class="title is-family-secondary">Our Services</div>
+                <div class="is-size-1 is-family-secondary">Our Services</div>
                 <p class="is-size-5">We are an indie design studio that creates unique UI UX designs, technical tutorials, design reviews and software development for Web and Mobile.</p>
                 <br/>
                 <p class="is-size-5">In addition, talk to us for technical consultation for any web or mobile projects.</p>

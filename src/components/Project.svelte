@@ -6,7 +6,7 @@
 </script>
 
 
-<div class="card box has-background-info">
+<div class="card box" class:has-background-primary-dark={projectData.featured} class:has-background-info={!projectData.featured}>
     <div class="content">
         <div class="media mb-0">
             <div class="media-left">

@@ -35,7 +35,7 @@ export const webProjectsData = {
       }, 
       {
         "id": "302",
-        "icon": "\\img\\portfolio\\icons\\icon_tlf.png",
+        "icon": "\\img\\portfolio\\icons\\icon_cryptx_web.png",
         "title": "CryptX Web",
         "featured": false,
         "featuredImage": "\\img\\portfolio\\desktop\\project_screenshot_triton.png",
@@ -68,7 +68,7 @@ export const desktopProjectsData = {
       {
         "id": "201",
         "icon": "\\img\\portfolio\\icons\\icon_triton_player.png",
-        "title": "triton-player",
+        "title": "Triton Player",
         "featured": true,
         "featuredImage": "\\img\\portfolio\\desktop\\project_screenshot_triton.png",
         "tags": [
@@ -96,7 +96,7 @@ export const desktopProjectsData = {
       {
         "id": "202",
         "icon": "\\img\\portfolio\\icons\\icon_cryptx.png",
-        "title": "cryptx",
+        "title": "Cryptx",
         "featured": false,
         "tags": [
             {
@@ -132,7 +132,7 @@ export const androidProjectsData = {
       {
         "id": "101",
         "icon": "\\img\\portfolio\\icons\\icon_message_counter.png",
-        "title": "message-counter",
+        "title": "Message Counter",
         "featured": true,
         "featuredImage": "\\img\\portfolio\\mobile\\message_counter_screens.png",
         "tags": [
@@ -199,7 +199,7 @@ export const androidProjectsData = {
       {
         "id": "103",
         "icon": "\\img\\portfolio\\icons\\icon_random_contact.png",
-        "title": "random-contact",
+        "title": "Random Contact",
         "featured": false,
         "tags": [
             {
@@ -227,7 +227,7 @@ export const androidProjectsData = {
       {
         "id": "104",
         "icon": "\\img\\portfolio\\icons\\icon_trip_meter.png",
-        "title": "trip-o-meter",
+        "title": "Trip-O-Meter",
         "featured": false,
         "tags": [
             {
@@ -254,7 +254,7 @@ export const androidProjectsData = {
       {
         "id": "105",
         "icon": "\\img\\portfolio\\icons\\icon_c19_counter.png",
-        "title": "c19-counter",
+        "title": "C19 Counter",
         "featured": false,
         "tags": [
             {
