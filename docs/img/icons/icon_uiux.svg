@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="143" height="77" viewBox="0 0 143 77">
+  <g id="icon_uiux" transform="translate(-324 -870)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="38.5" cy="38.5" r="38.5" transform="translate(324 870)" fill="#ffdd57"/>
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="38.5" cy="38.5" r="38.5" transform="translate(390 870)" fill="#9090ff"/>
+    <path id="Path_5" data-name="Path 5" d="M395.3,888.879s-15.376,17.248.259,39.559a33.057,33.057,0,0,0,7.486-20.377A27.573,27.573,0,0,0,395.3,888.879Z" fill="#00d1b2"/>
+    <text id="UI" transform="translate(361 923)" fill="#fff" font-size="40" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-20" y="0">UI</tspan></text>
+    <text id="UX" transform="translate(430 923)" fill="#fff" font-size="40" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-28.4" y="0">UX</tspan></text>
+  </g>
+</svg>
