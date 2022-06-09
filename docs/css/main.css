@@ -13185,6 +13185,21 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   padding: 0;
 }
 
+.about-services h4 {
+  border-top: #f3d55f 1px solid;
+  font-size: 2.5rem !important;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.about-services h4:last-child {
+  border-bottom: #f3d55f 1px solid;
+}
+
+.banner-bg {
+  background: url("/img/site/banner_bg.png") center no-repeat;
+}
+
 @media only screen and (max-width: 600px) {
   .landing-hero .content-layer {
     padding-left: 1em;
