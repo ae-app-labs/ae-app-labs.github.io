@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-e6bfb5c7.js",
+    "file": "start-225c4555.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -60,13 +60,13 @@
     ]
   },
   "src/routes/case-studies.svelte": {
-    "file": "pages/case-studies.svelte-27e8c3df.js",
+    "file": "pages/case-studies.svelte-958f816c.js",
     "src": "src/routes/case-studies.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-df7320af.js",
-      "_store-27c5cafa.js",
+      "_store-df35dd28.js",
       "_index-42cf9239.js"
     ]
   },
@@ -95,13 +95,13 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-85bf2e19.js",
+    "file": "pages/index.svelte-902d0f77.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-df7320af.js",
-      "_store-27c5cafa.js",
+      "_store-df35dd28.js",
       "_RecentWork-3e29d2ff.js",
       "_index-42cf9239.js"
     ]
@@ -116,35 +116,35 @@
     ]
   },
   "src/routes/privacy-policy/index.svelte": {
-    "file": "pages/privacy-policy/index.svelte-9402e296.js",
+    "file": "pages/privacy-policy/index.svelte-74375025.js",
     "src": "src/routes/privacy-policy/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-df7320af.js",
-      "_store-27c5cafa.js",
+      "_store-df35dd28.js",
       "_index-42cf9239.js"
     ]
   },
   "src/routes/projects.svelte": {
-    "file": "pages/projects.svelte-c83fb487.js",
+    "file": "pages/projects.svelte-f6a6dce5.js",
     "src": "src/routes/projects.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-df7320af.js",
-      "_store-27c5cafa.js",
+      "_store-df35dd28.js",
       "_index-42cf9239.js"
     ]
   },
   "src/routes/tutorials.svelte": {
-    "file": "pages/tutorials.svelte-5adffd66.js",
+    "file": "pages/tutorials.svelte-53cbed6c.js",
     "src": "src/routes/tutorials.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-df7320af.js",
-      "_store-27c5cafa.js",
+      "_store-df35dd28.js",
       "_index-42cf9239.js"
     ]
   },
@@ -163,8 +163,8 @@
       "_index-df7320af.js"
     ]
   },
-  "_store-27c5cafa.js": {
-    "file": "chunks/store-27c5cafa.js",
+  "_store-df35dd28.js": {
+    "file": "chunks/store-df35dd28.js",
     "imports": [
       "_index-42cf9239.js"
     ]
