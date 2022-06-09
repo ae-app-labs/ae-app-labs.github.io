@@ -1,6 +1,7 @@
 <script>
 	import { caseStudies } from './../data/store.js';
-    
+	import { fade } from 'svelte/transition';
+
     $: cases = $caseStudies.data
 </script>
 
@@ -8,7 +9,7 @@
 	<title>ae app labs | Case Studies</title>
 </svelte:head>
 
-<section class="section list-cases">
+<section class="section list-cases" transition:fade>
 	<div class="container has-text-centered">
 		<p class="is-size-2 mb-2">“Every great design begins with an even better story.”</p>
 		<p>Lorinda Mamo, Designer</p>

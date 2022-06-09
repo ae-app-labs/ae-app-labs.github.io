@@ -7,20 +7,24 @@
 	import FeaturedProjects from './../components/FeaturedProjects.svelte';
 	import Services from './../components/Services.svelte';
     import LandingHero from './../components/LandingHero.svelte';
+	import { fade } from 'svelte/transition';
 </script>
 
-<LandingHero/>
+<div transition:fade>
 
-<Services/>
+	<LandingHero/>
+	
+	<Services/>
+	
+	<FeaturedProjects/>
 
-<FeaturedProjects/>
+	<CaseStudiesSection/>
 
-<CaseStudiesSection/>
+	<RecentWorkSection/>
 
-<RecentWorkSection/>
+	<TutorialsSection/>
 
-<TutorialsSection/>
+	<SocialLinks/>
 
-<SocialLinks/>
-
-<ContactForm/>
+	<ContactForm/>
+</div>

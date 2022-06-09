@@ -182,7 +182,13 @@
 .banner-bg{
     background: url('/img/site/banner_bg.png') center no-repeat;
 }
-
+.play-overlay{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
 // Responsiveness for Small Screen
 @media only screen and (max-width: 600px) {
     .landing-hero {

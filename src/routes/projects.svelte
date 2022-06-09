@@ -1,14 +1,14 @@
 <script>
 	import CategorySection from '../components/CategorySection.svelte';
 	import { webProjects, desktopProjects, androidProjects } from './../data/store.js';
-	
+	import { fade } from 'svelte/transition';
 </script>
 
 <svelte:head>
 	<title>ae app labs | Projects</title>
 </svelte:head>
 
-<section class="section">
+<section class="section" transition:fade>
 	<div class="container">
 		<CategorySection sectionData={androidProjects}/>
 

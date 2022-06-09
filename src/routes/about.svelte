@@ -1,16 +1,17 @@
 <script>
 	import RecentWork from './../components/RecentWork.svelte';
+	import { fade } from 'svelte/transition';
 </script>
 
 <svelte:head>
 	<title>ae app labs | About</title>
 </svelte:head>
 
-<div>
+<div transition:fade>
 	<img src="/img/site/banner_ae.png" alt="Bannner" />
 </div>
 
-<section class="section section-about" id="section-about" name="section-about">
+<section class="section section-about" id="section-about" name="section-about" transition:fade>
 	<div class="container">
 		
 		<div class="columns">

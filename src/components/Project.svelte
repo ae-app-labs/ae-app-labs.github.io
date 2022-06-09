@@ -5,8 +5,10 @@
     $: tags = projectData.tags
 </script>
 
-
-<div class="card box" class:has-background-primary-dark={projectData.featured} class:has-background-info={!projectData.featured}>
+<!--
+    <div class="card box" class:has-background-primary-dark={projectData.featured} class:has-background-info={!projectData.featured}>
+-->
+<div class="card box has-background-info">
     <div class="content">
         <div class="media mb-0">
             <div class="media-left">
@@ -33,7 +35,7 @@
                 {#if button.isPrimary}
                     <a class="button is-primary is-small is-rounded mr-2" href="{button.target}">{button.text}</a>
                 {:else}
-                    <a class="button is-primary is-outlined is-small is-rounded mr-2" href="{button.target}">{button.text}</a>
+                    <a class="button is-warning is-outlined is-small is-rounded mr-2" href="{button.target}">{button.text}</a>
                 {/if}
             {/each}
         </div>

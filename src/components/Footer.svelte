@@ -22,15 +22,17 @@
 
             </div>
             
-            <!--
+            <div class="column is-half">
+                
+            </div>
+            
             <div class="column is-one-quarter">
-                <h2 class="subtitle has-text-light has-text-weight-bold">Links</h2>
                 <ul>
                     <li class="pt-1"><a href="/">Home</a></li>
-                    <li class="pt-1"><a href="about">About</a></li>
-                    <li class="pt-1"><a href="privacy-policy">Privacy Policy</a></li>
-                    <li class="pt-1"><a href="case-studies">Case Studies</a></li>
-                    <li class="pt-1"><a href="tutorials">Tutorials</a></li>
+                    <li class="pt-1"><a href="/about">About</a></li>
+                    <li class="pt-1"><a href="/privacy-policy">Privacy Policy</a></li>
+                    <li class="pt-1"><a href="/case-studies">Case Studies</a></li>
+                    <li class="pt-1"><a href="/tutorials">Tutorials</a></li>
                 </ul>
                 <br />
                 <div>
@@ -51,14 +53,11 @@
                     </a>
                 </div>
             </div>
-            -->
-            <div class="column is-half">
-                
-            </div>
+            
+
         </div>
         <div class=" has-text-light py-3">
-            &copy; 2022 ae app labs | All rights reserved | 
-            <a href="/privacy-policy" class="is-link">Privacy Policy</a>
+            &copy; 2022 ae app labs | All rights reserved
         </div>
 	</div>
 </footer>

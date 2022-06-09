@@ -99,7 +99,7 @@
                                     </div>
 
                                     <p id="messageSent" class="is-hidden my-2 has-text-centered">
-                                        <span class="is-size-4">Message sent, Thank you for yout time!</span>
+                                        <span class="is-size-4">Message sent, Thank you for your time!</span>
                                     </p>
                             </div>
                         </div>

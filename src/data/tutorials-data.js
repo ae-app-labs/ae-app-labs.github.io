@@ -65,7 +65,7 @@ const tutorialsData = {
         "title": "Creating an Android App",
         "embedUrl": "https://www.youtube.com/embed/vR1wcqfslWM",
         "videoUrl": "https://www.youtube.com/watch?v=vR1wcqfslWM",
-        "coverImage": "/img/tutorials/placeholder.png",
+        "coverImage": "/img/tutorials/tutorial_cover_005.png",
         "videoLength": "13 minutes",
         "tags":[
           {
