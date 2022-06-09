@@ -6,10 +6,9 @@ export const webProjectsData = {
     "projects": [
       {
         "id": "301",
-        "icon": "\\img\\portfolio\\icons\\icon_tlf.png",
+        "icon": "img/portfolio/icons/icon_tlf.png",
         "title": "The Lotus Foundation",
         "featured": false,
-        "featuredImage": "\\img\\portfolio\\desktop\\project_screenshot_triton.png",
         "tags": [
             {
                 "id":"1",
@@ -35,10 +34,9 @@ export const webProjectsData = {
       }, 
       {
         "id": "302",
-        "icon": "\\img\\portfolio\\icons\\icon_cryptx_web.png",
+        "icon": "img/portfolio/icons/icon_cryptx_web.png",
         "title": "CryptX Web",
         "featured": false,
-        "featuredImage": "\\img\\portfolio\\desktop\\project_screenshot_triton.png",
         "tags": [
             {
                 "id":"1",
@@ -67,10 +65,10 @@ export const desktopProjectsData = {
     "projects": [
       {
         "id": "201",
-        "icon": "\\img\\portfolio\\icons\\icon_triton_player.png",
+        "icon": "img/portfolio/icons/icon_triton_player.png",
         "title": "Triton Player",
         "featured": true,
-        "featuredImage": "\\img\\portfolio\\desktop\\project_screenshot_triton.png",
+        "featuredImage": "img/portfolio/desktop/project_screenshot_triton.png",
         "tags": [
             {
                 "id":"1",
@@ -95,7 +93,7 @@ export const desktopProjectsData = {
       },
       {
         "id": "202",
-        "icon": "\\img\\portfolio\\icons\\icon_cryptx.png",
+        "icon": "img/portfolio/icons/icon_cryptx.png",
         "title": "Cryptx",
         "featured": false,
         "tags": [
@@ -131,10 +129,10 @@ export const androidProjectsData = {
     "projects": [
       {
         "id": "101",
-        "icon": "\\img\\portfolio\\icons\\icon_message_counter.png",
+        "icon": "img/portfolio/icons/icon_message_counter.png",
         "title": "Message Counter",
         "featured": true,
-        "featuredImage": "\\img\\portfolio\\mobile\\message_counter_screens.png",
+        "featuredImage": "img/portfolio/mobile/message_counter_screens.png",
         "tags": [
             {
                 "id":"1",
@@ -171,7 +169,7 @@ export const androidProjectsData = {
       },
       {
         "id": "102",
-        "icon": "\\img\\portfolio\\icons\\icon_lib_ae_apps.png",
+        "icon": "img/portfolio/icons/icon_lib_ae_apps.png",
         "title": "lib-aeapps",
         "featured": false,
         "tags": [
@@ -198,7 +196,7 @@ export const androidProjectsData = {
       },
       {
         "id": "103",
-        "icon": "\\img\\portfolio\\icons\\icon_random_contact.png",
+        "icon": "img/portfolio/icons/icon_random_contact.png",
         "title": "Random Contact",
         "featured": false,
         "tags": [
@@ -226,7 +224,7 @@ export const androidProjectsData = {
       },
       {
         "id": "104",
-        "icon": "\\img\\portfolio\\icons\\icon_trip_meter.png",
+        "icon": "img/portfolio/icons/icon_trip_meter.png",
         "title": "Trip-O-Meter",
         "featured": false,
         "tags": [
@@ -253,7 +251,7 @@ export const androidProjectsData = {
       },
       {
         "id": "105",
-        "icon": "\\img\\portfolio\\icons\\icon_c19_counter.png",
+        "icon": "img/portfolio/icons/icon_c19_counter.png",
         "title": "C19 Counter",
         "featured": false,
         "tags": [
