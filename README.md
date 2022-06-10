@@ -14,4 +14,4 @@ v3 of the site is built with SvelteKit and Bulma
 `npm run update-docs -- "update message"`
 
 Work in Progress
-[Preview](https://github.com/ae-app-labs/ae-app-labs.github.io/blob/neo/docs/index.html)
+[Preview](https://htmlpreview.github.io/?https://github.com/ae-app-labs/ae-app-labs.github.io/blob/neo/docs/index.html)
