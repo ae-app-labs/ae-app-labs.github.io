@@ -35,9 +35,9 @@
                                 <p>
                                     {#each projectData.buttons as button}
                                         {#if button.isPrimary}
-                                            <a class="button is-rounded has-text-black mr-2" href="{button.target}">{button.text}</a>
+                                            <a class="button is-rounded is-success has-text-black mr-2" href="{button.target}">{button.text}</a>
                                         {:else}
-                                            <a class="button is-outlined is-primary is-rounded has-text-error mr-2" href="{button.target}">{button.text}</a>
+                                            <a class="button is-outlined is-warning is-rounded has-text-error mr-2" href="{button.target}">{button.text}</a>
                                         {/if}
                                     {/each}
                                 </p>

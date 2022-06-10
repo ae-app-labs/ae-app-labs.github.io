@@ -79,6 +79,11 @@ export const desktopProjectsData = {
                 "id":"2",
                 "name": "Flash Platform",
                 "className": "is-link"
+            },
+            {
+                "id":"3",
+                "name": "Open Source",
+                "className": "is-success"
             }
         ],
         "description": "Triton Player is an MP3 player based on Adobe AIR platform. <br/><br/> What started as an educational endeavour while working on Adobe Flex and the AIR platform, was released to the general public.<br/><br/>This application is considered to be feature complete and is no longer maintained or updated.",
@@ -143,9 +148,14 @@ export const androidProjectsData = {
                 "id":"2",
                 "name": "Travis CI",
                 "className": "is-danger"
+            },
+            {
+                "id":"3",
+                "name": "Open Source",
+                "className": "is-success"
             }
         ],
-        "description": "Message Counter is a modern Android app that counts the number of text messages a user sends. <br/>It has been download more than 1,00,000 times, translated into 5 languages and used in more than 10 countries around the world.<br/><br/>It is now entirely rewritten in Kotlin and makes use of Android Architecture Components and Kotlin Extensions.",
+        "description": "Message Counter is a modern Android app that counts the number of text messages a user sends, and has been download more than 1,00,000 times, translated into 5 languages and used in more than 10 countries around the world.<br/><br/>It is now entirely rewritten in Kotlin and makes use of Android Architecture Components and Kotlin Extensions.",
         "buttons": [
             {
                 "id": "1",

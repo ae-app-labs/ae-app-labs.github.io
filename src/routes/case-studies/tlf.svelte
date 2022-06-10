@@ -1,5 +1,5 @@
 <script>
-
+	import { fade } from 'svelte/transition';
 </script>
 
 <svelte:head>
@@ -10,7 +10,7 @@
 .design-process-bg{ background-color: #e4e4e4;}
 </style>
 
-<section class="section section-header banner-bg">
+<section class="section section-header banner-bg my-0 py-0" transition:fade>
 	<div class="container py-4">
 		<p class="is-size-1 is-family-secondary">The Lotus Foundation</p>
         <p class="is-size-4 stagger1">UI/UX Web Design &amp; Development</p>
@@ -30,20 +30,20 @@
 		<div class="columns stagger2 mt-4">
 			<div class="column is-2">
 				<h3 class="is-size-4 has-text-weight-bold">Client</h3>
-				<p class="is-size-6">The Lotus Foundation</p>
+				<p class="is-size-6 pt-2">The Lotus Foundation</p>
 			</div>
 			<div class="column is-2">
 				<h3 class="is-size-4 has-text-weight-bold">Effort</h3>
-				<p class="is-size-6">Design and Development</p>
+				<p class="is-size-6 pt-2">Design and Development</p>
 			</div>
 			<div class="column is-2">
 				<h3 class="is-size-4 has-text-weight-bold">Deliverables</h3>
-				<p class="is-size-6">Digital Assets</p>
+				<p class="is-size-6 pt-2">Digital Assets</p>
 			</div>
 			<div class="column is-2">
 				<h3 class="is-size-4 has-text-weight-bold">Website</h3>
-				<p class="is-size-6 has-text-link-dark">
-					<a href="https://www.thelotusfoundation.org/" target="_blank" class="is-link">
+				<p class="is-size-6 pt-2 has-text-link-dark">
+					<a href="https://www.thelotusfoundation.org/" target="_blank" class="button is-link">
 						Visit the TLF Website <i class="fas fa-external-link-alt"></i>
 					</a>
 				</p>
@@ -51,6 +51,11 @@
 		</div>
 	</div>
 </section>
+
+<div class="my-0">
+	<img src="/img/case-studies/tlf/tlf_web_export.png" alt="Org Page Version 3" />
+
+</div>
 
 <section class="section anim-section">
 	<div class="container">

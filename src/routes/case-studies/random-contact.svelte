@@ -1,5 +1,5 @@
 <script>
-
+    import { fade } from 'svelte/transition';
 </script>
 
 <svelte:head>
@@ -28,7 +28,7 @@
     }
 </style>
 
-<section class="section-header banner-bg">
+<section class="section-header banner-bg" transition:fade>
 	<div class="container py-6">
         <p class="is-size-1 is-family-secondary">A Mobile app <br/> Redesign Project</p>
         <p class="is-size-4 stagger2 mt-4">UI/UX App Design</p>
@@ -41,7 +41,7 @@
 			<div class="column is-6">
                 <img src="/img/case-studies/random-contact/app_icon.png" alt="app icon"/>
             </div>
-			<div class="column is-5 stagger2">
+			<div class="column is-5">
                 <p class="is-size-4 mb-4 has-text-weight-bold">Random Contact App</p>
 				<p class="is-size-5">This is a hobby Android project that enables its users to see a random contact from their contacts list, and provides a method to contact them. The app also has an option to create and manage custom contact groups to generate a random contact from.</p>
                 <br/>
@@ -61,8 +61,8 @@
 		<div class="columns is-vcentered">
             <div class="column is-4 stagger2">
                 <p class="is-size-4 mb-4 has-text-weight-bold">A fresh coat of paint</p>
-				<p class="is-size-5">The prior version, "Random Contact version 3" was designed based on the Google Material Design guidelines back from 2017.</p> <br/>
-                <p class="is-size-6">Since then, the design guidelines have evolved and better theme support, as well as dark mode became available.</p>
+				<p class="is-size-5">The prior version, "Random Contact 3" was designed based on the Google Material Design guidelines from 2017.</p> <br/>
+                <p class="is-size-6">Since then the design guidelines have evolved along with better theming support, as well as dark mode became easier to implement.</p>
             </div>
 		</div>
 	</div>
@@ -123,7 +123,7 @@
             </div>
             <div class="column is-4 stagger2">
                 <p class="is-size-4 mb-4 has-text-weight-bold">Dark Mode</p>
-                <p class="is-size-5">The latest Android design guidelines and resources makes it quite easy to provide users with light and dark themes. The light theme mockup was used as a basis to design a dark variant theme.</p> 
+                <p class="is-size-5">The latest Android design guidelines and resources make it quite easy to provide users with light and dark themes. The light theme mockup was used as a basis to design a dark variant theme.</p> 
             </div>
         </div>
     </div>
@@ -182,7 +182,7 @@
 			</div>
             <div class="column is-4 ">
                 <a class="is-vcentered is-link" href="https://github.com/midhunhk/random-contact" name="Github Page">
-                    <span class="icon"><i class="fab fa-github fa-2x has-text-black-ter"></i></span>
+                    <span class="icon mr-4"><i class="fab fa-github fa-2x has-text-white"></i></span>
                     Explore Source Code 
                     <i class="fa fa-arrow-right ml-2" aria-hidden="true"></i>
                 </a>

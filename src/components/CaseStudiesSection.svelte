@@ -72,7 +72,7 @@
                                     </p> 
                                     <p>{caseStudy.description}</p> 
                                     <p>
-                                        <a href="{caseStudy.articleUrl}" class="button is-rounded has-text-black">
+                                        <a href="{caseStudy.articleUrl}" class="button is-success is-rounded has-text-black">
                                             <span>Read Article</span>
                                         </a>
                                     </p>

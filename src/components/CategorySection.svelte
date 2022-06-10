@@ -5,7 +5,7 @@
     $: projects = $sectionData.projects
 </script>
 
-<div class="transition2" id="projects-{$sectionData.category}" name="projects-{$sectionData.category}"
+<div id="projects-{$sectionData.category}" name="projects-{$sectionData.category}"
          data-wow-duration="2s" data-wow-delay="5s">
     <div class="is-size-3 my-2 is-family-secondary">{$sectionData.categoryTitle}</div>
     

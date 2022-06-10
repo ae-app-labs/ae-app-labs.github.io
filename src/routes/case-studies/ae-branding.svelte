@@ -1,15 +1,15 @@
 <script>
-
+	import { fade } from 'svelte/transition';
 </script>
 
 <svelte:head>
 	<title>Case Studies - AE Branding</title>
 </svelte:head>
 
-<section class="section-header mb-4">
+<section class="section-header mb-4" transition:fade>
 	<div class="container py-4">
         <p class="is-size-1 is-family-secondary">The Brand of AE</p>
-        <p class="is-size-4 stagger2 mt-4 tag is-primary is-rounded">Branding</p>
+        <p class="is-size-4 stagger2 mt-4 tag is-primary">Branding</p>
 
 		<div class="mt-4">
 			<p class="is-size-4 stagger2">The history of creating a unique brand identity for ae.</p>
@@ -26,7 +26,7 @@
 <section class="section">
 	<div class="container">
 		<p class="is-size-2 is-family-secondary mb-2">Evolution of the logo</p>
-		<div class="columns">
+		<div class="columns is-vcentered mt-4">
 			<div class="column is-4 has-text-centered">
 				<img src="/img/case-studies/ae-branding/ae_logo_v0.png" alt="first logo" class="fadeIn">
 			</div>

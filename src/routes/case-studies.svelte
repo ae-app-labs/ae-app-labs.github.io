@@ -11,7 +11,7 @@
 
 <section class="section list-cases" transition:fade>
 	<div class="container has-text-centered">
-		<p class="is-size-2 mb-2">“Every great design begins with an even better story.”</p>
+		<p class="is-size-2 mb-2 is-family-secondary">“Every great design begins with an even better story.”</p>
 		<p>Lorinda Mamo, Designer</p>
 	</div>
 </section>
@@ -38,7 +38,7 @@
 								</div>
 								<p>
 									<span class="title is-4 is-capitalized is-subtle-link mb-2 pb-2">
-										<a href="case-studies/{oneCase.slug}" class="is-link">{oneCase.title}</a>
+										<a href="case-studies/{oneCase.slug}" class="has-text-white">{oneCase.title}</a>
 									</span> 
 								</p>
 								<p>{oneCase.description}</p>
