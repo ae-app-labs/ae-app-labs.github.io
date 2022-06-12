@@ -186,8 +186,8 @@
     width: 60px;
     height: 60px;
     position: absolute;
-    top: 45%;
-    left: 45%;
+    top: calc(50% -30px);
+    left: calc(50% -30px);
 }
 // Responsiveness for Small Screen
 @media only screen and (max-width: 600px) {
@@ -197,6 +197,22 @@
             padding-right: 1em;
             .scroller {
                 display: none;
+            }
+        }
+    }
+    .waves-wrapper {
+        .waves-layer{
+            width: 100vw;
+            svg {
+                width: 100%;
+                height: auto;
+            }
+        }
+        .content-layer {
+            padding: 0 !important;
+            .column {
+                width: 100%;
+                margin: 0 !important;
             }
         }
     }
@@ -210,8 +226,14 @@
         }
     }
     .contact-form {
+        display: block;
+        .waves-layer {
+            visibility: hidden;
+        }
         .content-layer {
+            top: 2em;
             width: 100%;
+            padding-bottom: 4em;
         }
     }
 }

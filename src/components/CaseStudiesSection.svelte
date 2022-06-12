@@ -6,9 +6,11 @@
 
 	onMount(async () => {
         new Glider(document.querySelector('.glider'), {
-            slidesToShow: 2,
-            slidesToScroll: 1,
-            draggable: true,
+            // Mobile-first defaults
+            slidesToShow: 'auto',
+            slidesToScroll: 'auto',
+            scrollLock: true,
+
             dots: '#dots',
             arrows: {
                 prev: '.glider-prev',
@@ -16,19 +18,24 @@
             },
             responsive: [
                 {
-                    breakpoint: 900,
+                    // screens greater than >= 600px
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 'auto',
+                        slidesToScroll: 'auto',
+                        itemWidth: 150,
+                        duration: 0.25
+                    }
+                }, {
+                    // screens greater than >= 1024px
+                    breakpoint: 1024,
                     settings: {
                         slidesToShow: 2,
-                        slidesToScroll: 2
+                        slidesToScroll: 1,
+                        draggable: true,
                     }
                 },
-                {
-                    breakpoint: 575,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 0
-                    }
-                }
+                
             ]
         })
 	});

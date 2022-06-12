@@ -1,6 +1,6 @@
 <section class="landing-hero waves-wrapper is-medium m-0 py-0">
     <div class="waves-layer">
-        <svg width="1919" height="510" viewBox="0 0 1919 491">
+        <svg width="1919" height="510" viewBox="0 0 1919 491" preserveAspectRatio="xMinYMin meet">
             <g transform="translate(12)">
               <g transform="translate(-12)">
                 <path id="Path_114" class="wave" style="animation-duration:5s" d="M0,409.187l45.843-7.853c45.843-8.06,137.528-23.766,228.787-33.892,91.472-9.92,182.3-14.053,273.777-14.673,91.259-.827,182.945,2.067,274.2,11.366a2039.523,2039.523,0,0,1,273.777,47.119c91.259,22.113,182.945,50.218,274.2,66.545,91.472,16.12,182.3,20.253,273.777-3.513,91.259-23.766,182.945-75.431,228.787-101.263L1919,347.189V0H0Z" fill="#2de2c7"/>
