@@ -19,10 +19,19 @@
 </script>
 
 <script>
+import ContactForm from "../../components/ContactForm.svelte";
+
+
 	export let policy
 
 	$: post = policy.post
 </script>
+
+<style>
+	.wrapper{
+		margin-top: -2em;
+	}
+</style>
 
 <svelte:head>
 	<title>Privacy Policy - {post.title}</title>
@@ -32,7 +41,7 @@
 	<div class="container">
 		<div class="columns">
 			<div class="column is-3">
-				<div class="subtitle section-title">{post.title} Privacy Policy</div>	
+				<div class="is-size-3 is-family-secondary section-title">{post.title} Privacy Policy</div>	
 			</div>
 			<div class="column is-8">
 				{@html post.html}
@@ -44,3 +53,7 @@
 		</div>
 	</div>
 </section>
+
+<div class="wrapper">
+	<ContactForm/>
+</div>

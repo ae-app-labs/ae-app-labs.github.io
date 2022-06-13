@@ -19,14 +19,14 @@ const privacyPolicyData = [
 			</p>
 			<br />
 			<p>
-				The complete source code of the app is published at <a href="https://github.com/midhunhk/message-counter">https://github.com/midhunhk/message-counter</a> and can be reviewed. <br />
-				All published builds are uploaded to the <a href="https://github.com/midhunhk/message-counter">Releases</a> page after signing with the license used to upload to Google Play.
+				The complete source code of the app is published at <a class="is-link" href="https://github.com/midhunhk/message-counter">https://github.com/midhunhk/message-counter</a> and can be reviewed. <br />
+				All published builds are uploaded to the <a class="is-link" href="https://github.com/midhunhk/message-counter">Releases</a> page after signing with the license used to upload to Google Play.
 			</p>
 			<br />
 			<p>
 				As of version 4.1.1, we have integrated Firebase Analytics with the app to monitor the usage and crash reporting. <br />
 				No personally Identifiable Information is tracked or logged for this purpose. <br />
-				<a href="https://firebase.google.com/policies/analytics">Google Analytics for Firebase Use Policy</a>
+				<a class="is-link" href="https://firebase.google.com/policies/analytics">Google Analytics for Firebase Use Policy</a>
 			</p>
 			<br />
 			<p>If you have any questions or concerns, please submit a comment or send an email to [<i>aeapplabs.ca+support at gmail.com</i>]</p>
@@ -83,7 +83,7 @@ const privacyPolicyData = [
 			<p>
 				As of Version 1.3.0, the app integrates Firebase Analytics to study and improve the content. <br />
 				This however does not store or transmit any information about the user, their location or any PII. <br />
-				<a href="https://firebase.google.com/policies/analytics">Google Analytics for Firebase Use Policy</a>
+				<a class="is-link" href="https://firebase.google.com/policies/analytics">Google Analytics for Firebase Use Policy</a>
 			</p>
 			<br />
 			<p>If you have any questions or concerns, please send an email to [<i>aeapplabs.ca+support at gmail.com</i>]</p>
@@ -113,22 +113,22 @@ const privacyPolicyData = [
 		lastUpdated: "22 Nov 2021",
 		html: `
 		<p>
-			The website for "midhunhk" located at <a href="https://www.midhunhk.com/">https://www.midhunhk.com</a>, from here onwards referred to as "site"
+			The website for "midhunhk" located at <a class="is-link" href="https://www.midhunhk.com/">https://www.midhunhk.com</a>, from here onwards referred to as "site"
 			<u>does not collect or offer to share</u> any personal information or Personally Identifiable Information (PII). 
 			<br/>This website does not create or maintain any cookies.
 		</p>
 		<br />
 		<p class="subtitle">Website Analytics</p>
 		<p>
-			We may make use of a selected third-party vendor like <a href="https://support.google.com/analytics/answer/6004245?hl=en">Google Analytics</a>, to allow tracking technologies using third-party cookies, to analyze and track users’ use of the "site", to determine the popularity of certain content and improve performance. 
+			We may make use of a selected third-party vendor like <a class="is-link" href="https://support.google.com/analytics/answer/6004245?hl=en">Google Analytics</a>, to allow tracking technologies using third-party cookies, to analyze and track users’ use of the "site", to determine the popularity of certain content and improve performance. 
 			This data does not include any personally identifiable or personal information. <br/> <br/>
 			By accessing the Site, you consent to the collection and use of your information by these third-party vendors. <br/>
 			You are encouraged to review their privacy policy and contact them directly for responses to your questions. <br/>
 			We do not record or transfer personal information to these third-party vendors. <br/><br/>
 			However, if you do not want any information to be collected and used by tracking technologies, you can visit the third-party vendor or the
-			<a href="https://tools.google.com/dlpage/gaoptout/?hl=en-GB">Google Analytics Opt-out Browser Add-on</a>.
+			<a class="is-link" href="https://tools.google.com/dlpage/gaoptout/?hl=en-GB">Google Analytics Opt-out Browser Add-on</a>.
 		</p><br/>
-		<p>Privacy Policy for <a href="https://policies.google.com/privacy?hl=en-US">Google Analytics</a></p>
+		<p>Privacy Policy for <a class="is-link" href="https://policies.google.com/privacy?hl=en-US">Google Analytics</a></p>
 		<br />
 		<p>If you have any questions or concerns, please send an email to [<i>aeapplabs.ca at gmail.com</i>].</p>
 		<br />
@@ -136,7 +136,7 @@ const privacyPolicyData = [
 		<p>
 			We may partner with a third party vendor inorder to incorporate native ads on selected pages of the website.
 			<br/>
-			Privacy Policy for <a href="https://www.infolinks.com/privacy-policy/" target="_blank">Infolinks </a>
+			Privacy Policy for <a class="is-link" href="https://www.infolinks.com/privacy-policy/" target="_blank">Infolinks </a>
 		</p>
 		`
 	}
