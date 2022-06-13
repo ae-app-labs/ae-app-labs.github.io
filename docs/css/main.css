@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;800&display=swap");
+div pre {
+  background-color: #1B4353 !important;
+}
+
 /*! bulma.io v0.9.4 | MIT License | github.com/jgthms/bulma */
 /* Bulma Utilities */
 .button, .input, .textarea, .select select, .file-cta,
@@ -13204,8 +13208,8 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   width: 60px;
   height: 60px;
   position: absolute;
-  top: calc(50% -30px);
-  left: calc(50% -30px);
+  top: 50%;
+  left: calc(50% - 37px);
 }
 
 @media only screen and (max-width: 600px) {
