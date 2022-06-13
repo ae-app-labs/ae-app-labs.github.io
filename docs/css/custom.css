@@ -233,8 +233,8 @@
   width: 60px;
   height: 60px;
   position: absolute;
-  top: calc(50% -30px);
-  left: calc(50% -30px);
+  top: 50%;
+  left: calc(50% - 37px);
 }
 
 @media only screen and (max-width: 600px) {
