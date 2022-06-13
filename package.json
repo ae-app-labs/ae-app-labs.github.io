@@ -1,6 +1,6 @@
 {
   "name": "app-labs-v3",
-  "version": "3.0.5",
+  "version": "3.0.6",
   "scripts": {
     "dev": "svelte-kit dev",
     "dev-host": "svelte-kit dev --host",
@@ -21,7 +21,7 @@
     "@sveltejs/kit": "next",
     "bulma": "^0.9.4",
     "node-sass": "^7.0.1",
-    "svelte": "^3.44.0"
+    "svelte": "^3.48.0"
   },
   "type": "module"
 }
