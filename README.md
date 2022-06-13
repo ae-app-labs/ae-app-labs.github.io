@@ -21,5 +21,3 @@ Version 2 is available at https://ae-app-labs.web.app
 ### export, update docs folder and create a commit
 `npm run update-docs -- "update message"`
 
-Work in Progress
-[Preview](https://htmlpreview.github.io/?https://github.com/ae-app-labs/ae-app-labs.github.io/blob/neo/docs/index.html)
