@@ -1,4 +1,5 @@
 <script>
+	import ContactForm from './../components/ContactForm.svelte';
 	import RecentWork from './../components/RecentWork.svelte';
 	import { fade } from 'svelte/transition';
 </script>
@@ -55,3 +56,5 @@
 
 	</div>
 </section>
+
+<ContactForm />
