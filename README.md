@@ -9,7 +9,7 @@ Current version deployed at https://ae-app-labs.github.io
 Version 2 is available at https://ae-app-labs.web.app
 
 ## Third Party Libraries and Frameworks
-[Svelet Kit](https://kit.svelte.dev/) 
+[Svelet Kit](https://kit.svelte.dev/)   
 [Bulma](http://bulma.io/)  
 [Glider.js](https://github.com/NickPiscitelli/Glider.js) 
 
