@@ -17,7 +17,7 @@
                 </figure>
             </div>
             <div class="media-content my-2">
-                <p class="title is-4 is-size-5-mobile">{projectData.title}</p>
+                <p class="title is-size-4 is-size-5-mobile">{projectData.title}</p>
                 {#if tags.length > 0}
                     <p class="subtitle is-6">
                         {#each tags as tag (tag.id)}
@@ -27,7 +27,7 @@
                 {/if}
             </div>
         </div>
-        <div class="content project-desc my-4">
+        <div class="content project-desc my-4 is-size-5">
             {@html projectData.description}
         </div>
         <div class="is-right">

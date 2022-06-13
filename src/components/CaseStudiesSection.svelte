@@ -46,7 +46,7 @@
         <div class="slider-section">
             <div class="slider-header">
                 <p class="is-family-secondary is-size-1">Case Studies</p>
-                <p class="my-4">A look at our branding and UI/UX Design projects and the process.</p>
+                <p class="my-4 is-size-5">A look at our branding and UI/UX Design projects and the process.</p>
                 <a href="/case-studies" class="is-uppercase mb-4 is-link">
                     All Case Studies <i class="fas fa-arrow-right"></i>
                 </a>
@@ -77,7 +77,7 @@
                                             {caseStudy.title}
                                         </span>
                                     </p> 
-                                    <p>{caseStudy.description}</p> 
+                                    <p class="is-size-5">{caseStudy.description}</p> 
                                     <p>
                                         <a href="{caseStudy.articleUrl}" class="button is-success is-rounded has-text-black">
                                             <span>Read Article</span>

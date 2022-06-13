@@ -20,7 +20,7 @@
                                 </figure>
                             </a>
                         </div>
-                        <h3 class="is-size-5">
+                        <h3 class="is-size-5 mt-4">
                             <a href="{data.videoUrl }" target="_blank" class="has-text-white">
                                 {data.title }
                             </a>

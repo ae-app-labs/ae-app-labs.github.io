@@ -3340,7 +3340,7 @@ a.tag:hover {
 
 .title {
   color: white;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 600;
   line-height: 1.125;
 }
@@ -3359,11 +3359,11 @@ a.tag:hover {
 }
 
 .title.is-2 {
-  font-size: 4.2rem;
+  font-size: 4rem;
 }
 
 .title.is-3 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .title.is-4 {
@@ -3403,11 +3403,11 @@ a.tag:hover {
 }
 
 .subtitle.is-2 {
-  font-size: 4.2rem;
+  font-size: 4rem;
 }
 
 .subtitle.is-3 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .subtitle.is-4 {
@@ -11099,11 +11099,11 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 .is-size-2 {
-  font-size: 4.2rem !important;
+  font-size: 4rem !important;
 }
 
 .is-size-3 {
-  font-size: 4rem !important;
+  font-size: 3rem !important;
 }
 
 .is-size-4 {
@@ -11127,10 +11127,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     font-size: 4.5rem !important;
   }
   .is-size-2-mobile {
-    font-size: 4.2rem !important;
+    font-size: 4rem !important;
   }
   .is-size-3-mobile {
-    font-size: 4rem !important;
+    font-size: 3rem !important;
   }
   .is-size-4-mobile {
     font-size: 1.5rem !important;
@@ -11151,10 +11151,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     font-size: 4.5rem !important;
   }
   .is-size-2-tablet {
-    font-size: 4.2rem !important;
+    font-size: 4rem !important;
   }
   .is-size-3-tablet {
-    font-size: 4rem !important;
+    font-size: 3rem !important;
   }
   .is-size-4-tablet {
     font-size: 1.5rem !important;
@@ -11175,10 +11175,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     font-size: 4.5rem !important;
   }
   .is-size-2-touch {
-    font-size: 4.2rem !important;
+    font-size: 4rem !important;
   }
   .is-size-3-touch {
-    font-size: 4rem !important;
+    font-size: 3rem !important;
   }
   .is-size-4-touch {
     font-size: 1.5rem !important;
@@ -11199,10 +11199,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     font-size: 4.5rem !important;
   }
   .is-size-2-desktop {
-    font-size: 4.2rem !important;
+    font-size: 4rem !important;
   }
   .is-size-3-desktop {
-    font-size: 4rem !important;
+    font-size: 3rem !important;
   }
   .is-size-4-desktop {
     font-size: 1.5rem !important;
@@ -11223,10 +11223,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     font-size: 4.5rem !important;
   }
   .is-size-2-widescreen {
-    font-size: 4.2rem !important;
+    font-size: 4rem !important;
   }
   .is-size-3-widescreen {
-    font-size: 4rem !important;
+    font-size: 3rem !important;
   }
   .is-size-4-widescreen {
     font-size: 1.5rem !important;
@@ -11247,10 +11247,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     font-size: 4.5rem !important;
   }
   .is-size-2-fullhd {
-    font-size: 4.2rem !important;
+    font-size: 4rem !important;
   }
   .is-size-3-fullhd {
-    font-size: 4rem !important;
+    font-size: 3rem !important;
   }
   .is-size-4-fullhd {
     font-size: 1.5rem !important;
@@ -13204,8 +13204,8 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   width: 60px;
   height: 60px;
   position: absolute;
-  top: 45%;
-  left: 45%;
+  top: calc(50% -30px);
+  left: calc(50% -30px);
 }
 
 @media only screen and (max-width: 600px) {
@@ -13215,6 +13215,20 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   }
   .landing-hero .content-layer .scroller {
     display: none;
+  }
+  .waves-wrapper .waves-layer {
+    width: 100vw;
+  }
+  .waves-wrapper .waves-layer svg {
+    width: 100%;
+    height: auto;
+  }
+  .waves-wrapper .content-layer {
+    padding: 0 !important;
+  }
+  .waves-wrapper .content-layer .column {
+    width: 100%;
+    margin: 0 !important;
   }
   .slider-section {
     -webkit-box-orient: vertical;
@@ -13230,8 +13244,16 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   .slider-section .glider-contain {
     width: 100% !important;
   }
+  .contact-form {
+    display: block;
+  }
+  .contact-form .waves-layer {
+    visibility: hidden;
+  }
   .contact-form .content-layer {
+    top: 2em;
     width: 100%;
+    padding-bottom: 4em;
   }
 }
 

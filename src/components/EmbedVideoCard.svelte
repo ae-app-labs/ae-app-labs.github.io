@@ -25,9 +25,9 @@
                 <a href="{ tutorial.videoUrl}" on:click="{(e) => { e.preventDefault(); showVideo(index); } }">
                     <img src="{ tutorial.coverImage }" alt="{ tutorial.title }">
                     <div class="play-overlay">
-                        <svg width="70" height="70" viewBox="0 0 70 70" opacity=".9">
+                        <svg width="74" height="74" viewBox="0 0 74 74" opacity=".9">
                             <g transform="translate(-315 -3181)">
-                              <circle  cx="35" cy="35" r="35" transform="translate(315 3181)" fill="#1fa591"/>
+                              <circle  cx="37" cy="37" r="33" transform="translate(315 3181)" fill="#1fa591" stroke="#eaeaea" stroke-width="4"/>
                               <path d="M16,0,32,28H0Z" transform="translate(370 3200) rotate(90)" fill="#f3d55f"/>
                             </g>
                           </svg>

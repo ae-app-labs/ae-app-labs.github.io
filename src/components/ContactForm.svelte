@@ -59,11 +59,11 @@
                             <div class="content">
                                 
                                 <div id="formContainer">
-                                        <p class="is-family-secondary title is-size-4 has-text-centered">Contact us by sending a message</p>
+                                        <p class="is-family-secondary is-size-3 has-text-centered">Contact us by sending a message</p>
                                         <div class="columns">
                                             <div class="column is-half">
                                                 <div class="field">
-                                                    <label class="label has-text-white-ter" for="_fullname">Your Name</label>
+                                                    <label class="label has-text-white-ter is-size-5" for="_fullname">Your Name</label>
                                                     <div class="control has-icons-left">
                                                         <input class="input is-medium has-text-dark" type="text" name="_fullname" placeholder="" bind:value={fullname}>
                                                         <span class="icon is-small is-left">
@@ -72,7 +72,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="field">
-                                                    <label class="label has-text-white-ter" for="_replyto">Your Email</label>
+                                                    <label class="label has-text-white-ter is-size-5" for="_replyto">Your Email</label>
                                                     <div class="control has-icons-left">
                                                         <input class="input is-medium has-text-dark" type="email" name="_replyto" placeholder="" bind:value={email}>
                                                         <span class="icon is-small is-left">
@@ -84,7 +84,7 @@
                                             </div>
                                             <div class="column is-half">
                                                 <div class="field">
-                                                    <label class="label has-text-white-ter" for="message">Message</label>
+                                                    <label class="label has-text-white-ter is-size-5" for="message">Message</label>
                                                     <div class="control ">
                                                         <textarea name="message" class="textarea is-rounded has-text-dark" placeholder="" required="" bind:value={message}></textarea>
                                                     </div>

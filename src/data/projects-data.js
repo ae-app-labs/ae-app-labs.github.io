@@ -178,6 +178,33 @@ export const androidProjectsData = {
         ]
       },
       {
+        "id": "104",
+        "icon": "img/portfolio/icons/icon_trip_meter.png",
+        "title": "Trip-O-Meter",
+        "featured": false,
+        "tags": [
+            {
+                "id":"1",
+                "name":"Android",
+                "className": "is-primary"
+            },
+            {
+                "id":"2",
+                "name": "Travis CI",
+                "className": "is-danger"
+            }
+        ],
+        "description": "Trip O Meter was an attempt to integrate multiple features into a single application for managing a trip. It presently includes a fuel cost calculator and expense manager when going with friends. <br/><br/>The development of this project is currently on hold.",
+        "buttons": [
+          {
+            "id": "1",
+            "isPrimary": true,
+            "text": "View Project",
+            "target": "https://midhunhk.github.io/trip-o-meter/"
+          }
+        ]
+      },
+      {
         "id": "102",
         "icon": "img/portfolio/icons/icon_lib_ae_apps.png",
         "title": "lib-aeapps",
@@ -229,33 +256,6 @@ export const androidProjectsData = {
             "isPrimary": true,
             "text": "View Page",
             "target": "https://midhunhk.github.io/random-contact/"
-          }
-        ]
-      },
-      {
-        "id": "104",
-        "icon": "img/portfolio/icons/icon_trip_meter.png",
-        "title": "Trip-O-Meter",
-        "featured": false,
-        "tags": [
-            {
-                "id":"1",
-                "name":"Android",
-                "className": "is-primary"
-            },
-            {
-                "id":"2",
-                "name": "Travis CI",
-                "className": "is-danger"
-            }
-        ],
-        "description": "Trip O Meter was an attempt to integrate multiple features into a single application for managing a trip. It presently includes a fuel cost calculator and expense manager when going with friends. <br/><br/>The development of this project is currently on hold.",
-        "buttons": [
-          {
-            "id": "1",
-            "isPrimary": true,
-            "text": "View Project",
-            "target": "https://midhunhk.github.io/trip-o-meter/"
           }
         ]
       },
