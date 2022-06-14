@@ -17,10 +17,10 @@
 	<Services/>
 	
 	<FeaturedProjects/>
+	
+	<RecentWorkSection/>
 
 	<CaseStudiesSection/>
-
-	<RecentWorkSection/>
 
 	<TutorialsSection/>
 

@@ -5,6 +5,7 @@
     $: caseStudiesData = $caseStudies.data.reverse()
 
 	onMount(async () => {
+
         new Glider(document.querySelector('.glider'), {
             // Mobile-first defaults
             slidesToShow: 'auto',
@@ -52,7 +53,7 @@
                 </a>
             </div>
             <div class="glider-contain multiple">
-                <button class="glider-prev">
+                <button class="glider-prev" name="Previous">
                     <i class="fa fa-chevron-left has-text-white-ter"></i>
                 </button>
         
@@ -91,7 +92,7 @@
                     
                 </div>
         
-                <button class="glider-next">
+                <button class="glider-next" name="Next">
                     <i class="fa fa-chevron-right has-text-white-ter"></i>
                 </button>
         
