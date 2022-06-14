@@ -16,7 +16,7 @@
 	</div>
 </section>
 
-<section class="section list-cases">
+<section class="section list-cases fadeInUp">
 	<div class="container">
 		<div class="columns is-multiline">
             {#each cases as oneCase (oneCase.slug)}

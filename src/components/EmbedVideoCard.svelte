@@ -12,7 +12,9 @@
 
 <div class="card mb-4">
     <div class="card-content" class:has-background-primary-dark={index==0} class:has-background-info={index!=0}>
-        <h3>{ tutorial.title }</h3>
+        <a href="{ tutorial.videoUrl}" class="has-text-white">
+            <h3>{ tutorial.title }</h3>
+        </a>
         
         <p class="mb-2 has-text-centered">
             {#each tutorial.tags as tag (tag.id)}
@@ -45,6 +47,12 @@
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
                 />
+            </div>
+            <div class="has-text-left mt-4 ml-3">
+                <span><i class="fas fa-external-link-alt has-text-white pr-2" aria-hidden="true"></i></span>
+                <a href="{ tutorial.videoUrl}" class="is-link">
+                    { tutorial.title }
+                </a>
             </div>
         </div>
     </div>

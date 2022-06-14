@@ -13,7 +13,7 @@
 <section class="section" transition:fade>
     <div class="container content">
         <div class="columns">
-            <div class="column is-5">
+            <div class="column is-5 fadeInUp">
                 <p class="is-size-3 is-family-secondary">Design and Development Tutorials</p>
                 <p class="subtitle">See a list of curated video tutorials hosted on Youtube. These range from tutorials on UI design, to complete landing page development.</p>
                 <p class="is-size-4 pt-4">

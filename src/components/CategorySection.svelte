@@ -5,9 +5,8 @@
     $: projects = $sectionData.projects
 </script>
 
-<div id="projects-{$sectionData.category}" name="projects-{$sectionData.category}"
-         data-wow-duration="2s" data-wow-delay="5s">
-    <div class="is-size-3 my-4 py-4 is-family-secondary">{$sectionData.categoryTitle}</div>
+<div id="projects-{$sectionData.category}" name="projects-{$sectionData.category}">
+    <div class="is-size-3 my-4 py-4 is-family-secondary fadeInUp">{$sectionData.categoryTitle}</div>
     
     <div class="columns is-multiline" >
         {#each projects as project (project.id)}

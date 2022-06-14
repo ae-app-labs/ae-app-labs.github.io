@@ -265,4 +265,17 @@
         transform: translate(30px, 50px);
     }
 }
-
+.fadeInUp {
+    animation: fadeInUpAnimation .8s;
+    animation-timing-function: ease;
+}
+@keyframes fadeInUpAnimation {
+    0% {
+        opacity: 0;
+        transform: translate3d(0,100%,0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}

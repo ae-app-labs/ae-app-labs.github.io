@@ -12,7 +12,7 @@
 	<img src="/img/site/banner_ae.png" alt="Bannner" />
 </div>
 
-<section class="section section-about" id="section-about" name="section-about" transition:fade>
+<section class="section section-about fadeInUp" id="section-about" name="section-about" transition:fade>
 	<div class="container">
 		
 		<div class="columns">
