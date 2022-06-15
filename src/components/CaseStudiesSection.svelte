@@ -6,6 +6,14 @@
 
 	onMount(async () => {
 
+        // Wait for a little bit for the DOM to get initialized
+        setTimeout( () => {
+            initGlider()
+        }, 1000)
+        
+	});
+
+    const initGlider = () => {
         new Glider(document.querySelector('.glider'), {
             // Mobile-first defaults
             slidesToShow: 'auto',
@@ -39,7 +47,8 @@
                 
             ]
         })
-	});
+    }
+
 </script>
 
 <section class="section has-background-info py-6">
