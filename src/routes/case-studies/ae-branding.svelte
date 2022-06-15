@@ -7,9 +7,9 @@
 </svelte:head>
 
 <section class="section-header mb-4" transition:fade>
-	<div class="container py-4">
+	<div class="container py-4 fadeInUp">
         <p class="is-size-1 is-family-secondary">The Brand of AE</p>
-        <p class="is-size-4 stagger2 mt-4 tag is-primary">Branding</p>
+        <p class="is-size-4 stagger2 mt-4 tag is-link is-rounded">Branding</p>
 
 		<div class="mt-4">
 			<p class="is-size-4 stagger2">The history of creating a unique brand identity for ae.</p>

@@ -29,7 +29,7 @@
 </style>
 
 <section class="section-header banner-bg" transition:fade>
-	<div class="container py-6">
+	<div class="container py-6 fadeInUp">
         <p class="is-size-1 is-family-secondary">A Mobile app <br/> Redesign Project</p>
         <p class="is-size-4 stagger2 mt-4">UI/UX App Design</p>
 	</div>
@@ -43,16 +43,16 @@
             </div>
 			<div class="column is-5">
                 <p class="is-size-4 mb-4 has-text-weight-bold">Random Contact App</p>
-				<p class="is-size-5">This is a hobby Android project that enables its users to see a random contact from their contacts list, and provides a method to contact them. The app also has an option to create and manage custom contact groups to generate a random contact from.</p>
+				<p class="is-size-5 is-size-4-mobile">This is a hobby Android project that enables its users to see a random contact from their contacts list, and provides a method to contact them. The app also has an option to create and manage custom contact groups to generate a random contact from.</p>
                 <br/>
-                <p class="is-size-6">The project started out as an experiment and now has been downloaded more than 1000 times.</p>
+                <p class="is-size-6 is-size-5-mobile">The project started out as an experiment and now has been downloaded more than 1000 times.</p>
             </div>
 		</div>
 	</div>
 </section>
 
 <!-- Section - Banner -->
-<section class="section section-full-width is-hidden-mobile screenshot-bg">
+<section class="section section-full-width is-hidden-mobile py-0 screenshot-bg">
     <img src="/img/case-studies/random-contact/banner.png" alt="mockup" />
 </section>
 
@@ -61,8 +61,8 @@
 		<div class="columns is-vcentered">
             <div class="column is-4 stagger2">
                 <p class="is-size-4 mb-4 has-text-weight-bold">A fresh coat of paint</p>
-				<p class="is-size-5">The prior version, "Random Contact 3" was designed based on the Google Material Design guidelines from 2017.</p> <br/>
-                <p class="is-size-6">Since then the design guidelines have evolved along with better theming support, as well as dark mode became easier to implement.</p>
+				<p class="is-size-5 is-size-4-mobile">The previous version, "Random Contact 3" was designed based on the Google Material Design guidelines from 2017.</p> <br/>
+                <p class="is-size-6 is-size-5-mobile">Since then the design guidelines have evolved along with better theming support, as well as dark mode became easier to implement.</p>
             </div>
 		</div>
 	</div>
@@ -81,9 +81,9 @@
             </div>
             <div class="column is-4 stagger2">
                 <p class="is-size-4 mb-4 has-text-weight-bold">Design Approach</p>
-                <p class="is-size-5">Armed with the powerful Adobe XD to design and wireframe, we started out with a basic wireframe of all the flows required for the app.</p> <br/>
-                <p class="is-size-6">As always starting with the wireframe is the best approach to capture all the essentials for the UX.</p> <br/>
-                <p class="is-size-6">There were some shortcomings of the previous design such as "Custom Group Management" being hidden underneath a hamburger menu.</p>
+                <p class="is-size-5 is-size-4-mobile">Armed with the powerful Adobe XD to design and wireframe, we started out with a basic wireframe of all the flows required for the app.</p> <br/>
+                <p class="is-size-6 is-size-5-mobile">As always starting with the wireframe is the best approach to capture all the essentials for the UX.</p> <br/>
+                <p class="is-size-6 is-size-5-mobile">There were some shortcomings of the previous design such as "Custom Group Management" being hidden underneath a hamburger menu.</p>
             </div>
         </div>
     </div>
@@ -102,9 +102,9 @@
             </div>
 			<div class="column is-4 stagger2">
                 <p class="is-size-4 mb-4 has-text-weight-bold">Mocking Up</p>
-				<p class="is-size-5">Moving away from the colorful and Card style design to a more modern and streamlined design had been the plan.</p> <br/>
-                <p class="is-size-6">The colors of the icon are used carefully as accents in the interface.</p><br/>
-                <p class="is-size-6">The toolbar was cleaned up in the final design along with the bottom navigation bar.</p>
+				<p class="is-size-5 is-size-4-mobile">Moving away from the colorful and Card style design to a more modern and streamlined design had been the plan.</p> <br/>
+                <p class="is-size-6 is-size-5-mobile">The colors of the icon are used carefully as accents in the interface.</p><br/>
+                <p class="is-size-6 is-size-5-mobile">The toolbar was cleaned up in the final design along with the bottom navigation bar.</p>
             </div>
 		</div>
 	</div>
@@ -123,7 +123,7 @@
             </div>
             <div class="column is-4 stagger2">
                 <p class="is-size-4 mb-4 has-text-weight-bold">Dark Mode</p>
-                <p class="is-size-5">The latest Android design guidelines and resources make it quite easy to provide users with light and dark themes. The light theme mockup was used as a basis to design a dark variant theme.</p> 
+                <p class="is-size-5 is-size-4-mobile">The latest Android design guidelines and resources make it quite easy to provide users with light and dark themes. The light theme mockup was used as a basis to design a dark variant theme.</p> 
             </div>
         </div>
     </div>

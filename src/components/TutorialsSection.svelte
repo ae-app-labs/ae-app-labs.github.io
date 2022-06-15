@@ -31,7 +31,7 @@
                                 <p class="is-size-6">{data.videoLength + ""} / English</p>
                             </div>
                             <div class="column is-one-third has-text-right">
-                                <span class="tag is-link is-medium">FREE</span>
+                                <span class="tag is-link is-medium is-rounded">FREE</span>
                             </div>
                         </div>
                     </div>

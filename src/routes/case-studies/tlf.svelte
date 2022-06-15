@@ -10,8 +10,8 @@
 .design-process-bg{ background-color: #e4e4e4;}
 </style>
 
-<section class="section section-header banner-bg my-0 py-0" transition:fade>
-	<div class="container py-4">
+<section class="section section-header banner-bg my-0 py-0 " transition:fade>
+	<div class="container py-4 fadeInUp">
 		<p class="is-size-1 is-family-secondary">The Lotus Foundation</p>
         <p class="is-size-4 stagger1">UI/UX Web Design &amp; Development</p>
 

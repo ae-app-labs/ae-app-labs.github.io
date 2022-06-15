@@ -26,7 +26,7 @@
                                 <p class="is-size-3 mb-4">{projectData.title}</p>
                                 <p class="is-size-6">
                                     {#each projectData.tags as tag}
-                                        <span class="tag {tag.className} mr-2">{tag.name}</span>
+                                        <span class="tag {tag.className} is-rounded mr-2">{tag.name}</span>
                                     {/each}
                                 </p>
                                 <p class="is-size-5">
@@ -35,9 +35,9 @@
                                 <p>
                                     {#each projectData.buttons as button}
                                         {#if button.isPrimary}
-                                            <a class="button is-rounded is-success has-text-black mr-2 mt-2" href="{button.target}">{button.text}</a>
+                                            <a class="button is-success has-text-black mr-2 mt-2" href="{button.target}">{button.text}</a>
                                         {:else}
-                                            <a class="button is-outlined is-warning is-rounded has-text-error mr-2 mt-2" href="{button.target}">{button.text}</a>
+                                            <a class="button is-outlined is-warning has-text-error mr-2 mt-2" href="{button.target}">{button.text}</a>
                                         {/if}
                                     {/each}
                                 </p>

@@ -33,8 +33,8 @@
 						<div class="card-content">
 							<div class="content">
 								<div class="py-2">
-									<span class="block">{oneCase.type}</span>
-									<span class="block"> / {oneCase.creationDate}</span>
+									<span class="block tag is-rounded is-link">{oneCase.type}</span>
+									<span class="block ml-2"> {oneCase.creationDate}</span>
 								</div>
 								<p>
 									<span class="title is-4 is-capitalized is-subtle-link mb-2 pb-2">

@@ -79,7 +79,7 @@
                             <div class="card-content">
                                 <div class="content">
                                     <p>
-                                        <span class="tag is-link">{caseStudy.type}</span>
+                                        <span class="tag is-link is-rounded">{caseStudy.type}</span>
                                         <span class="ml-2 block">{caseStudy.creationDate}</span>
                                     </p> 
                                     <p>
@@ -89,7 +89,7 @@
                                     </p> 
                                     <p class="is-size-5">{caseStudy.description}</p> 
                                     <p>
-                                        <a href="{caseStudy.articleUrl}" class="button is-success is-rounded has-text-black">
+                                        <a href="{caseStudy.articleUrl}" class="button is-success has-text-black">
                                             <span>Read Article</span>
                                         </a>
                                     </p>
