@@ -1,6 +1,6 @@
 <script>
-	import ContactForm from './../../components/ContactForm.svelte';
-	import { privacyPolicies } from '../../data/store.js'
+	import ContactForm from '$lib/components/ContactForm.svelte';
+	import { privacyPolicies } from '$lib/data/store.js'
     
     $: posts = $privacyPolicies
 </script>

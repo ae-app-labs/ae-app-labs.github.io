@@ -13317,7 +13317,14 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   }
 }
 
-@-webkit-keyframes fadeInUp {
+.fadeInUp {
+  -webkit-animation: fadeInUpAnimation .8s;
+          animation: fadeInUpAnimation .8s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+}
+
+@-webkit-keyframes fadeInUpAnimation {
   0% {
     opacity: 0;
     -webkit-transform: translate3d(0, 100%, 0);
@@ -13330,7 +13337,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   }
 }
 
-@keyframes fadeInUp {
+@keyframes fadeInUpAnimation {
   0% {
     opacity: 0;
     -webkit-transform: translate3d(0, 100%, 0);

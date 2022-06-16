@@ -1,5 +1,5 @@
 <script>
-	import { featuredProjects } from './../data/store.js'
+	import { featuredProjects } from '$lib/data/store.js'
 
 	$: featuredProjectsData = $featuredProjects
     $: displayData = featuredProjectsData.slice( 0, Math.min(2, featuredProjectsData.length) )

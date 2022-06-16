@@ -1,5 +1,5 @@
 <script>
-	import { caseStudies } from './../data/store.js';
+	import { caseStudies } from '$lib/data/store.js';
 	import { onMount } from 'svelte';
     
     $: caseStudiesData = $caseStudies.data.reverse()

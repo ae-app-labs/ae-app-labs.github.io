@@ -1,6 +1,6 @@
 <script>
-	import EmbedVideoCard from './../components/EmbedVideoCard.svelte';
-	import { tutorials } from './../data/store.js'
+	import EmbedVideoCard from '$lib/components/EmbedVideoCard.svelte';
+	import { tutorials } from '$lib/data/store.js'
 	import { fade } from 'svelte/transition';
 
 	$: tutorialsData = $tutorials.data

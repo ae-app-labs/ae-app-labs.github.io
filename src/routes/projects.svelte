@@ -1,6 +1,6 @@
 <script>
-	import CategorySection from '../components/CategorySection.svelte';
-	import { webProjects, desktopProjects, androidProjects } from './../data/store.js';
+	import CategorySection from '$lib/components/CategorySection.svelte';
+	import { webProjects, desktopProjects, androidProjects } from '$lib/data/store.js';
 	import { fade } from 'svelte/transition';
 </script>
 

@@ -1,4 +1,4 @@
-import privacyPolicyData from '../../data/privacy-policy-data.js'
+import privacyPolicyData from '$lib/data/privacy-policy-data.js'
 
 export async function get({ params }) {
     const post = privacyPolicyData.find( (g) => {

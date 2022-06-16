@@ -1,6 +1,6 @@
 <script>
-	import ContactForm from './../components/ContactForm.svelte';
-	import RecentWork from './../components/RecentWork.svelte';
+	import ContactForm from '$lib/components/ContactForm.svelte';
+	import RecentWork from '$lib/components/RecentWork.svelte';
 	import { fade } from 'svelte/transition';
 </script>
 

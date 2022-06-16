@@ -1,5 +1,5 @@
 <script>
-	import { tutorials } from './../data/store.js'
+	import { tutorials } from '$lib/data/store.js'
 
 	$: tutorialsData = $tutorials.data
     $: displayData = tutorialsData.reverse().slice( 0, Math.min(3, tutorialsData.length) )

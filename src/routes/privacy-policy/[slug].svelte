@@ -19,7 +19,7 @@
 </script>
 
 <script>
-import ContactForm from "../../components/ContactForm.svelte";
+import ContactForm from "$lib/components/ContactForm.svelte";
 
 
 	export let policy

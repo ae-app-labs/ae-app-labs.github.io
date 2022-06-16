@@ -1,5 +1,5 @@
 <script>
-	import { caseStudies } from './../data/store.js';
+	import { caseStudies } from '$lib/data/store.js';
 	import { fade } from 'svelte/transition';
 
     $: cases = $caseStudies.data
@@ -16,13 +16,12 @@
 	</div>
 </section>
 
-<section class="section list-cases fadeInUp">
+<section class="section list-cases">
 	<div class="container">
 		<div class="columns is-multiline">
-            {#each cases as oneCase (oneCase.slug)}
-				<div class="column column is-12-mobile is-6-tablet is-4-desktop" >
-					
-					<div class="card is-shadowless is-slightly-rounded stagger has-background-info">
+            {#each cases as oneCase, index (oneCase.slug)}
+				<div class="column column is-12-mobile is-6-tablet is-4-desktop fadeInUp" >
+					<div class="card is-shadowless is-slightly-rounded has-background-info">
 						<div class="card-image grow-effect">
 							<figure class="image">
 								<a href="case-studies/{oneCase.slug}">
