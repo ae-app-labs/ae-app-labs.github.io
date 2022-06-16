@@ -28,7 +28,7 @@
 			<div class="column is-6">
 				<h4 class="is-size-4">Design and Build your website</h4>
 				<h4 class="is-size-4">Build a digital product</h4>
-				<h4 class="is-size-4">Technical Consultation of any project</h4>
+				<h4 class="is-size-4">Technical Consultation for any project</h4>
 			</div>
 			<div class="column is-6">
 				<h4 class="is-size-4">Design mobile application</h4>
