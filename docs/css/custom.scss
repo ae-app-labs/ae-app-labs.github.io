@@ -239,10 +239,24 @@
 }
 
 // css animations
+$time-duration: (
+    "1-unit": .25s,
+    "2-unit": .50s,
+    "3-unit": .75s,
+    "4-unit": 1s, 
+);
+
+@each $key, $val in $time-duration { 
+    .anim-delay-#{$key} {
+        opacity: .5;
+        -webkit-animation-delay: $val !important;
+        animation-delay: $val !important;
+    }
+}
+
 .wave {
     animation: waveAnimation 5s infinite alternate-reverse;
 }
-
 @keyframes waveAnimation {
     from {
         transform: translate(0, -20px);
@@ -268,6 +282,8 @@
 .fadeInUp {
     animation: fadeInUpAnimation .8s;
     animation-timing-function: ease;
+    -webkit-animation: fadeInUpAnimation .8s;
+    -webkit-animation-timing-function: ease;
 }
 @keyframes fadeInUpAnimation {
     0% {

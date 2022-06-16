@@ -13261,6 +13261,30 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   }
 }
 
+.anim-delay-1-unit {
+  opacity: .5;
+  -webkit-animation-delay: 0.25s !important;
+  animation-delay: 0.25s !important;
+}
+
+.anim-delay-2-unit {
+  opacity: .5;
+  -webkit-animation-delay: 0.5s !important;
+  animation-delay: 0.5s !important;
+}
+
+.anim-delay-3-unit {
+  opacity: .5;
+  -webkit-animation-delay: 0.75s !important;
+  animation-delay: 0.75s !important;
+}
+
+.anim-delay-4-unit {
+  opacity: .5;
+  -webkit-animation-delay: 1s !important;
+  animation-delay: 1s !important;
+}
+
 .wave {
   animation: waveAnimation 5s infinite alternate-reverse;
 }
@@ -13318,10 +13342,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 .fadeInUp {
+  animation: fadeInUpAnimation .8s;
+  animation-timing-function: ease;
   -webkit-animation: fadeInUpAnimation .8s;
-          animation: fadeInUpAnimation .8s;
   -webkit-animation-timing-function: ease;
-          animation-timing-function: ease;
 }
 
 @-webkit-keyframes fadeInUpAnimation {
