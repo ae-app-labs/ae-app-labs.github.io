@@ -68,7 +68,7 @@ export const desktopProjectsData = {
         "icon": "img/portfolio/icons/icon_triton_player.png",
         "title": "Triton Player",
         "featured": true,
-        "featuredImage": "img/portfolio/desktop/project_screenshot_triton.png",
+        "featuredImage": "img/portfolio/desktop/project_screenshot_triton.png?t=202206161947",
         "tags": [
             {
                 "id":"1",
@@ -137,7 +137,7 @@ export const androidProjectsData = {
         "icon": "img/portfolio/icons/icon_message_counter.png",
         "title": "Message Counter",
         "featured": true,
-        "featuredImage": "img/portfolio/mobile/message_counter_screens.png",
+        "featuredImage": "img/portfolio/mobile/message_counter_screens.png?t=202206161948",
         "tags": [
             {
                 "id":"1",
