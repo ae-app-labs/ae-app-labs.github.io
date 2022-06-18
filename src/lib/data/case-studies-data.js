@@ -1,4 +1,4 @@
-const cases = {
+const caseStudiesData = {
 	"data": [
 		{
 			title: 'AE Branding',
@@ -31,4 +31,4 @@ const cases = {
 }
 
 
-export default cases;
+export default caseStudiesData

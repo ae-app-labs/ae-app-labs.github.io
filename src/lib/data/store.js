@@ -1,7 +1,7 @@
 import { readable } from "svelte/store"
 
 import tutorialsData from './tutorials-data.js'
-import cases from './case-studies-data.js'
+import caseStudiesData from './case-studies-data.js'
 import privacyPolicyData from "./privacy-policy-data.js"
 import { desktopProjectsData, webProjectsData, androidProjectsData } from "./projects-data.js"
 
@@ -10,7 +10,7 @@ export const tutorials = readable(null, set => {
 })
 
 export const caseStudies = readable(null, set => {
-    set(cases)
+    set(caseStudiesData)
 })
 
 export const privacyPolicies = readable(null, set => {
