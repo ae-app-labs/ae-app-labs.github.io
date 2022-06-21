@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-5abde0b3.js",
+    "file": "start-70c903ba.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -124,7 +124,7 @@
       "_ContactForm-10094c17.js"
     ],
     "css": [
-      "assets/pages/privacy-policy/_slug_.svelte-f7b9455e.css"
+      "assets/pages/privacy-policy/index.svelte-ecdeb3c5.css"
     ]
   },
   "src/routes/privacy-policy/index.svelte": {
@@ -139,7 +139,7 @@
       "_index-324d832e.js"
     ],
     "css": [
-      "assets/pages/privacy-policy/_slug_.svelte-f7b9455e.css"
+      "assets/pages/privacy-policy/index.svelte-ecdeb3c5.css"
     ]
   },
   "src/routes/projects.svelte": {
