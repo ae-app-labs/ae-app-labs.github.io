@@ -14,8 +14,8 @@
 	<meta name="og:title" content="The Lotus Foundation" >
 
 	<meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="http://localhost:3000/img/case-studies/tlf/tlf_web_export.png" />
-    <meta name="og:image" content="http://localhost:3000/img/case-studies/tlf/tlf_web_export.pngs" />
+    <meta name="twitter:image" content="https://ae-app-labs.github.io/img/case-studies/tlf/tlf_web_export.png" />
+    <meta name="og:image" content="https://ae-app-labs.github.io/img/case-studies/tlf/tlf_web_export.pngs" />
     <meta name="twitter:image:alt" content="An image of website redesign screenshots" />
 </svelte:head>
 

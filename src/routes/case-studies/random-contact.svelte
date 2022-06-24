@@ -14,8 +14,8 @@
 	<meta name="og:title" content="Random Contact Redesign" >
 
 	<meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="http://localhost:3000/img/case-studies/random-contact/banner.png" />
-    <meta name="og:image" content="http://localhost:3000/img/case-studies/random-contact/banner.png" />
+    <meta name="twitter:image" content="https://ae-app-labs.github.io/img/case-studies/random-contact/banner.png" />
+    <meta name="og:image" content="https://ae-app-labs.github.io/img/case-studies/random-contact/banner.png" />
     <meta name="twitter:image:alt" content="An collection of android app screenshots in device frames with red gradient background" />
 </svelte:head>
 
