@@ -1,9 +1,22 @@
 <script>
-	import { fade } from 'svelte/transition';
+	import { fade } from 'svelte/transition'
+	import { page } from '$app/stores'
 </script>
 
 <svelte:head>
 	<title>Case Studies - AE Branding</title>
+
+	<meta property="og:url" content="{$page.url.pathname}"/>
+	<meta name="description" content="Take a look at the history and the rebranding for AE and the designs that we have gone through." >
+	<meta name="og:description" content="Take a look at the history and the rebranding for AE and the designs that we have gone through." >
+	<meta name="twitter:description" content="Take a look at the history and the rebranding for AE and the designs that we have gone through." >
+	<meta name="twitter:title" content="AE Branding" >
+	<meta name="og:title" content="AE Branding" >
+
+	<meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://ae-app-labs.github.io/img/case-studies/ae-branding/ae_org_site_v3.png" />
+    <meta name="og:image" content="https://ae-app-labs.github.io/img/case-studies/ae-branding/ae_org_site_v3.png" />
+    <meta name="twitter:image:alt" content="An image of website redesign screenshots" />
 </svelte:head>
 
 <section class="section-header mb-4" transition:fade>

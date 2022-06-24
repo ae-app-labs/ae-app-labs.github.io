@@ -1,9 +1,22 @@
 <script>
-	import { fade } from 'svelte/transition';
+	import { fade } from 'svelte/transition'
+	import { page } from '$app/stores'
 </script>
 
 <svelte:head>
 	<title>Case Studies - The Lotus Foundation</title>
+
+	<meta property="og:url" content="{$page.url.pathname}"/>
+	<meta name="description" content="The design and development of the website for The Lotus Foundation, a non profit organization." >
+	<meta name="og:description" content="The design and development of the website for The Lotus Foundation, a non profit organization." >
+	<meta name="twitter:description" content="The design and development of the website for The Lotus Foundation, a non profit organization." >
+	<meta name="twitter:title" content="The Lotus Foundation" >
+	<meta name="og:title" content="The Lotus Foundation" >
+
+	<meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="http://localhost:3000/img/case-studies/tlf/tlf_web_export.png" />
+    <meta name="og:image" content="http://localhost:3000/img/case-studies/tlf/tlf_web_export.pngs" />
+    <meta name="twitter:image:alt" content="An image of website redesign screenshots" />
 </svelte:head>
 
 <style>

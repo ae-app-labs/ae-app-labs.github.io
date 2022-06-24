@@ -24,6 +24,13 @@
 			return false
 		}
 	</script>
+
+	<meta property="og:url" content="https://ae-app-labs.github.io"/>
+	<meta name="description" content="Ae App Labs is a design studio that works on UI UX Design, App and Web Design and development" >
+	<meta name="og:description" content="Tutorials, Design and Development for the modern Web and Mobile." >
+	<meta name="twitter:description" content="Ae App Labs is a design studio that works on UI UX Design, App and Web Design and development" >
+	<meta name="twitter:title" content="Let's learn, design and build together." >
+	<meta name="og:title" content="Let's learn, design and build together." >
 </svelte:head>
 
 <div transition:fade>

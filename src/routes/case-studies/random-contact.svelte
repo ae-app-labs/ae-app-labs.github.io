@@ -1,9 +1,22 @@
 <script>
-    import { fade } from 'svelte/transition';
+    import { fade } from 'svelte/transition'
+    import { page } from '$app/stores'
 </script>
 
 <svelte:head>
 	<title>Case Studies - Random Contact Redesign</title>
+
+    <meta property="og:url" content="{$page.url.pathname}"/>
+	<meta name="description" content="The redesign of our first Android app that was released on the Play Store." >
+	<meta name="og:description" content="The redesign of our first Android app that was released on the Play Store." >
+	<meta name="twitter:description" content="The redesign of our first Android app that was released on the Play Store." >
+	<meta name="twitter:title" content="Random Contact Redesign" >
+	<meta name="og:title" content="Random Contact Redesign" >
+
+	<meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="http://localhost:3000/img/case-studies/random-contact/banner.png" />
+    <meta name="og:image" content="http://localhost:3000/img/case-studies/random-contact/banner.png" />
+    <meta name="twitter:image:alt" content="An collection of android app screenshots in device frames with red gradient background" />
 </svelte:head>
 
 <style>
