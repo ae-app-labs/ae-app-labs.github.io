@@ -13,17 +13,6 @@
 <svelte:head>
 	<!-- Include GLiderJs for only this page -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/glider-js/1.6.6/glider.min.js" integrity="sha512-RidPlemZ+Xtdq62dXb81kYFycgFQJ71CKg+YbKw+deBWB0TLIqCraOn6k0CWDH2rGvE1a8ruqMB+4E4OLVJ7Dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-	<script>
-		const scrollToSection = (section) => {
-			const element = document.getElementById(section)
-			const y = element.getBoundingClientRect().top + window.scrollY - 60;
-			window.scroll({
-			top: y,
-			behavior: 'smooth'
-			});
-			return false
-		}
-	</script>
 
 	<meta property="og:url" content="https://ae-app-labs.github.io"/>
 	<meta name="description" content="Ae App Labs is a design studio that works on UI UX Design, App and Web Design and development" >

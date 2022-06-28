@@ -5,7 +5,7 @@ export async function get({ params }) {
         //console.log(g);
         return g.slug == params.slug
     })
-    //console.log(post)
+    console.log(post)
 
     if(post){
         return {

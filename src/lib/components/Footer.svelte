@@ -29,10 +29,13 @@
             <div class="column is-one-quarter">
                 <ul>
                     <li class="pt-1"><a href="/">Home</a></li>
+                    <li class="pt-1"><a href="/case-studies">Case Studies</a></li>
+                    <li class="pt-1"><a href="/projects">Projects</a></li>
+                    <li class="pt-1"><a href="/tutorials">Tutorials</a></li>
                     <li class="pt-1"><a href="/about">About</a></li>
                     <li class="pt-1"><a href="/privacy-policy">Privacy Policy</a></li>
-                    <li class="pt-1"><a href="/case-studies">Case Studies</a></li>
-                    <li class="pt-1"><a href="/tutorials">Tutorials</a></li>
+                    <!-- svelte-ignore a11y-invalid-attribute -->
+                    <li class="pt-1"><a href="#" onclick="return false" id="open_preferences_center">Cookie Preferences</a></li>
                 </ul>
                 <br />
                 <div>
