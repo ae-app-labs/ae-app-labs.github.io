@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-e47f9c75.js",
+    "file": "start-2f08d3db.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -42,19 +42,19 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-aa325cc8.js",
+    "file": "pages/about.svelte-76b586c2.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-bb94fcca.js",
-      "_ContactForm-5c9e5200.js",
+      "_ContactForm-67bf8f0f.js",
       "_RecentWork-87b7bbf1.js",
       "_index-948e0b55.js"
     ]
   },
   "src/routes/case-studies/ae-branding.svelte": {
-    "file": "pages/case-studies/ae-branding.svelte-745f59e3.js",
+    "file": "pages/case-studies/ae-branding.svelte-a4a77273.js",
     "src": "src/routes/case-studies/ae-branding.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -79,7 +79,7 @@
     ]
   },
   "src/routes/case-studies/tlf.svelte": {
-    "file": "pages/case-studies/tlf.svelte-96accf76.js",
+    "file": "pages/case-studies/tlf.svelte-5b6b7edd.js",
     "src": "src/routes/case-studies/tlf.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -93,53 +93,53 @@
     ]
   },
   "src/routes/case-studies.svelte": {
-    "file": "pages/case-studies.svelte-3aebf3e9.js",
+    "file": "pages/case-studies.svelte-6c9c27d1.js",
     "src": "src/routes/case-studies.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-bb94fcca.js",
-      "_store-db918069.js",
+      "_store-652d1d17.js",
       "_index-948e0b55.js",
       "_index-d519dd46.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-7a383c1b.js",
+    "file": "pages/index.svelte-f15f81da.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-bb94fcca.js",
-      "_ContactForm-5c9e5200.js",
-      "_store-db918069.js",
+      "_ContactForm-67bf8f0f.js",
+      "_store-652d1d17.js",
       "_RecentWork-87b7bbf1.js",
       "_index-948e0b55.js",
       "_index-d519dd46.js"
     ]
   },
   "src/routes/privacy-policy/[slug].svelte": {
-    "file": "pages/privacy-policy/_slug_.svelte-7920ec0d.js",
+    "file": "pages/privacy-policy/_slug_.svelte-38362e86.js",
     "src": "src/routes/privacy-policy/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-bb94fcca.js",
-      "_ContactForm-5c9e5200.js"
+      "_ContactForm-67bf8f0f.js"
     ],
     "css": [
       "assets/pages/privacy-policy/_slug_.svelte-f7b9455e.css"
     ]
   },
   "src/routes/privacy-policy/index.svelte": {
-    "file": "pages/privacy-policy/index.svelte-d7c417c6.js",
+    "file": "pages/privacy-policy/index.svelte-936ae260.js",
     "src": "src/routes/privacy-policy/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-bb94fcca.js",
-      "_ContactForm-5c9e5200.js",
-      "_store-db918069.js",
+      "_ContactForm-67bf8f0f.js",
+      "_store-652d1d17.js",
       "_index-d519dd46.js"
     ],
     "css": [
@@ -147,25 +147,25 @@
     ]
   },
   "src/routes/projects.svelte": {
-    "file": "pages/projects.svelte-fa77973d.js",
+    "file": "pages/projects.svelte-4700b6da.js",
     "src": "src/routes/projects.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-bb94fcca.js",
-      "_store-db918069.js",
+      "_store-652d1d17.js",
       "_index-948e0b55.js",
       "_index-d519dd46.js"
     ]
   },
   "src/routes/tutorials.svelte": {
-    "file": "pages/tutorials.svelte-e6b4d421.js",
+    "file": "pages/tutorials.svelte-65a7438a.js",
     "src": "src/routes/tutorials.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-bb94fcca.js",
-      "_store-db918069.js",
+      "_store-652d1d17.js",
       "_index-948e0b55.js",
       "_index-d519dd46.js"
     ]
@@ -185,8 +185,8 @@
       "_index-bb94fcca.js"
     ]
   },
-  "_ContactForm-5c9e5200.js": {
-    "file": "chunks/ContactForm-5c9e5200.js",
+  "_ContactForm-67bf8f0f.js": {
+    "file": "chunks/ContactForm-67bf8f0f.js",
     "imports": [
       "_index-bb94fcca.js"
     ]
@@ -203,8 +203,8 @@
       "_index-bb94fcca.js"
     ]
   },
-  "_store-db918069.js": {
-    "file": "chunks/store-db918069.js",
+  "_store-652d1d17.js": {
+    "file": "chunks/store-652d1d17.js",
     "imports": [
       "_index-d519dd46.js"
     ]
