@@ -1,6 +1,7 @@
 
 <div class="py-2  has-background-grey-darker">
     <div class="section">
+        <div class="is-size-2 is-family-secondary mb-6">Style Guide</div>
         <div class="subtitle is-uppercase">Colors</div>
         <div class="columns">
             <div class="column is-2">
@@ -42,22 +43,26 @@
     <div class="section">
         <div class="subtitle is-uppercase">Buttons, Links & Tags</div>
         <div class="columns">
-            <div class="column is-5">
-                <button class="button is-link is-medium btn btn-hover-effect p-2 m-2 stagger1" style="transform: translate(0px, 0px); opacity: 1;">Main Button</button>
+            <div class="column is-4">
+                <button class="button is-link is-medium btn btn-hover-effect p-2 m-2 stagger1" style="transform: translate(0px, 0px); opacity: 1;">Primary Button</button>
 
-                <button class="button is-link is-medium btn btn-hover-effect p-2 m-2 is-outlined" style="transform: translate(0px, 0px); opacity: 1;">Outlined Button</button>
+                <button class="button is-link is-medium btn btn-hover-effect p-2 m-2 is-outlined" style="transform: translate(0px, 0px); opacity: 1;">Outlined</button>
                 <br/>
                 <button class="button is-success has-text-black p-2 m-2"><span>Secondary Button</span></button>
-                <button class="button is-success is-outlined has-text-error p-2 m-2"><span>Outlined Button</span></button>
+                <button class="button is-success is-outlined has-text-error p-2 m-2"><span>Outlined</span></button>
 
                 <p class="is-size-6 mt-2">
-                    The main buttons are with the accent color and also have an outlined variation. And the secondary buttons, are smaller, in Primary light color and also have an outlined version.
+                    The main buttons are with the accent color and also have an outlined variation. <br/>
+                    And the secondary buttons, are smaller, in Primary light color and also have an outlined version.
                 </p>
+            </div>
+            <div class="column is-1">
+                &nbsp;
             </div>
             <div class="column is-3">
                 <p class="my-2">
                     <!-- svelte-ignore a11y-missing-attribute -->
-                    <a>Page Link</a>
+                    <a class="is-link">Page Link</a>
                 </p>
                 <p class="my-2">
                     <!-- svelte-ignore a11y-missing-attribute -->
@@ -74,6 +79,8 @@
             </div>
             <div class="column is-4">
                 <p class="is-size-4 stagger2 mt-4 tag is-link is-rounded">Large Tag</p>
+                <br/>
+                <p class="is-medium mt-4 tag is-link is-rounded">Medium Tag</p>
                 <p class="subtitle is-6 mt-2">
                     <span class="tag is-primary is-rounded mr-2 mt-2">Tag One</span>
                     <span class="tag is-danger is-rounded mr-2 mt-2">Tag Two</span>
