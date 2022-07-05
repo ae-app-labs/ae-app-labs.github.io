@@ -57,7 +57,7 @@
 				<h3 class="is-size-4 has-text-weight-bold">Website</h3>
 				<p class="is-size-6 pt-2 has-text-link-dark">
 					<a href="https://www.thelotusfoundation.org/" target="_blank" class="button is-link">
-						Visit the TLF Website <i class="fas fa-external-link-alt"></i>
+						Visit the TLF Website <i class="fas fa-external-link-alt ml-2"></i>
 					</a>
 				</p>
 			</div>

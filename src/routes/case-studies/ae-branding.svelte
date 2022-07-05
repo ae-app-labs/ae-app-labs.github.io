@@ -1,6 +1,7 @@
 <script>
 	import { fade } from 'svelte/transition'
 	import { page } from '$app/stores'
+	import StyleGuide from '$lib/components/StyleGuide.svelte'
 </script>
 
 <svelte:head>
@@ -33,8 +34,12 @@
 
 <div class="my-4">
 	<img src="/img/case-studies/ae-branding/ae_org_site_v3.png" alt="Org Page Version 3" />
-	<p class="is-size-5 mt-2 has-text-centered">We recently redesigned our org page, shown above.</p>
+	<p class="is-size-5 has-text-centered mt-2">We recently redesigned our org page, shown above.</p>
 </div>
+
+<section class="section">
+	<StyleGuide/>
+</section>
 
 <section class="section">
 	<div class="container">

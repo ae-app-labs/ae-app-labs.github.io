@@ -37,7 +37,7 @@
                                         {#if button.isPrimary}
                                             <a class="button is-success has-text-black mr-2 mt-2" href="{button.target}">{button.text}</a>
                                         {:else}
-                                            <a class="button is-outlined is-warning has-text-error mr-2 mt-2" href="{button.target}">{button.text}</a>
+                                            <a class="button is-outlined is-success has-text-error mr-2 mt-2" href="{button.target}">{button.text}</a>
                                         {/if}
                                     {/each}
                                 </p>

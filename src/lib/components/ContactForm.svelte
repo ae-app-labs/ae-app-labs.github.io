@@ -93,7 +93,7 @@
                                         </div>
                                         <div class="field">
                                             <div class="control has-text-centered">
-                                                <button type="submit" class="button is-success is-medium my-2 btn btn-hover-effect" style="transform: translate(0px, 0px); opacity: 1;" on:click="{ formSubmit }">Send message</button>
+                                                <button type="submit" class="button is-link is-medium my-2 btn btn-hover-effect" style="transform: translate(0px, 0px); opacity: 1;" on:click="{ formSubmit }">Send message</button>
                                             </div>
                                         </div>
                                     </div>

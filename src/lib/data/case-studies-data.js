@@ -13,7 +13,7 @@ const caseStudiesData = {
 			title: 'The Lotus Foundation',
 			slug: 'tlf',
 			type: 'UI/UX Web Design',
-			previewImage: 'img/case-studies/tlf/tlf-preview.jpg',
+			previewImage: 'img/case-studies/tlf/tlf-preview.jpg?t=20220705',
 			articleUrl: '/case-studies/tlf',
 			creationDate: "20 Jan 2021",
 			description: "The design and development of the website for The Lotus Foundation, a non profit organization."
@@ -22,7 +22,7 @@ const caseStudiesData = {
 			title: 'Random Contact Redesign',
 			slug: 'random-contact',
 			type: 'UI/UX App Design',
-			previewImage: 'img/case-studies/random-contact/random-contact-preview.png',
+			previewImage: 'img/case-studies/random-contact/random-contact-preview.png?t=20220705',
 			articleUrl : '/case-studies/random-contact',
 			creationDate: "20 Mar 2021",
 			description: "The redesign of our first Android app that was released on the Play Store."

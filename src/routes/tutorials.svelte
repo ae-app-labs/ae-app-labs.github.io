@@ -17,9 +17,9 @@
                 <p class="is-size-3 is-family-secondary">Design and Development Tutorials</p>
                 <p class="subtitle">See a list of curated video tutorials hosted on Youtube. These range from tutorials on UI design, to complete landing page development.</p>
                 <p class="is-size-4 pt-4">
-                    <a href="https://www.youtube.com/channel/UCCYOqc-QhZCbWtjpHZ5ROXw" class="button is-primary is-rounded is-medium" target="_blank"> 
+                    <a href="https://www.youtube.com/channel/UCCYOqc-QhZCbWtjpHZ5ROXw" class="button is-link is-medium" target="_blank"> 
 						Visit Channel 
-						<i class="fas fa-external-link-alt has-text-white pl-2" aria-hidden="true"></i>
+						<i class="fas fa-external-link-alt has-text-black pl-2" aria-hidden="true"></i>
 					</a>
                 </p>
             </div>
