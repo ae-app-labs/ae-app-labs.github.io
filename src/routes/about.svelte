@@ -21,37 +21,61 @@
 			</div>
 		</div>
 
-		<div class="subtitle mt-4">
-			What we can do for you
-		</div>
-		<div class="columns about-services mb-4">
-			<div class="column is-6">
-				<h4 class="is-size-4">Design and Build your website</h4>
-				<h4 class="is-size-4">Build a digital product</h4>
-				<h4 class="is-size-4">Technical Consultation for any project</h4>
+		<div class="has-background-grey-darker p-4">
+			<div class="is-size-2  is-family-secondary mt-4 mb-2">
+				What we can do for you
 			</div>
-			<div class="column is-6">
-				<h4 class="is-size-4">Design mobile application</h4>
-				<h4 class="is-size-4">User Experience Consultation</h4>
-				<h4 class="is-size-4">Graphics and Design</h4>
+			<div class="columns about-services mb-4">
+				<div class="column is-6">
+					<h4 class="is-size-3">Design and Build your website</h4>
+					<h4 class="is-size-3">Build a digital product</h4>
+					<h4 class="is-size-3">Technical Consultation for any project</h4>
+				</div>
+				<div class="column is-6">
+					<h4 class="is-size-3">Design mobile application</h4>
+					<h4 class="is-size-3">User Experience Consultation</h4>
+					<h4 class="is-size-3">Graphics and Design</h4>
+				</div>
 			</div>
 		</div>
 
-		<div class="subtitle mt-4">
+		<div class="is-size-2 is-family-secondary mt-4 mb-2">
 			Some of our work
 		</div>
 		
 		<RecentWork/>
 
-		<div>
-			<p class="is-size-4">Explore more of our design work</p>
-			<p class="ml-4 mb-4">
-				<a href="https://www.uplabs.com/aeapplabs" class="is-link" target="_blank">https://www.uplabs.com/aeapplabs</a> <br/>
-				<a href="https://instagram.com/AeAppLabs" class="is-link" target="_blank">https://instagram.com/AeAppLabs</a>
-			</p>
-
-			<p class="is-size-4">Educational and Research projects</p>
-			<p>Educational and Research projects are available under AeAppLabs with open source licenses at <a href="https://github.com/ae-app-labs" class="is-link">https://github.com/ae-app-labs</a></p>
+		<div class="columns">
+			<div class="column is-6">
+				<h4 class="is-size-3">Explore more of our design work</h4>
+				<ul class="mt-2 mb-4 ">
+					<li>
+						<a href="https://www.uplabs.com/aeapplabs" class="is-link has-text-white" target="_blank">
+							<span><i class="fas fa-external-link-alt has-text-white pr-2" aria-hidden="true"></i></span>
+							Uplabs</a>
+					</li>
+					<li>
+						<a href="https://instagram.com/AeAppLabs" class="is-link has-text-white" target="_blank">
+							<span><i class="fas fa-external-link-alt has-text-white pr-2" aria-hidden="true"></i></span>
+							Instagram</a>
+					</li>
+					<li>
+						<a href="https://www.behance.net/midhunharikumar" class="is-link has-text-white" target="_blank">
+							<span><i class="fas fa-external-link-alt has-text-white pr-2" aria-hidden="true"></i></span>
+							Behance</a>
+					</li>
+				</ul>
+			
+			</div>
+			<div class="column is-6">
+				<h4 class="is-size-3">Apps &amp; Research projects</h4>
+				<p>Educational and Research projects are available under AeAppLabs with open source licenses at 
+					<br/>
+					<a href="https://github.com/ae-app-labs" class="is-link has-text-white mt-2" target="_blank">
+					<span><i class="fas fa-external-link-alt has-text-white pr-2" aria-hidden="true"></i></span>
+					https://github.com/ae-app-labs</a>
+				</p>
+			</div>
 		</div>
 
 	</div>

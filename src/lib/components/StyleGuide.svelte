@@ -33,8 +33,9 @@
 
     <div class="section">
         <div class="subtitle is-uppercase">Typography</div>
-        <p class="is-size-1 is-family-secondary">Heading: Playfair Display 4.5 rem</p>
-        <p class="title is-size-4">Title: Lato</p>
+        <p class="is-size-1 is-family-secondary">Headings - Playfair Display 4.5 rem</p>
+        <p class="title mt-4">Title - Lato 3 rem</p>
+        <p class="subtitle mt-4 is-uppercase">Subtitle - Lato 1.25 rem</p>
         <p class="is-size-5 pr-6">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, amet magni! Repellat voluptate commodi, praesentium labore nesciunt provident similique. Provident nulla soluta ut possimus, tenetur eaque tempore quasi? Laborum, qui?
         </p>
