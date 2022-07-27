@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-44aa7320.js",
+    "file": "start-0b5bf1f4.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -65,7 +65,7 @@
     ]
   },
   "src/routes/case-studies/random-contact.svelte": {
-    "file": "pages/case-studies/random-contact.svelte-41f8bd53.js",
+    "file": "pages/case-studies/random-contact.svelte-e6b0d1f8.js",
     "src": "src/routes/case-studies/random-contact.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -75,11 +75,11 @@
       "_stores-1a172d86.js"
     ],
     "css": [
-      "assets/pages/case-studies/random-contact.svelte-a2303ac2.css"
+      "assets/pages/case-studies/random-contact.svelte-7a4ce6ef.css"
     ]
   },
   "src/routes/case-studies/tlf.svelte": {
-    "file": "pages/case-studies/tlf.svelte-5b6b7edd.js",
+    "file": "pages/case-studies/tlf.svelte-14829ac2.js",
     "src": "src/routes/case-studies/tlf.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -128,7 +128,7 @@
       "_ContactForm-67bf8f0f.js"
     ],
     "css": [
-      "assets/pages/privacy-policy/_slug_.svelte-f7b9455e.css"
+      "assets/pages/privacy-policy/index.svelte-ecdeb3c5.css"
     ]
   },
   "src/routes/privacy-policy/index.svelte": {
@@ -143,7 +143,7 @@
       "_index-d519dd46.js"
     ],
     "css": [
-      "assets/pages/privacy-policy/_slug_.svelte-f7b9455e.css"
+      "assets/pages/privacy-policy/index.svelte-ecdeb3c5.css"
     ]
   },
   "src/routes/projects.svelte": {
