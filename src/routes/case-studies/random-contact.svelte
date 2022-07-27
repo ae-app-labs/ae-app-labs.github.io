@@ -39,6 +39,10 @@
         background: rgb(255,52,103);
         background: linear-gradient(180deg, rgba(255,52,103,1) 0%, rgba(253,128,158,1) 100%);
     }
+    .explore-source-container {
+        display: flex;
+        align-items: center;
+    }
 </style>
 
 <section class="section-header banner-bg" transition:fade>
@@ -193,11 +197,13 @@
                     <img alt="Get it on Google Play" width="200px" src="https://camo.githubusercontent.com/2149f526e69167218eb7eea8f21cb74a756aa43495f7acfeccfe995d40f62028/68747470733a2f2f706c61792e676f6f676c652e636f6d2f696e746c2f656e5f75732f6261646765732f696d616765732f67656e657269632f656e5f62616467655f7765625f67656e657269632e706e67" data-canonical-src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" style="max-width:100%;">
                 </a>
 			</div>
-            <div class="column is-4 ">
-                <a class="is-vcentered is-link" href="https://github.com/midhunhk/random-contact" name="Github Page">
-                    <span class="icon mr-4"><i class="fab fa-github fa-2x has-text-white"></i></span>
-                    Explore Source Code 
-                    <i class="fa fa-arrow-right ml-2" aria-hidden="true"></i>
+            <div class="column is-4">
+                <a href="https://github.com/midhunhk/random-contact" name="Github Page" target="_blank" class="has-text-white">
+                    <div class="explore-source-container">
+                        <span class="icon mx-4"><i class="fab fa-github fa-2x has-text-white"></i></span>
+                        <span>Explore Source Code</span>
+                        <i class="fa fa-external-link-alt mx-2" aria-hidden="true"></i>
+                    </div>
                 </a>
             </div>
 		</div>

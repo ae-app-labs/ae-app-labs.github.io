@@ -192,7 +192,10 @@
 		<div class="columns is-vcentered">
 			<div class="column has-text-centered">
 				<form target="_blank" action="https://www.thelotusfoundation.org">
-					<button class="button is-warning is-medium p-2 btn btn-hover-effect">Visit Project</button>
+					<button class="button is-warning is-medium p-2 btn btn-hover-effect">
+						<span>Visit Project</span>
+						<i class="fa fa-external-link-alt mx-2" aria-hidden="true"></i>
+					</button>
 				</form>
 			</div>
 		</div>
