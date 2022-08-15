@@ -140,6 +140,26 @@ const tutorialsData = {
           },
         ]
       },
+      {
+        "id": "8",
+        "title": "Animated Hero Background with HTML5 and SASS",
+        "embedUrl": "https://www.youtube.com/embed/KwI1sZFaj1M",
+        "videoUrl": "https://www.youtube.com/watch?v=KwI1sZFaj1M",
+        "coverImage": "/img/tutorials/tutorial_cover_008.png",
+        "videoLength": "9 minutes",
+        "tags":[
+          {
+            "id":"1",
+            "name":"HTML5",
+            "className": "is-primary",
+          },
+          {
+            "id":"2",
+            "name":"SASS",
+            "className": "is-warning",
+          },
+        ]
+      },
     ]
   }
 
