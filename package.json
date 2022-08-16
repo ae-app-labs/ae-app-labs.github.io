@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "svelte-kit dev",
     "dev-host": "svelte-kit dev --host",
-    "css-build": "node-sass --omit-source-map-url public/css/main.scss public/css/main.css",
+    "css-build": "sass static/css/main.scss static/css/main.css",
     "build": "svelte-kit build",
     "package": "svelte-kit package",
     "preview": "svelte-kit preview",
@@ -20,7 +20,7 @@
     "@sveltejs/adapter-static": "^1.0.0-next.34",
     "@sveltejs/kit": "next",
     "bulma": "^0.9.4",
-    "node-sass": "^7.0.1",
+    "sass": "^1.54.4",
     "svelte": "^3.49.0"
   },
   "type": "module"
