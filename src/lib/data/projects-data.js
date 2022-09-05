@@ -164,12 +164,6 @@ export const androidProjectsData = {
                 "target": "https://github.com/midhunhk/message-counter/"
             },
             {
-                "id": "3",
-                "isPrimary": false,
-                "text": "Case Study",
-                "target": "https://midhunhk.github.io/dev/2018/09/12/message-counter-4/"
-            },
-            {
                 "id": "2",
                 "isPrimary": true,
                 "text": "View Page",

@@ -1,8 +1,28 @@
 <script>
     import { page } from '$app/stores'
+    import { onMount } from 'svelte';
+
+    onMount( () => {
+        const navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0)
+
+        // Add a click event on each of them
+        navbarBurgers.forEach( el => {
+            el.addEventListener('click', () => {
+
+                // Get the target from the "data-target" attribute
+                const target = el.dataset.target
+                const theTarget = document.getElementById(target)
+
+                // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                el.classList.toggle('is-active')
+                theTarget.classList.toggle('is-active')
+            })
+        })
+    })
+
 </script>
 
-<nav class="navbar is-primary is-fixed-top">  
+<nav class="navbar is-primary is-fixed-">  
     <div class="container">  
         <div class="navbar-brand">  
             <a class="navbar-item h" name="Home" alt="Home" href="/" class:is-active={$page.url.pathname === '/'}>
@@ -16,7 +36,7 @@
             </a>
         </div>
 
-        <div class="navbar-menu" id="navMenu">
+        <div class="navbar-menu has-background-primary" id="navMenu">
             <div class="navbar-start">
                 <a class="navbar-item has-text-white" href="/case-studies" class:is-active={$page.url.pathname.includes('/case-studies')}>Case Studies</a>
                 <a class="navbar-item has-text-white" href="/projects" class:is-active={$page.url.pathname.includes('/projects')}>Projects</a>

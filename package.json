@@ -1,6 +1,6 @@
 {
   "name": "app-labs-v3",
-  "version": "3.0.11",
+  "version": "3.0.12",
   "scripts": {
     "dev": "svelte-kit dev",
     "dev-host": "svelte-kit dev --host",
