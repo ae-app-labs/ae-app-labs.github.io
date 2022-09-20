@@ -63,12 +63,12 @@
         <form class="form" id="reviewForm" onsubmit="event.preventDefault();" method="GET">
             <div class="columns is-centered">
                 <div class="column is-12 py-6 is-12-mobile">
-                    <div class="card has-background-dark is-shadowless is-rounded">
+                    <div class="card has-background-info is-shadowless is-rounded">
                         <div class="card-content">
                             <div class="content">
                                 
-                                <div id="formContainer">
-                                    <p class="is-family-secondary is-size-2 mb-2">Review a Design or Webpage</p>
+                                <div id="reviewFormContainer">
+                                    <p class="is-family-secondary is-size-2 mb-2">Submit Design for Review</p>
                                     <p class="is-size-5">Submit a link for a design file or a webpage if you want a free UI/UX review. <br/> We will take a look and let you know if we review it.</p>
                                     <div class="columns mt-2">
                                         <div class="column is-half">

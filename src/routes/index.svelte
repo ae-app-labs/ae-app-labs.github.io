@@ -8,6 +8,7 @@
 	import Services from '$lib/components/Services.svelte';
     import LandingHero from '$lib/components/LandingHero.svelte';
 	import { fade } from 'svelte/transition';
+    import DesignReviewSection from '../lib/components/DesignReviewSection.svelte';
 </script>
 
 <svelte:head>
@@ -31,6 +32,8 @@
 	<FeaturedProjects/>
 	
 	<RecentWorkSection/>
+
+	<DesignReviewSection/>
 
 	<CaseStudiesSection/>
 
