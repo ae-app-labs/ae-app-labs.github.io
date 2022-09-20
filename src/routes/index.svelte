@@ -7,8 +7,8 @@
 	import FeaturedProjects from '$lib/components/FeaturedProjects.svelte';
 	import Services from '$lib/components/Services.svelte';
     import LandingHero from '$lib/components/LandingHero.svelte';
+    import DesignReviewSection from '$lib/components/DesignReviewSection.svelte';
 	import { fade } from 'svelte/transition';
-    import DesignReviewSection from '../lib/components/DesignReviewSection.svelte';
 </script>
 
 <svelte:head>
