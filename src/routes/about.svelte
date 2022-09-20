@@ -1,6 +1,7 @@
 <script>
 	import ContactForm from '$lib/components/ContactForm.svelte';
 	import RecentWork from '$lib/components/RecentWork.svelte';
+    import ReviewSubmitForm from '$lib/components/ReviewSubmitForm.svelte';
 	import { fade } from 'svelte/transition';
 </script>
 
@@ -35,10 +36,14 @@
 					<h4 class="is-size-3">Design mobile application</h4>
 					<h4 class="is-size-3">User Experience Consultation</h4>
 					<h4 class="is-size-3">Graphics and Design</h4>
+					<h4 class="is-size-3">Free Design Reviews</h4>
 				</div>
 			</div>
+			
 		</div>
-
+		
+		<ReviewSubmitForm />
+		
 		<div class="is-size-2 is-family-secondary mt-4 mb-2">
 			Some of our work
 		</div>

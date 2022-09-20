@@ -22,14 +22,31 @@
 				<div class="is-size-3 is-family-secondary section-title">Privacy Policy</div>
 			</div>
 			<div class="column is-8">
-				<p class="subtitle">Introduction</p>
+				<p class="subtitle has-text-weight-bold">Introduction</p>
 				<p>
 					The website for "ae app labs" located at <a class="is-link" href="https://ae-app-labs.github.io">https://ae-app-labs.github.io</a> and <a class="is-link" href="https://ae-app-labs.web.app">https://ae-app-labs.web.app</a>, from here onwards referred to as "site"
 					<u>does not collect or offer to share</u> any personal information or Personally Identifiable Information (PII). <br/>
 					We respect the privacy of our users. This website does not create or maintain any cookies.
 				</p>
 				<br />
-				<p class="subtitle">Website Analytics</p>
+				<p class="subtitle has-text-weight-bold">Form Data</p>
+				<p>
+					There are two forms on this website on to which users can enter data, which are below.
+				</p>
+				<div class="content">
+					<ul>
+						<li>Contact Form for any inquiries or information</li>
+						<li>Design Review Request form</li>
+					</ul>
+				</div>
+				<p>
+					Personally Identifiable Information (PII) is not required to be entered in any of the forms. By providing any value in the email or name fields, you agree that the information may be stored electronically for a short period of time (less than 30 days) and you may be contacted for the purpose of providing information.
+					<br/><br/>
+					Use the contact form to request to know if any personal information was stored electronically prior to sending the request as well as to permanently delete any information that is stored.
+				</p>
+				<br />
+
+				<p class="subtitle has-text-weight-bold">Website Analytics</p>
 				<p>
 					We may also partner with a selected third-party vendor like <a class="is-link" href="https://support.google.com/analytics/answer/6004245?hl=en">Google Analytics</a>, to allow tracking technologies using third-party cookies,
 					to analyze and track users' use of the "site", to determine the popularity of certain content and improve performance. 
@@ -44,7 +61,7 @@
 				<br />
 				<p>If you have any questions or concerns, please send an email to [<i>aeapplabs.ca at google.com</i>] or use the contact form.</p>
 				<br/>
-				<pre>The privacy policy for this page was last updated on 12 Jun 2022.</pre>
+				<pre>The privacy policy for this page was last updated on 20 Sep 2022.</pre>
 			</div>
 		</div>
 	</div>
