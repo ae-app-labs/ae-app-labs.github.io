@@ -69,7 +69,7 @@
                                 
                                 <div id="reviewFormContainer">
                                     <p class="is-family-secondary is-size-2 mb-2">Submit Design for Review</p>
-                                    <p class="is-size-5">Submit a link for a design file or a webpage if you want a free UI/UX review. <br/> We will take a look and let you know if we review it.</p>
+                                    <p class="is-size-5">Submit a link to a design file or a webpage if you want a free UI/UX review. We will take a look and let you know if we review it.</p>
                                     <div class="columns mt-2">
                                         <div class="column is-half">
                                             <div class="field">
@@ -90,7 +90,7 @@
                                                     </span>
                                                 </div>
                                             </div>
-                                            <div class="field is-size-4 mt-2">
+                                            <div class="field is-size-5 mt-2">
                                                 <label class="checkbox">
                                                     <input type="checkbox" class="is-medium" name="_contactable" bind:value={contactable}>
                                                     I want to be contacted if this link is reviewed. 

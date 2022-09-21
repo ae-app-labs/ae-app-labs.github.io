@@ -9,14 +9,11 @@
                 </figure>
             </div>
             <div class="column is-4">
-                <p class="is-size-5">
-                    Submit a design or a webpage and we can review it against UI/UX principles.
-                    We can suggest any improvements that can be made to make it better.
+                <p class="is-size-5 py-4">
+                    Submit a design or a webpage and we can review it against common UI/UX principles.
+                    Any improvements that maybe applicable can be shared.
                 </p>
-                <p class="is-size-6 py-5">
-                    Fill out the form and send it to us.
-                </p>
-                <a href="about" target="_blank" class="is-link is-uppercase">
+                <a href="about#review-form" class="is-link is-uppercase">
                     Submit Design <i class="fas fa-arrow-right"></i>
                 </a>
             </div>
