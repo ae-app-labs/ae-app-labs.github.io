@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-c3d368c7.js",
+    "file": "start-27721f8b.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -105,7 +105,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-f7ad5612.js",
+    "file": "pages/index.svelte-fea3d22a.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -128,7 +128,7 @@
       "_ContactForm-973e17ef.js"
     ],
     "css": [
-      "assets/pages/privacy-policy/_slug_.svelte-f7b9455e.css"
+      "assets/pages/privacy-policy/index.svelte-ecdeb3c5.css"
     ]
   },
   "src/routes/privacy-policy/index.svelte": {
@@ -143,7 +143,7 @@
       "_index-e9989bec.js"
     ],
     "css": [
-      "assets/pages/privacy-policy/_slug_.svelte-f7b9455e.css"
+      "assets/pages/privacy-policy/index.svelte-ecdeb3c5.css"
     ]
   },
   "src/routes/projects.svelte": {
