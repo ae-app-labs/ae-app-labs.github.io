@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-27721f8b.js",
+    "file": "start-ddc060d3.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -42,13 +42,13 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-d7865ac2.js",
+    "file": "pages/about.svelte-932896fc.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-b56f1b28.js",
-      "_ContactForm-973e17ef.js",
+      "_ContactForm-8e423663.js",
       "_RecentWork-cfc0f31f.js",
       "_index-869834db.js"
     ]
@@ -105,13 +105,13 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-fea3d22a.js",
+    "file": "pages/index.svelte-add0517e.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-b56f1b28.js",
-      "_ContactForm-973e17ef.js",
+      "_ContactForm-8e423663.js",
       "_store-0e41ac37.js",
       "_RecentWork-cfc0f31f.js",
       "_index-869834db.js",
@@ -119,26 +119,26 @@
     ]
   },
   "src/routes/privacy-policy/[slug].svelte": {
-    "file": "pages/privacy-policy/_slug_.svelte-7b5f8bb0.js",
+    "file": "pages/privacy-policy/_slug_.svelte-45b5e782.js",
     "src": "src/routes/privacy-policy/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-b56f1b28.js",
-      "_ContactForm-973e17ef.js"
+      "_ContactForm-8e423663.js"
     ],
     "css": [
       "assets/pages/privacy-policy/index.svelte-ecdeb3c5.css"
     ]
   },
   "src/routes/privacy-policy/index.svelte": {
-    "file": "pages/privacy-policy/index.svelte-9441e572.js",
+    "file": "pages/privacy-policy/index.svelte-642376ac.js",
     "src": "src/routes/privacy-policy/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-b56f1b28.js",
-      "_ContactForm-973e17ef.js",
+      "_ContactForm-8e423663.js",
       "_store-0e41ac37.js",
       "_index-e9989bec.js"
     ],
@@ -185,8 +185,8 @@
       "_index-b56f1b28.js"
     ]
   },
-  "_ContactForm-973e17ef.js": {
-    "file": "chunks/ContactForm-973e17ef.js",
+  "_ContactForm-8e423663.js": {
+    "file": "chunks/ContactForm-8e423663.js",
     "imports": [
       "_index-b56f1b28.js"
     ]

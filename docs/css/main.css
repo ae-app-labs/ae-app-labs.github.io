@@ -13045,6 +13045,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   text-transform: uppercase;
 }
 
+.service-tile p {
+  margin-top: .5em;
+}
+
 .content.is-vcentered {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13262,6 +13266,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   .footer-logo {
     visibility: hidden;
     padding-top: 10em;
+  }
+  .service-tile-mobile {
+    margin-bottom: 1em !important;
   }
 }
 
