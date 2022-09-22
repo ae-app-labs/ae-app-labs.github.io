@@ -2,7 +2,7 @@
     <div class="container">
         <div class="columns is-vcentered py-6">
             <div class="column is-half-desktop is-12-tablet service-content">
-                <div class="is-size-1 is-family-secondary">Our Services</div>
+                <div class="is-size-1 is-family-secondary">Our <br/>Services</div>
                 <p class="is-size-5">We are an indie design studio that creates unique UI UX designs, technical tutorials, design reviews and software development for Web and Mobile.</p>
                 <br/>
                 <p class="is-size-5">In addition, talk to us for technical consultation for any web or mobile projects.</p>
@@ -24,7 +24,7 @@
                           
                         <p>UI/UX Design</p>
                     </div>
-                    <div class="column is-half service-tile">
+                    <div class="column is-half service-tile service-tile-mobile">
                         <svg xwidth="130.031" height="82.037" viewBox="0 0 130.031 82.037">
                             <g transform="translate(-202.459 -867)">
                               <g transform="translate(202.459 867)">
@@ -69,7 +69,7 @@
                           </svg>
                         <p>Research &amp; Tutorials</p>                          
                     </div>
-                    <div class="column is-half service-tile">
+                    <div class="column is-half service-tile service-tile-mobile">
                         <svg width="58.443" height="104.562" viewBox="0 0 58.443 104.562">
                             <g transform="translate(-250.778 -859)">
                               <g transform="translate(-269.222 -27)">

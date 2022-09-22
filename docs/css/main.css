@@ -13029,7 +13029,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .contact-form .content-layer {
   z-index: 10;
   position: absolute;
-  top: 10em;
+  top: 8em;
   width: 50vw;
 }
 

@@ -1,6 +1,5 @@
 <section class="section">
     <div class="container">
-        <h1 class="is-size-1 is-family-secondary">Review your Design</h1>
         
         <div class="columns is-vcentered">
             <div class="column is-7 grow-effect">
@@ -9,6 +8,7 @@
                 </figure>
             </div>
             <div class="column is-4">
+                <h1 class="is-size-1 is-family-secondary">Review your Design</h1>
                 <p class="is-size-5 py-4">
                     Submit a design or a webpage and we can review it against common UI/UX principles.
                     Any improvements that maybe applicable can be shared.

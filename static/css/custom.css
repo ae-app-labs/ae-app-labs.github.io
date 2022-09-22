@@ -70,6 +70,10 @@
   text-transform: uppercase;
 }
 
+.service-tile p {
+  margin-top: .5em;
+}
+
 .content.is-vcentered {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -287,6 +291,9 @@
   .footer-logo {
     visibility: hidden;
     padding-top: 10em;
+  }
+  .service-tile-mobile {
+    margin-bottom: 1em !important;
   }
 }
 

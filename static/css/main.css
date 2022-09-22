@@ -13029,7 +13029,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .contact-form .content-layer {
   z-index: 10;
   position: absolute;
-  top: 10em;
+  top: 8em;
   width: 50vw;
 }
 
@@ -13043,6 +13043,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   margin: .3em;
   text-align: center;
   text-transform: uppercase;
+}
+
+.service-tile p {
+  margin-top: .5em;
 }
 
 .content.is-vcentered {
@@ -13262,6 +13266,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   .footer-logo {
     visibility: hidden;
     padding-top: 10em;
+  }
+  .service-tile-mobile {
+    margin-bottom: 1em !important;
   }
 }
 

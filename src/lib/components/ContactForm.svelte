@@ -60,7 +60,7 @@
                                 
                                 <div id="formContainer">
                                         <p class="is-family-secondary is-size-3 has-text-centered">Contact us by sending a message</p>
-                                        <p class="is-size-5">Have a feedback about our website or services, need technology consulting for a web or mobile project, or anything else. Please send us this form.</p>
+                                        <p class="is-size-5">Have a feedback about our website or services, need technology consulting for a web or mobile project, or anything else. Please send us a message.</p>
                                         <div class="columns">
                                             <div class="column is-half">
                                                 <div class="field">
