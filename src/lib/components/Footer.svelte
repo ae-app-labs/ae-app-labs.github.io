@@ -10,7 +10,7 @@
     </div>
 	<div class="container">
         <div class="columns is-vcentered">
-            <div class="column is-one-quarter is-desktop">
+            <div class="column is-one-quarter is-desktop footer-logo">
                 <div>
                     <svg  width="200" height="120" viewBox="0 0 209.313 131.46">
                         <g transform="translate(-504.327 -2063.881)">

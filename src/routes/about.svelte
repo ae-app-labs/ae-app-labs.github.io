@@ -1,6 +1,7 @@
 <script>
 	import ContactForm from '$lib/components/ContactForm.svelte';
 	import RecentWork from '$lib/components/RecentWork.svelte';
+    import ReviewSubmitForm from '$lib/components/ReviewSubmitForm.svelte';
 	import { fade } from 'svelte/transition';
 </script>
 
@@ -12,10 +13,10 @@
 	<img src="/img/site/banner_ae.png" alt="Bannner" />
 </div>
 
-<section class="section section-about fadeInUp" id="section-about" name="section-about" transition:fade>
+<section class="section section-about" id="section-about" name="section-about" >
 	<div class="container">
 		
-		<div class="columns">
+		<div class="columns fadeInUp" transition:fade>
 			<div class="column is-10">
 				<h3 class="is-size-2 is-family-secondary mb-4">Formed in 2005 as a personal project and now an independent design studio, ae app labs focuses on UI/UX research, web and app development.</h3><br />
 			</div>
@@ -35,10 +36,14 @@
 					<h4 class="is-size-3">Design mobile application</h4>
 					<h4 class="is-size-3">User Experience Consultation</h4>
 					<h4 class="is-size-3">Graphics and Design</h4>
+					<h4 class="is-size-3">Free Design Reviews</h4>
 				</div>
 			</div>
+			
 		</div>
-
+		
+		<ReviewSubmitForm />
+		
 		<div class="is-size-2 is-family-secondary mt-4 mb-2">
 			Some of our work
 		</div>

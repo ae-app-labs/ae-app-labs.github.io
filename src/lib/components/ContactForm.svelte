@@ -60,6 +60,7 @@
                                 
                                 <div id="formContainer">
                                         <p class="is-family-secondary is-size-3 has-text-centered">Contact us by sending a message</p>
+                                        <p class="is-size-5">Have a feedback about our website or services, need technology consulting for a web or mobile project, or anything else. Please send us a message.</p>
                                         <div class="columns">
                                             <div class="column is-half">
                                                 <div class="field">
@@ -91,6 +92,7 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        Refer to the website's <a class="is-link" href="https://ae-app-labs.github.io/privacy-policy" target="_blank">Privacy Policy</a>
                                         <div class="field">
                                             <div class="control has-text-centered">
                                                 <button type="submit" class="button is-link is-medium my-2 btn btn-hover-effect" style="transform: translate(0px, 0px); opacity: 1;" on:click="{ formSubmit }">Send message</button>

@@ -6,7 +6,7 @@
 </script>
 
 <section class="section">
-    <div id="featuredProjects" class="container py-6 projects">
+    <div id="featuredProjects" class="container projects">
         <h1 class="is-size-1 is-family-secondary">
             Featured Projects
           </h1>
