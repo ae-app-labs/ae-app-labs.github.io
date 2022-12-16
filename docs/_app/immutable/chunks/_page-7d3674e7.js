@@ -1,0 +1,1 @@
+import{R as n}from"./control-f5b05b5f.js";function c(o,e){return new n(o,e)}async function i({fetch:o,params:e}){const t=await o(`/privacy-policy/${e.slug}.json`),r=await t.json();if(t.ok)return{policy:r};throw c(301,"/privacy-policy")}const l=Object.freeze(Object.defineProperty({__proto__:null,load:i},Symbol.toStringTag,{value:"Module"}));export{l as _,i as l};
