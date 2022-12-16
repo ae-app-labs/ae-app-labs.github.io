@@ -1,3 +1,4 @@
+import { json } from '@sveltejs/kit';
 import privacyPolicyData from '$lib/data/privacy-policy-data.js'
 
 export async function GET({ params }) {
@@ -8,10 +9,7 @@ export async function GET({ params }) {
     console.log(post)
 
     if(post){
-        return {
-            status: 200,
-            body: { post }
-        }
+        return json({ post })
     }
 
 }

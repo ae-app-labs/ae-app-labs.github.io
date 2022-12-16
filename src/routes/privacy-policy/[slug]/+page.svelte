@@ -1,28 +1,10 @@
-<script context="module">
-	export async function load( { fetch, params} ) {
-		const res = await fetch(`/privacy-policy/${params.slug}.json`)
-        const policy = await res.json()
-		
-		if(res.ok) {
-            return {
-                props: {
-                    policy
-                }
-            }
-        } 
-        return {
-            status: 301,
-            //error: new Error('Could not fetch the guide')
-            redirect: '/privacy-policy'
-        }
-	}
-</script>
+
 
 <script>
 	import ContactForm from "$lib/components/ContactForm.svelte";
-	export let policy
+	export let data
 
-	$: post = policy.post
+	$: post = data.post
 </script>
 
 <style>

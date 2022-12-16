@@ -1,33 +1,20 @@
-<script context="module">
-	/** @type {import('@sveltejs/kit').Load} */
-	export function load({ error, status }) {
-		return {
-			props: { error, status }
-		};
-	}
-</script>
-
 <script>
-	/** @type {number} */
-	export let status;
-
-	/** @type {Error & {frame?: string} & {loc?: object}} */
-	export let error;
+    import { page } from '$app/stores';
 </script>
   
 <section class="section">
     <div class="container">
-        {#if status == 404} <!-- Used '==' instead of '===' to match string/number status code (just to be sure) -->
+        {#if $page.status == 404} <!-- Used '==' instead of '===' to match string/number status code (just to be sure) -->
             <div class="has-text-centered">
                 <p class="is-size-1 is-family-secondary my-4">Oops! That is a 404.</p>
-                <p>{error.message}</p>
+                <p>{$page.error.message}</p>
                 <p class="my-2">
                     It looks like the page you are looking for does not exist. Please use the links below.
                 </p>
             </div>
         {:else}
             <p class="is-size-1">
-                {error.message} {status}
+                {$page.error.message} {$page.status}
             </p>
         {/if}
         
