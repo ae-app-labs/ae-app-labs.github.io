@@ -1,6 +1,6 @@
 import privacyPolicyData from '$lib/data/privacy-policy-data.js'
 
-export async function get({ params }) {
+export async function GET({ params }) {
     const post = privacyPolicyData.find( (g) => {
         //console.log(g);
         return g.slug == params.slug
