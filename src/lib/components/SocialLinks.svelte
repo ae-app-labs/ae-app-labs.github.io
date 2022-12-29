@@ -3,7 +3,7 @@
         <div class="column is-4">
 
             <div class="box has-text-info pl-6">
-                <a class="has-text-dark" target="_blank" href="https://instagram.com/AeAppLabs" name="Instagram">
+                <a class="has-text-dark" target="_blank" href="https://instagram.com/AeAppLabs" name="Instagram" rel="noreferrer">
                     <div>
                         <div class="is-pulled-left mr-4">
                             <svg width="72" height="72" viewBox="0 0 72 72">
@@ -27,7 +27,7 @@
         </div>
         <div class="column is-4">
             <div class="box has-text-info pl-6">
-                <a class="has-text-dark" target="_blank" href="https://twitter.com/aeapplabs" name="Twitter">
+                <a class="has-text-dark" target="_blank" href="https://twitter.com/aeapplabs" name="Twitter" rel="noreferrer">
                     <div>
                         <div class="is-pulled-left mr-4">
                             <svg width="72" height="72" viewBox="0 0 72 72">
@@ -49,7 +49,7 @@
         <div class="column is-4">
 
             <div class="box has-text-info pl-6">
-                <a class="has-text-dark" target="_blank" href="https://github.com/ae-app-labs" name="Github Page">
+                <a class="has-text-dark" target="_blank" href="https://github.com/ae-app-labs" name="Github Page" rel="noreferrer">
                     <div>
                         <div class="is-pulled-left mr-4">
                             <svg width="72" height="72" viewBox="0 0 72 72">
@@ -74,7 +74,7 @@
         <div class="column is-4">
 
             <div class="box has-text-info pl-6">
-                <a class="has-text-dark" target="_blank" href="https://www.youtube.com/channel/UCCYOqc-QhZCbWtjpHZ5ROXw" name="Youtube">
+                <a class="has-text-dark" target="_blank" href="https://www.youtube.com/channel/UCCYOqc-QhZCbWtjpHZ5ROXw" name="Youtube" rel="noreferrer">
                     <div>
                         <div class="is-pulled-left mr-4">
                             <svg width="72" height="72" viewBox="0 0 72 72">
@@ -96,7 +96,7 @@
         </div>
         <div class="column is-4">
             <div class="box has-text-info pl-6">
-                <a class="has-text-dark" target="_blank" href="https://play.google.com/store/apps/dev?id=6177347481993841752&hl=en_US" name="Play Store">
+                <a class="has-text-dark" target="_blank" href="https://play.google.com/store/apps/dev?id=6177347481993841752&hl=en_US" name="Play Store" rel="noreferrer">
                     <div>
                         <div class="is-pulled-left mr-4">
                             <svg width="72" height="72" viewBox="0 0 72 72">
@@ -117,7 +117,7 @@
         <div class="column is-4">
 
             <div class="box has-text-info pl-6">
-                <a class="has-text-dark" target="_blank" href="https://www.facebook.com/AeAppLabs/" name="Facebook Page">
+                <a class="has-text-dark" target="_blank" href="https://www.facebook.com/AeAppLabs/" name="Facebook Page" rel="noreferrer">
                     <div>
                         <div class="is-pulled-left mr-4">
                             <svg width="72" height="72" viewBox="0 0 72 72">

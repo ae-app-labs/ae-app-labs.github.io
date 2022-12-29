@@ -7,14 +7,10 @@ const config = {
 			// default options are shown
 			pages: 'build',
 			assets: 'build',
-			fallback: null,
+			fallback: '200.html',
 			precompress: false
 		  }),
 		  
-		  prerender: {
-			// This can be false if you're using a fallback (i.e. SPA mode)
-			default: true
-		  }
 	}
 };
 

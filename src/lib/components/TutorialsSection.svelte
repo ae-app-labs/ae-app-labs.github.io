@@ -14,14 +14,14 @@
                 <div class="card mb-4 mx-4">
                     <div class="card-content has-background-info">
                         <div class="grow-effect">
-                            <a href="{data.videoUrl }" target="_blank">
+                            <a href="{data.videoUrl }" target="_blank" rel="noreferrer">
                                 <figure class="image">
                                     <img src="{data.coverImage }" alt="Placeholder">
                                 </figure>
                             </a>
                         </div>
                         <h3 class="is-size-5 mt-4">
-                            <a href="{data.videoUrl }" target="_blank" class="has-text-white">
+                            <a href="{data.videoUrl }" target="_blank" class="has-text-white" rel="noreferrer">
                                 {data.title }
                             </a>
                         </h3>
