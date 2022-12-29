@@ -55,17 +55,17 @@
 				<h4 class="is-size-3">Explore more of our design work</h4>
 				<ul class="mt-2 mb-4 ">
 					<li>
-						<a href="https://www.uplabs.com/aeapplabs" class="is-link has-text-white" target="_blank">
+						<a href="https://www.uplabs.com/aeapplabs" class="is-link has-text-white" target="_blank" rel="noreferrer">
 							<span><i class="fas fa-external-link-alt has-text-white pr-2" aria-hidden="true"></i></span>
 							Uplabs</a>
 					</li>
 					<li>
-						<a href="https://instagram.com/AeAppLabs" class="is-link has-text-white" target="_blank">
+						<a href="https://instagram.com/AeAppLabs" class="is-link has-text-white" target="_blank" rel="noreferrer">
 							<span><i class="fas fa-external-link-alt has-text-white pr-2" aria-hidden="true"></i></span>
 							Instagram</a>
 					</li>
 					<li>
-						<a href="https://www.behance.net/midhunharikumar" class="is-link has-text-white" target="_blank">
+						<a href="https://www.behance.net/midhunharikumar" class="is-link has-text-white" target="_blank" rel="noreferrer">
 							<span><i class="fas fa-external-link-alt has-text-white pr-2" aria-hidden="true"></i></span>
 							Behance</a>
 					</li>
@@ -76,7 +76,7 @@
 				<h4 class="is-size-3">Apps &amp; Research projects</h4>
 				<p>Educational and Research projects are available under AeAppLabs with open source licenses at 
 					<br/>
-					<a href="https://github.com/ae-app-labs" class="is-link has-text-white mt-2" target="_blank">
+					<a href="https://github.com/ae-app-labs" class="is-link has-text-white mt-2" target="_blank" rel="noreferrer">
 					<span><i class="fas fa-external-link-alt has-text-white pr-2" aria-hidden="true"></i></span>
 					https://github.com/ae-app-labs</a>
 				</p>

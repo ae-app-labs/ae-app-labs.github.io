@@ -56,7 +56,7 @@
 			<div class="column is-2">
 				<h3 class="is-size-4 has-text-weight-bold">Website</h3>
 				<p class="is-size-6 pt-2 has-text-link-dark">
-					<a href="https://www.thelotusfoundation.org/" target="_blank" class="button is-link">
+					<a href="https://www.thelotusfoundation.org/" target="_blank" class="button is-link" rel="noreferrer">
 						Visit the TLF Website <i class="fas fa-external-link-alt ml-2"></i>
 					</a>
 				</p>
@@ -121,7 +121,7 @@
 			<div class="column is-4 stagger2">
                 <p class="is-size-4 mb-4 has-text-weight-bold">Design Mockup</p>
 				<p class="is-size-5">The second step in the design process was to create a mockup based on the approved wireframes.</p> <br/>
-                <p class="is-size-6"><a href="https://unsplash.com/" target="_blank" class="is-link" title="Unsplash">Stock images</a> and the color palette was finally used.</p>
+                <p class="is-size-6"><a href="https://unsplash.com/" target="_blank" class="is-link" title="Unsplash" rel="noreferrer">Stock images</a> and the color palette was finally used.</p>
             </div>
 		</div>
 	</div>

@@ -4,7 +4,6 @@
 	import Footer from '$lib/components/Footer.svelte';
 
 	export const prerender = true
-	export let data
 </script>
 
 <Analytics/>
