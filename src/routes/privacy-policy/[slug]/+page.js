@@ -1,6 +1,6 @@
 import { redirect } from '@sveltejs/kit';
 
-export async function load( { fetch, params} ) {
+export const load = async ({ fetch, params}) => {
 	const res = await fetch(`/privacy-policy/${params.slug}.json`)
 	const policy = await res.json()
 

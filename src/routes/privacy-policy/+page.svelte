@@ -78,7 +78,7 @@
 				<br/>
 				<ul>
 					{#each posts as post}
-						<li class="mb-2"><a class="is-link" rel="prefetch" href="privacy-policy/{post.slug}">{post.title}</a></li>
+						<li class="mb-2"><a class="is-link" rel="prefetch" data-sveltekit-prefetch href="privacy-policy/{post.slug}">{post.title}</a></li>
 					{/each}
 				</ul>
 			</div>

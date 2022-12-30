@@ -1,12 +1,10 @@
 # ae-app-labs.github.io
-Organization Page
+Organization Page for ae app labs
 
 v3 of the site is built with SvelteKit and Bulma  
 
 ## Deployed at
 Current version deployed at https://ae-app-labs.github.io
-
-Version 2 is available at https://ae-app-labs.web.app
 
 ## Third Party Libraries and Frameworks
 [Svelet Kit](https://kit.svelte.dev/)   
