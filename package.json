@@ -1,27 +1,25 @@
 {
   "name": "app-labs-v3",
-  "version": "3.1.2",
+  "version": "3.2.2",
   "scripts": {
-    "dev": "svelte-kit dev",
-    "dev-host": "svelte-kit dev --host",
     "css-build": "sass static/css/main.scss static/css/main.css",
-    "build": "svelte-kit build",
     "package": "svelte-kit package",
-    "preview": "svelte-kit preview",
-    "prepare": "svelte-kit sync",
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "preview-host": "vite preview --host",
     "clean-docs": "rmdir /S /Q docs && mkdir docs",
-    "copy-nojekyll": "cp -a .nojekyll docs/",
     "copy-export": "cp -a -r build/* docs/",
     "commit-export": "git add docs && git commit -m ",
-    "update-docs": "npm run clean-docs && npm run build && npm run copy-export && npm run copy-nojekyll && npm run commit-export"
+    "update-docs": "npm run clean-docs && npm run build && npm run copy-export && touch docs/.nojekyll && npm run commit-export"
   },
   "devDependencies": {
-    "@sveltejs/adapter-auto": "next",
-    "@sveltejs/adapter-static": "^1.0.0-next.34",
-    "@sveltejs/kit": "next",
+    "@sveltejs/adapter-static": "^1.0.0",
+    "@sveltejs/kit": "^1.0.0",
     "bulma": "^0.9.4",
     "sass": "^1.54.4",
-    "svelte": "^3.49.0"
+    "svelte": "^3.54.0",
+    "vite": "4.0.0"
   },
   "type": "module"
 }
