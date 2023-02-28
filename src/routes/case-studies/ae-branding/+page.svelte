@@ -27,7 +27,7 @@
 
 		<div class="mt-4">
 			<p class="is-size-4 stagger2">The history of creating a unique brand identity for ae.</p>
-			<p class="is-size-5 mt-2 stagger2">AE (Artistik Expressionz) is mainly about UX &amp; UI excellence.</p>
+			<p class="is-size-5 mt-2 stagger2">AE (Artistik Expressionz) specializes in creating exceptional user experiences and interfaces.</p>
 		</div>
 	</div>
 </section>
@@ -86,12 +86,7 @@
 <section class="section">
 	<div class="container">
 		<div class="columns pt-3">
-			<div class="column is-one-third">
-				<img src="/img/case-studies/ae-branding/ae_logo_v2_color.jpg" alt="redesign color versions" class="fadeIn">
-			</div>
-		</div>
-		<div class="columns pt-3">
-			<div class="column is-offset-4 is-4 stagger2">
+			<div class="column is-4 stagger2">
 				<p class="is-size-4 mb-4 has-text-weight-bold has-text-left">A Modern Approach</p>
 				<p class="is-size-5">
 					The logo was simplified while retaining the idea of symmetry.
@@ -103,8 +98,14 @@
 				<p class="is-size-6">It was created with Adobe XD as a vector graphic.</p>
 			</div>
 		</div>
+
+		<div>
+			<img src="/img/case-studies/ae-branding/billboard_roadside.jpg" alt="billboard" class="fadeIn">
+		</div>
 		<div class="columns pt-3">
-			<div class="column is-two-thirds is-hidden-mobile">&nbsp;</div>
+			<div class="column is-two-thirds is-hidden-mobile">
+				&nbsp;
+			</div>
 			<div class="column">
 				<img src="/img/case-studies/ae-branding/ae_logo_v2_bw.jpg" alt="redesign monochrome versions" class="fadeIn">
 			</div>

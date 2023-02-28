@@ -1,6 +1,6 @@
 {
   "name": "app-labs-v3",
-  "version": "3.2.2",
+  "version": "3.2.3",
   "scripts": {
     "css-build": "sass static/css/main.scss static/css/main.css",
     "package": "svelte-kit package",
