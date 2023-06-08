@@ -27,17 +27,18 @@
 		<title>ae app labs | organization page</title>
 
 		<meta http-equiv="content-security-policy" content="">
-		<link rel="modulepreload" href="../_app/immutable/start-da1d0e90.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/index-0a15943d.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-a3f02b70.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/index-4f95871a.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/control-e7f5239e.js">
-		<link rel="modulepreload" href="../_app/immutable/components/pages/_layout.svelte-6c6f2fe0.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/stores-ecc6aeb5.js">
-		<link rel="modulepreload" href="../_app/immutable/modules/pages/_layout.js-9cbb603b.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/_layout-da46b06b.js">
-		<link rel="modulepreload" href="../_app/immutable/components/pages/case-studies/ae-branding/_page.svelte-1316d765.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/index-338b94a0.js"><title>Case Studies - AE Branding</title><!-- HEAD_svelte-1cwlc6_START --><script cookie-consent="targeting" async src="https://www.googletagmanager.com/gtag/js?id=G-4RX2JVR60E"></script><script cookie-consent="targeting">window.dataLayer = window.dataLayer || [];
+		<link rel="modulepreload" href="../_app/immutable/entry/start.f88db2ba.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index.17768742.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons.bf90efce.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index.2e18cbd2.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/control.e7f5239e.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/app.16dcc07e.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/_layout.svelte.52be6d25.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/stores.7d7fd447.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/_layout.js.984db11e.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_layout.da46b06b.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/case-studies-ae-branding-page.svelte.46d5f7ad.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index.be619ea2.js"><title>Case Studies - AE Branding</title><!-- HEAD_svelte-1cwlc6_START --><script cookie-consent="targeting" async src="https://www.googletagmanager.com/gtag/js?id=G-4RX2JVR60E"></script><script cookie-consent="targeting">window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
@@ -181,23 +182,31 @@
         </div></div></footer>
 
 
-		<script type="module" data-sveltekit-hydrate="159uabn">
-			import { start } from "../_app/immutable/start-da1d0e90.js";
+			
+			<script>
+				{
+					__sveltekit_1lwlwrh = {
+						env: {},
+						base: new URL("..", location).pathname.slice(0, -1),
+						element: document.currentScript.parentElement
+					};
 
-			start({
-				assets: "",
-				env: {},
-				target: document.querySelector('[data-sveltekit-hydrate="159uabn"]').parentNode,
-				version: "1681013035721",
-				hydrate: {
-					node_ids: [0, 5],
-					data: [null,null],
-					form: null,
-					error: null
+					const data = [null,null];
+
+					Promise.all([
+						import("../_app/immutable/entry/start.f88db2ba.js"),
+						import("../_app/immutable/entry/app.16dcc07e.js")
+					]).then(([kit, app]) => {
+						kit.start(app, __sveltekit_1lwlwrh.element, {
+							node_ids: [0, 5],
+							data,
+							form: null,
+							error: null
+						});
+					});
 				}
-			});
-		</script>
-	</div>
+			</script>
+		</div>
 	</body>
 
 	<!-- Cookie Consent by TermsFeed Privacy Policy and Consent Generator https://www.TermsFeed.com -->
