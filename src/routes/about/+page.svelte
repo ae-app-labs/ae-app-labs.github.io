@@ -17,7 +17,7 @@
 	<div class="container">
 		
 		<div class="columns fadeInUp" transition:fade>
-			<div class="column is-10">
+			<div class="column is-12">
 				<h3 class="is-size-2 is-family-secondary mb-4">Formed in 2005 as a personal project and now an independent design studio, ae app labs focuses on UI/UX research, web and app development.</h3><br />
 			</div>
 		</div>
