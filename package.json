@@ -14,12 +14,12 @@
     "update-docs": "npm run build && npm run clean-docs && npm run copy-export && touch docs/.nojekyll && npm run commit-export"
   },
   "devDependencies": {
-"@sveltejs/adapter-auto": "^2.1.0",
-"@sveltejs/adapter-static": "^1.0.6",
-"@sveltejs/kit": "^1.3.0",
-"svelte": "^3.59.2",
-"svelte-preprocess": "^5.0.4",
-"vite": "^4.4.7",
+    "@sveltejs/adapter-auto": "^2.1.0",
+    "@sveltejs/adapter-static": "^1.0.6",
+    "@sveltejs/kit": "^1.3.0",
+    "svelte": "^3.59.2",
+    "svelte-preprocess": "^5.0.4",
+    "vite": "^4.4.9",
     "bulma": "^0.9.4",
     "sass": "^1.54.4"
   },
