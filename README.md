@@ -7,9 +7,10 @@ v3 of the site is built with SvelteKit and Bulma
 Current version deployed at https://ae-app-labs.github.io
 
 ## Third Party Libraries and Frameworks
-[Svelet Kit](https://kit.svelte.dev/)   
-[Bulma](http://bulma.io/)  
-[Glider.js](https://github.com/NickPiscitelli/Glider.js) 
+- [Svelte](https://svelte.dev)
+- [Svelet Kit](https://kit.svelte.dev/)   
+- [Bulma](http://bulma.io/)  
+- [Glider.js](https://github.com/NickPiscitelli/Glider.js) 
 
 ## Commands
 1. Clone the repository
@@ -19,10 +20,4 @@ Current version deployed at https://ae-app-labs.github.io
 ### export, update docs folder and create a commit
 `npm run update-docs -- "update message"`
 
-
-`
-    //"postbuild": "npx svelte-sitemap --domain https://ae-app-labs.github.io"
-    //"svelte-sitemap": "^2.6.0",
-    // Running into build issues with below version
-    //"@sveltejs/kit": "1.23.1",
-`
+Run `site_build.cmd` to build the latest version of the site and stage the commit.
