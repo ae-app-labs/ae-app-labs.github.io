@@ -19,3 +19,10 @@ Current version deployed at https://ae-app-labs.github.io
 ### export, update docs folder and create a commit
 `npm run update-docs -- "update message"`
 
+
+`
+    //"postbuild": "npx svelte-sitemap --domain https://ae-app-labs.github.io"
+    //"svelte-sitemap": "^2.6.0",
+    // Running into build issues with below version
+    //"@sveltejs/kit": "1.23.1",
+`
