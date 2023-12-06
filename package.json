@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^1.0.6",
-    "@sveltejs/kit": "1.23.1",
+    "@sveltejs/kit": "1.27.7",
     "bulma": "^0.9.4",
     "sass": "^1.54.4",
     "svelte": "^3.59.2",
