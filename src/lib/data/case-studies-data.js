@@ -26,6 +26,15 @@ const caseStudiesData = {
 			articleUrl : '/case-studies/random-contact',
 			creationDate: "20 Mar 2021",
 			description: "The redesign of our first Android app that was released on the Play Store."
+		},
+		{
+			title: 'Silverback Gaming Branding',
+			slug: 'silverback-gaming',
+			type: 'Branding',
+			previewImage: 'img/case-studies/silverback-gaming/sb-preview.png',
+			articleUrl : '/case-studies/silverback-gaming',
+			creationDate: "14 Dec 2023",
+			description: "The branding of a Youtube Gaming Channel."
 		}
 	]
 }
