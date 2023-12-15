@@ -27,11 +27,11 @@
 		<div class="columns mt-4">
 			<div class="column is-8 stagger1 pr-4">
 				<p class="is-size-5 my-2">
-					Silverback Gaming is a youtube channel that posts gameplay vidoes from time to time.
+					Silverback Gaming is a youtube channel that posts gameplay videos.
 				</p>
 				<br/>
 				<p class="is-size-5 my-2">
-					Since it had an incosistent brand, an effort was undertaken to create a branding and assets for the Youtube Channel as well as a homepage. For the first time AI tools were used to aid the design and development of this branding excersise. 
+					Since branding was incosistent, an effort was undertaken to create a branding and assets for the Youtube Channel as well as a homepage. For the first time AI tools were used to aid the design and development of this branding excersise from start to finish. 
 				</p>
 			</div>
 		</div>
@@ -50,7 +50,7 @@
 				<p class="is-size-6 pt-2">Digital Assets</p>
 			</div>
 			<div class="column is-2">
-				<h3 class="is-size-4 has-text-weight-bold">YouTube Channel</h3>
+				<h3 class="is-size-4 has-text-weight-bold">Websites</h3>
 				<p class="is-size-6 pt-2 has-text-link-dark">
 					<a href="https://www.youtube.com/@silverback_gaming" target="_blank" class="button is-link" rel="noreferrer">
 						Visit the Youtube Channel <i class="fas fa-external-link-alt ml-2"></i>
@@ -78,19 +78,23 @@
             </div>
 		</div>
 		<div>
-			<ul>
-				<li class="is-size-6">
-					Black: Black is a classic color that exudes sophistication, elegance, and mystery. It can be used as the primary color to create a strong visual impact and convey a sense of authority.
-				</li>
-				<li class="is-size-6 mt-2">
-					Deep Red: Deep shades of red, such as burgundy or crimson, can add intensity and excitement to the branding. Red is often associated with passion, energy, and action, making it suitable for a gaming channel.
-				</li>
-				<li class="is-size-6 mt-2">Metallic Silver: Incorporating silver or shades of gray can enhance the "silverback" theme and give a sleek and modern look. It can represent technology, innovation, and a futuristic vibe.
-				</li>
-				<li class="is-size-6 mt-2">
-					Electric Blue: Vibrant shades of blue, such as electric blue or navy blue, can be used as accent colors to provide contrast and visual interest. Blue signifies trust, stability, and intelligence, which can resonate well with gaming enthusiasts.
-				</li>
-			</ul>
+			<div class="columns">
+				<div class="column is-6 is-offset-6">
+					<ul>
+						<li class="is-size-6">
+							Black: Black is a classic color that exudes sophistication, elegance, and mystery. It can be used as the primary color to create a strong visual impact and convey a sense of authority.
+						</li>
+						<li class="is-size-6 mt-2">
+							Deep Red: Deep shades of red, such as burgundy or crimson, can add intensity and excitement to the branding. Red is often associated with passion, energy, and action, making it suitable for a gaming channel.
+						</li>
+						<li class="is-size-6 mt-2">Metallic Silver: Incorporating silver or shades of gray can enhance the "silverback" theme and give a sleek and modern look. It can represent technology, innovation, and a futuristic vibe.
+						</li>
+						<li class="is-size-6 mt-2">
+							Electric Blue: Vibrant shades of blue, such as electric blue or navy blue, can be used as accent colors to provide contrast and visual interest. Blue signifies trust, stability, and intelligence, which can resonate well with gaming enthusiasts.
+						</li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
