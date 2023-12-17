@@ -1,6 +1,6 @@
 {
   "name": "app-labs-v3",
-  "version": "3.2.9",
+  "version": "3.3.0",
   "scripts": {
     "css-build": "sass static/css/main.scss static/css/main.css",
     "package": "svelte-kit package",
@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^1.0.6",
-    "@sveltejs/kit": "1.27.7",
+    "@sveltejs/kit": "1.30.3",
     "bulma": "^0.9.4",
     "sass": "^1.54.4",
     "svelte": "^3.59.2",
