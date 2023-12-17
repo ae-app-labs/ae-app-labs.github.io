@@ -23,7 +23,7 @@
 	<meta name="og:title" content="Let's learn, design and build together." >
 </svelte:head>
 
-<div transition:fade>
+<div transition:fade|global>
 
 	<LandingHero/>
 	

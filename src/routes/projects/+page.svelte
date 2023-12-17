@@ -8,7 +8,7 @@
 	<title>ae app labs | Projects</title>
 </svelte:head>
 
-<section class="section" transition:fade>
+<section class="section" transition:fade|global>
 	<div class="container">
 		<CategorySection sectionData={androidProjects}/>
 

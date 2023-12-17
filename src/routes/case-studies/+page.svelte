@@ -9,7 +9,7 @@
 	<title>ae app labs | Case Studies</title>
 </svelte:head>
 
-<section class="section list-cases" transition:fade>
+<section class="section list-cases" transition:fade|global>
 	<div class="container has-text-centered">
 		<p class="is-size-2 mb-2 is-family-secondary">“Every great design begins with an even better story.”</p>
 		<p>Lorinda Mamo, Designer</p>
