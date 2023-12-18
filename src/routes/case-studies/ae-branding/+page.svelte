@@ -95,7 +95,7 @@
 				</p>
 				<br/>
 				<p class="is-size-6">2020 - Present</p>
-				<p class="is-size-6">It was created with Adobe XD as a vector graphic.</p>
+				<p class="is-size-6">It was initially created with Adobe XD as a vector graphic, then redrawn in Figma by 2022.</p>
 			</div>
 		</div>
 
