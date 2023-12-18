@@ -10,7 +10,7 @@
 	<title>ae app labs | Tutorials</title>
 </svelte:head>
 
-<section class="section" transition:fade>
+<section class="section" transition:fade|global>
     <div class="container content">
         <div class="columns">
             <div class="column is-5 fadeInUp">

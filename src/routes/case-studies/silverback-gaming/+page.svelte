@@ -19,7 +19,7 @@
     <meta name="twitter:image:alt" content="A banner image which is dark and having the words 'Silverback Gaming' on it" />
 </svelte:head>
 
-<section class="section section-header banner-bg my-0 py-0 " transition:fade>
+<section class="section section-header banner-bg my-0 py-0 " transition:fade|global>
 	<div class="container py-4 fadeInUp">
 		<p class="is-size-1 is-family-secondary">Silverback Gaming</p>
         <p class="is-size-4 stagger1">Branding &amp; Web Development</p>

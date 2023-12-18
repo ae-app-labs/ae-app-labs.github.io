@@ -9,5 +9,5 @@ export const load = async ({ fetch, params}) => {
 			policy
 		}
 	} 
-	throw redirect(301, '/privacy-policy');
+	redirect(301, '/privacy-policy');
 }

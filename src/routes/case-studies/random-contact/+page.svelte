@@ -45,7 +45,7 @@
     }
 </style>
 
-<section class="section-header banner-bg" transition:fade>
+<section class="section-header banner-bg" transition:fade|global>
 	<div class="container py-6 fadeInUp">
         <p class="is-size-1 is-family-secondary">A Mobile app <br/> Redesign Project</p>
         <p class="is-size-4 stagger2 mt-4">UI/UX App Design</p>

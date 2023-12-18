@@ -9,14 +9,14 @@
 	<title>ae app labs | About</title>
 </svelte:head>
 
-<div transition:fade>
+<div transition:fade|global>
 	<img src="/img/site/banner_ae.png" alt="Bannner" />
 </div>
 
 <section class="section section-about" id="section-about" name="section-about" >
 	<div class="container">
 		
-		<div class="columns fadeInUp" transition:fade>
+		<div class="columns fadeInUp" transition:fade|global>
 			<div class="column is-12">
 				<h3 class="is-size-2 is-family-secondary mb-4">Formed in 2005 as a personal project and now an independent design studio, ae app labs focuses on UI/UX research, web and app development.</h3><br />
 			</div>
