@@ -39,19 +39,30 @@
                 </ul>
                 <br />
                 <div>
-                    <a class="button is-primary" href="https://play.google.com/store/apps/dev?id=6177347481993841752&hl=en_US" name="Play Store">
+                    <a class="button is-primary" href="https://play.google.com/store/apps/dev?id=6177347481993841752&hl=en_US" name="Play Store" title="Play Store">
                         <span class="icon"><i class="fab fa-google-play"></i></span>
                     </a>
-                    <a class="button is-primary" href="https://www.behance.net/midhunharikumar" name="Behance Profile">
+                    <a class="button is-primary" href="https://www.behance.net/midhunharikumar" name="Behance Profile" title="Behance">
                         <span class="icon"><i class="fab fa-behance"></i></span>
                     </a>
-                    <a class="button is-primary" href="https://twitter.com/aeapplabs" name="Twitter">
-                        <span class="icon"><i class="fab fa-twitter"></i></span>
+                    <a class="button is-primary" href="https://twitter.com/aeapplabs" name="Twitter" title="X (formerly Twitter)">
+                        <span class="icon">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_147_4)">
+                                <path d="M12.6007 0.768677H15.054L9.694 6.89534L16 15.2307H11.0627L7.196 10.1747L2.77067 15.2307H0.316L6.04933 8.67734L0 0.769343H5.06267L8.558 5.39068L12.6007 0.768677ZM11.74 13.7627H13.0993L4.324 2.16001H2.86533L11.74 13.7627Z" fill="#F8F8F8"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_147_4">
+                                <rect width="16" height="16" fill="white"/>
+                                </clipPath>
+                                </defs>
+                                </svg>                                                                                                               
+                        </span>
                     </a>
-                    <a class="button is-primary" href="https://instagram.com/AeAppLabs" name="Instagram">
+                    <a class="button is-primary" href="https://instagram.com/AeAppLabs" name="Instagram" title="Instagram">
                         <span class="icon"><i class="fab fa-instagram"></i></span>
                     </a>
-                    <a class="button is-primary" href="https://github.com/ae-app-labs" name="Github Page">
+                    <a class="button is-primary" href="https://github.com/ae-app-labs" name="Github Page" title="Github Page">
                         <span class="icon"><i class="fab fa-github"></i></span>
                     </a>
                 </div>

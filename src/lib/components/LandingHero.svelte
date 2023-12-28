@@ -18,8 +18,8 @@
                 <h1 class="is-size-1 is-family-secondary">Let's learn, design and build together.</h1>
                 <div class="subtitle py-2">Tutorials, Design and Development for the modern Web and Mobile.</div>
                 <div class="has-text-link mb-4 mt-2">
-                    <button class="button is-link is-medium btn btn-hover-effect p-2 m-2 stagger1" style="transform: translate(0px, 0px); opacity: 1;" onclick="javascipt:scrollToSection('featuredProjects')">See Projects ›</button> 
-                    <button class="button is-outlined is-medium is-link btn p-2 m-2 stagger1"  onclick="javascript:scrollToSection('contact')">Contact</button></div>
+                    <button class="button is-link is-medium btn btn-hover-effect p-2 m-2 stagger1" title="See Projects" style="transform: translate(0px, 0px); opacity: 1;" onclick="javascipt:scrollToSection('featuredProjects')">See Projects ›</button> 
+                    <button class="button is-outlined is-medium is-link btn p-2 m-2 stagger1" title="Contact" onclick="javascript:scrollToSection('contact')">Contact</button></div>
             </div>
         </div>
         <div class="scroller mb-4 is-hidden-mobile">
