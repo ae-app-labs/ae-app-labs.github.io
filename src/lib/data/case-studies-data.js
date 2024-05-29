@@ -40,8 +40,8 @@ const caseStudiesData = {
 			title: 'Van Belle FLowers Branding',
 			slug: 'florist-branding',
 			type: 'Branding',
-			previewImage: 'img/case-studies/silverback-gaming/sb-preview.png',
-			articleUrl : '/case-studies/silverback-gaming',
+			previewImage: 'img/case-studies/florist-branding/vb-preview.png',
+			articleUrl : '/case-studies/florist-branding',
 			creationDate: "30 May 2024",
 			description: "The rebranding of a local flower shop's digital presence"
 		}

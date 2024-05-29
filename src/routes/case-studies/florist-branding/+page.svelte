@@ -6,7 +6,7 @@
 
 <SeoMetaTags
 	sectionName="Case Studies"
-	title="Van Belle Flowers Branding"
+	title="Van Belle Florals Branding"
 	description="Concept rebranding for a local flower shop"
 	pageUrl = {$page.url.pathname}
 	image="https://ae-app-labs.github.io/img/case-studies/silverback-gaming/sb-banner.png"
@@ -15,14 +15,14 @@
 
 <section class="section section-header banner-bg my-0 py-0 " transition:fade|global>
 	<div class="container py-4 fadeInUp">
-        <p class="is-size-1 is-family-secondary">Van Belle Flowers</p>
+        <p class="is-size-1 is-family-secondary">Van Belle Florals</p>
         <p class="is-size-4 stagger1">Re-Branding Concept</p>
 
 		<div class="columns mt-4">
 			<div class="column is-8 stagger1 pr-4">
 				<p class="is-size-5 my-2">
-					Van Belle is a local flower shop in Durham Region since the 1960s.
-					This is a well known florist and garden supplies store that is historic and has a lot of unique features.
+					Van Belle Florals is a family owned and operated flower shop in Durham Region operating since the 1960s.
+					It is a well known florist and garden supplies store that is historic and has a lot of unique features.
 				</p>
 			</div>
 		</div>
@@ -30,7 +30,7 @@
 		<div class="columns stagger2 mt-4">
 			<div class="column is-2">
 				<h3 class="is-size-4 has-text-weight-bold">Effort</h3>
-				<p class="is-size-6 pt-2">Re-branding Concept</p>
+				<p class="is-size-6 pt-2">Research and Design</p>
 			</div>
 			<div class="column is-2">
 				<h3 class="is-size-4 has-text-weight-bold">Deliverables</h3>
@@ -74,12 +74,12 @@
         <div class="columns my-6">
             <div class="column is-4">
                 <p class="is-size-4 mb-4 has-text-weight-bold">The Hero section</p>
-				<p class="is-size-5">Since the existing website did not have a hero section or clear call to action button, these were worked into the design.</p>
+				<p class="is-size-5">Since the existing website does not have a hero section or clear call to action button, these were worked into the design.</p>
                 <br/><br/>
 				<p class="is-size-6">We retained the language selection, user profile, shopping cart and phone number for the store at the top of the page.</p>
                 <br/>
 				<p class="is-size-6">Recraft.AI was used to extensively create all graphical assets for the design from scratch, including patterns.</p>
-                <div class="has-text-right">
+                <div class="has-text-right is-hidden-mobile">
                     <svg width="84" height="110" viewBox="0 0 84 110" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_87_94)">
                         <path d="M55.0706 1.47748C44.0481 2.88292 35.8903 11.0538 30.0003 19.9473C24.4866 28.2875 20.4887 37.712 18.3157 47.5063C16.1426 57.3005 14.7918 69.1473 18.9917 78.7605C22.5835 86.9827 30.9496 92.9778 39.7963 93.8815C50.8851 95.0123 62.6528 88.9408 68.4184 79.4198C69.3046 77.9521 68.523 76.8535 66.9022 76.9069C65.0208 76.9562 62.916 78.4195 61.9121 79.9619C52.8435 93.9341 32.7507 89.189 26.0518 75.2788C22.2095 67.2911 22.9483 57.2339 24.4522 48.7631C25.9562 40.2922 28.5711 32.6824 32.4896 25.4344C36.4082 18.1864 42.5843 7.8204 51.8717 6.62261C53.6013 6.39643 55.5945 5.36844 56.4902 3.7974C57.2124 2.5188 56.7214 1.25435 55.0706 1.47748V1.47748Z" fill="#006E42"/>
@@ -122,11 +122,15 @@
     <img src="/img/case-studies/florist-branding/mobile.jpg" alt="Mobile" />
     <div class="container">
         <div class="columns is-vcentered">
-            <div class="column is-half is-offset-2">
+            <div class="column is-8 is-offset-2">
                 <p class="is-size-4 mb-4 has-text-weight-bold">Responsive and Mobile friendly</p>
                 <p class="is-size-5">One of the most important aspects for a modern website is to behave responsively to any screen size and be usable.</p>
                 <br/><br/>
             </div>
         </div>
     </div>
+</div>
+
+<div class="my-0 py-0">
+    <img src="/img/case-studies/florist-branding/brand.jpg" alt="Branding" />
 </div>
