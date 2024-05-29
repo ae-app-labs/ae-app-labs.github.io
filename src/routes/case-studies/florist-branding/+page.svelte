@@ -1,7 +1,7 @@
 <script>
 	import { fade } from 'svelte/transition'
 	import { page } from '$app/stores'
-    import SeoMetaTags from '$lib/components/SEOMetaTags.svelte';
+    import SeoMetaTags from '$lib/components/SEOMetaTags.svelte'
 </script>
 
 <SeoMetaTags
@@ -9,8 +9,8 @@
 	title="Van Belle Florals Branding"
 	description="Concept rebranding for a local flower shop"
 	pageUrl = {$page.url.pathname}
-	image="https://ae-app-labs.github.io/img/case-studies/silverback-gaming/sb-banner.png"
-	imageAlt="A banner image which is dark and having the words 'Silverback Gaming' on it"
+	image="https://ae-app-labs.github.io/img/case-studies/florist-branding/vb-banner.png"
+	imageAlt="A banner image with a stylyzed screenshot of a web page and tools used"
 />
 
 <section class="section section-header banner-bg my-0 py-0 " transition:fade|global>
