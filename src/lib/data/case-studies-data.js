@@ -35,6 +35,15 @@ const caseStudiesData = {
 			articleUrl : '/case-studies/silverback-gaming',
 			creationDate: "14 Dec 2023",
 			description: "The branding of a Youtube Gaming Channel."
+		},
+		{
+			title: 'Van Belle FLowers Branding',
+			slug: 'florist-branding',
+			type: 'Branding',
+			previewImage: 'img/case-studies/silverback-gaming/sb-preview.png',
+			articleUrl : '/case-studies/silverback-gaming',
+			creationDate: "30 May 2024",
+			description: "The rebranding of a local flower shop's digital presence"
 		}
 	]
 }

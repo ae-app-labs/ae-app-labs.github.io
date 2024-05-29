@@ -1,23 +1,19 @@
 <script>
 	import { fade } from 'svelte/transition'
 	import { page } from '$app/stores'
+    import SeoMetaTags from '$lib/components/SEOMetaTags.svelte'
+
 </script>
 
-<svelte:head>
-	<title>Case Studies - The Lotus Foundation</title>
-
-	<meta property="og:url" content="{$page.url.pathname}"/>
-	<meta name="description" content="The design and development of the website for The Lotus Foundation, a non profit organization." >
-	<meta name="og:description" content="The design and development of the website for The Lotus Foundation, a non profit organization." >
-	<meta name="twitter:description" content="The design and development of the website for The Lotus Foundation, a non profit organization." >
-	<meta name="twitter:title" content="The Lotus Foundation" >
-	<meta name="og:title" content="The Lotus Foundation" >
-
-	<meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="https://ae-app-labs.github.io/img/case-studies/tlf/tlf_web_export.png" />
-    <meta name="og:image" content="https://ae-app-labs.github.io/img/case-studies/tlf/tlf_web_export.png" />
-    <meta name="twitter:image:alt" content="An image of website redesign screenshots" />
-</svelte:head>
+<SeoMetaTags
+	sectionName="Case Studies"
+	title="The Lotus Foundation"
+	description="The design and development of the website for The Lotus Foundation, a non profit organization."
+	pageUrl = {$page.url.pathname}
+	image="https://ae-app-labs.github.io/img/case-studies/tlf/tlf_web_export.png"
+	imageAlt="An image of website redesign screenshots"
+	keywords="redesign"
+/>
 
 <style>
 .design-process-bg{ background-color: #e4e4e4;}

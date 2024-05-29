@@ -1,23 +1,17 @@
 <script>
 	import { fade } from 'svelte/transition'
 	import { page } from '$app/stores'
+    import SeoMetaTags from '$lib/components/SEOMetaTags.svelte'
 </script>
 
-<svelte:head>
-	<title>Case Studies - Silverback Branding</title>
-
-	<meta property="og:url" content="{$page.url.pathname}"/>
-	<meta name="description" content="The branding of a Youtube Gaming Channel." >
-	<meta name="og:description" content="The branding of a Youtube Gaming Channel." >
-	<meta name="twitter:description" content="The branding of a Youtube Gaming Channel." >
-	<meta name="twitter:title" content="Silverback Gaming" >
-	<meta name="og:title" content="Silverback Gaming" >
-
-	<meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="https://ae-app-labs.github.io/img/case-studies/silverback-gaming/tlf_web_export.png" />
-    <meta name="og:image" content="https://ae-app-labs.github.io/img/case-studies/silverback-gaming/tlf_web_export.png" />
-    <meta name="twitter:image:alt" content="A banner image which is dark and having the words 'Silverback Gaming' on it" />
-</svelte:head>
+<SeoMetaTags
+	sectionName="Case Studies"
+	title="Silverback Branding"
+	description="The branding of a Youtube Gaming Channel."
+	pageUrl = {$page.url.pathname}
+	image="https://ae-app-labs.github.io/img/case-studies/silverback-gaming/sb-banner.png"
+	imageAlt="A banner image which is dark and having the words 'Silverback Gaming' on it"
+/>
 
 <section class="section section-header banner-bg my-0 py-0 " transition:fade|global>
 	<div class="container py-4 fadeInUp">
