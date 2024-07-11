@@ -56,15 +56,19 @@ const privacyPolicyData = [
 	{
 		title: 'PNR Status App',
 		slug: 'pnr-status-app',
-		lastUpdated: "20 Jul 2021",
+		lastUpdated: "10 Jul 2024",
 		html: `
 			<p>
-				<strong>PNRStatusApp (the "app")</strong> does not collect offer share any personal information.
+				<strong>PNRStatusApp (the "app")</strong> does not collect offer share any personal information. <br/>
+				This app only provides a convenience to store/save PNR Numbers that the user enters <br/>
+				This app is not official or endorsed by Indian Rail. <br />
+				(The official website is: https://www.indianrail.gov.in/enquiry/PNR/PnrEnquiry.html)
 			</p>
 			<br />
 			<p>
 				The "PNR Number" that you enter is saved in an internal database for retrieval on app startup. <br />
-				No part of the PNR information retrieved from the internet is persisted by the app.
+				No part of the PNR information retrieved from the internet is persisted by the app. <br />
+				The app uses third party services which may or may not provide accurate results, which may change their interfaces without notice. <br />
 			</p>
 			<br />
 			<p>If you have any questions or concerns, please send an email to [<i>aeapplabs.ca+support at gmail.com</i>]</p>
