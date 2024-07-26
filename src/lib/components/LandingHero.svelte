@@ -14,7 +14,7 @@
     </div>
     <div class="content-layer container">
         <div class="columns">
-            <div class="column is-rounded is-three-quarters-desktop is-full-mobile is-full-tablet p-5">
+            <div class="column is-rounded is-three-quarters-desktop is-full-mobile is-full-tablet p-5 mt-5">
                 <h1 class="is-size-1 is-family-secondary">Let's learn, design and build together.</h1>
                 <div class="subtitle py-2">Tutorials, Design and Development for the modern Web and Mobile.</div>
                 <div class="has-text-link mb-4 mt-2">
