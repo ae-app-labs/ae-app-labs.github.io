@@ -6,7 +6,7 @@
 
 <SeoMetaTags
 	sectionName="Case Studies"
-	title="Van Belle Florals Branding"
+	title="Van Belle Flowers Branding"
 	description="Concept rebranding for a local flower shop"
 	pageUrl = {$page.url.pathname}
 	image="https://ae-app-labs.github.io/img/case-studies/florist-branding/vb-banner.png"
