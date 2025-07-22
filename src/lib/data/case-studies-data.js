@@ -37,7 +37,7 @@ const caseStudiesData = {
 			description: "The branding of a Youtube Gaming Channel."
 		},
 		{
-			title: 'Van Belle FLowers Branding',
+			title: 'Van Belle Flowers Branding',
 			slug: 'florist-branding',
 			type: 'Branding',
 			previewImage: 'img/case-studies/florist-branding/vb-preview.png',
