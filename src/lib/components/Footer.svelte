@@ -32,6 +32,7 @@
                     <li class="pt-1"><a class="is-link" href="/case-studies">Case Studies</a></li>
                     <li class="pt-1"><a class="is-link" href="/projects">Projects</a></li>
                     <li class="pt-1"><a class="is-link" href="/tutorials">Tutorials</a></li>
+                    <li class="pt-1"><a class="is-link" href="/courses">Courses</a></li>
                     <li class="pt-1"><a class="is-link" href="/about">About</a></li>
                     <li class="pt-1"><a class="is-link" href="/privacy-policy">Privacy Policy</a></li>
                     <!-- svelte-ignore a11y-invalid-attribute -->
@@ -71,7 +72,7 @@
 
         </div>
         <div class=" has-text-light py-3">
-            &copy; 2022 ae app labs | All rights reserved
+            &copy; 2023 ae app labs | All rights reserved
         </div>
 	</div>
 </footer>

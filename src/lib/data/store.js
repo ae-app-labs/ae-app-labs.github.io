@@ -3,10 +3,15 @@ import { readable } from "svelte/store"
 import tutorialsData from './tutorials-data.js'
 import caseStudiesData from './case-studies-data.js'
 import privacyPolicyData from "./privacy-policy-data.js"
+import coursesData from "./courses-data.js"
 import { desktopProjectsData, webProjectsData, androidProjectsData } from "./projects-data.js"
 
 export const tutorials = readable(null, set => {
     set(tutorialsData)
+})
+
+export const courses = readable(null, set => {
+    set(coursesData)
 })
 
 export const caseStudies = readable(null, set => {
@@ -29,16 +34,14 @@ export const webProjects = readable(null, set => {
     set(webProjectsData)
 })
 
-export const featuredProjects = readable(null, set => {
-    const allProjects = [...desktopProjectsData.projects, ...androidProjectsData.projects, ...webProjectsData.projects]
-    const featuredProjectsList = allProjects.filter( (project) => project.featured)
-    set(featuredProjectsList)
-})
+export const featuredProjects = readable(
+    desktopProjectsData.projects
+        .concat(androidProjectsData.projects, webProjectsData.projects)
+        .filter(project => project.featured)
+)
 
 export const filterPrivacyPolicy = (slug) => {
-    console.log(slug)
     return privacyPolicyData.filter( (data) => {
-        console.log("marco " + data)
         return data.slug === slug
     }  )
 }

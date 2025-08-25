@@ -41,6 +41,7 @@
                 <a class="navbar-item has-text-white" href="/case-studies" class:is-active={$page.url.pathname.includes('/case-studies')} title="Case Studies">Case Studies</a>
                 <a class="navbar-item has-text-white" href="/projects" class:is-active={$page.url.pathname.includes('/projects')} title="Projects">Projects</a>
                 <a class="navbar-item has-text-white" href="/tutorials" class:is-active={$page.url.pathname.includes('/tutorials')} title="Tutorials">Tutorials</a>
+                <a class="navbar-item has-text-white" href="/courses" class:is-active={$page.url.pathname.includes('/courses')} title="Courses">Courses</a>
                 <a class="navbar-item has-text-white" href="/about" class:is-active={$page.url.pathname.includes('/about')} title="About">About</a>
             </div>
             <div class="navbar-end nav-social">
