@@ -24,7 +24,7 @@
                                 <div class="py-2">
                                     <p>
                                         <span class="title is-4 is-capitalized is-subtle-link">
-                                            <a href="case-studies/{course.slug}" class="has-text-white">{course.title}</a>
+                                            <a href="courses/{course.slug}" class="has-text-white">{course.title}</a>
                                         </span> 
                                     </p>
                                     <p>
