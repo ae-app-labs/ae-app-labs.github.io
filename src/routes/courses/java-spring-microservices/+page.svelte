@@ -47,7 +47,7 @@
 				</p>
 
 				<p class="is-size-4 mb-4 has-text-weight-bold">Pre-requisites</p>
-				<ul>
+				<ul class="ml-2">
 					<li>Basic understanding of programming concepts (variables, loops, functions).</li>
 					<li>Familiarity with object-oriented concepts (classes, objects, inheritance).</li>
 					<li>A computer with Java 11+ installed.</li>
@@ -57,9 +57,12 @@
 				</ul>
 
 				<p class="is-size-4 mb-4 has-text-weight-bold">Instructions</p>
-				<p>Maintain a single repository organized by phase and service, e.g., phase1-java-fundamentals, phase2-blog-api, phase3-service-integration. <br>
-					Commit after completing each feature or milestone with clear messages like “Phase2: Blog CRUD operations” or “Phase3: Blog Service Feign integration.” <br>
-					Use feature branches for development and merge into main after testing. Optional tags can mark phase completion.</p>
+				<p>Clone the repo <a href="https://github.com/ae-app-labs/java-spring-microservices" target="_blank">java-spring-microservices</a> and use it to save your work</p>
+				<ul class="ml-2">
+					<li>Organize the work by phase and service, e.g., phase1-java-fundamentals, phase2-blog-api, phase3-service-integration.</li>
+					<li>Commit after completing each feature or milestone with clear messages like “Phase2: Blog CRUD operations” or “Phase3: Blog Service Feign integration.”</li>
+					<li>Use feature branches for development and merge into main after testing.</li>
+				</ul>
             </div>
 		</div>
 	</div>
