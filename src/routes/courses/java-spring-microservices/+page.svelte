@@ -22,7 +22,7 @@
 				<ul>
 					<li><a href="#phase-1" class="is-link">Phase 1: Java Core (3 weeks)</a></li>
 					<li><a href="#phase-2" class="is-link">Phase 2: Spring Boot + JPA + Security (5 weeks)</a></li>
-					<li><a href="#phase-3" class="is-link">Phase 3: Microservices + Docker (4 weeks)</a></li>
+					<li><a href="#phase-3" class="is-link">Phase 3: Microservices + Testing (4 weeks)</a></li>
 					<li><a href="#final-project" class="is-link">Final Project</a></li>
 				</ul>
             </div>
@@ -57,7 +57,7 @@
 				</ul>
 
 				<p class="is-size-4 mb-4 has-text-weight-bold">Instructions</p>
-				<p>Clone the repo <a href="https://github.com/ae-app-labs/java-spring-microservices" target="_blank">java-spring-microservices</a> and use it to save your work</p>
+				<p>Clone the repo <a href="https://github.com/ae-app-labs/java-spring-microservices" class="is-link" target="_blank">java-spring-microservices</a> and use it to save your work</p>
 				<ul class="ml-2">
 					<li>Organize the work by phase and service, e.g., phase1-java-fundamentals, phase2-blog-api, phase3-service-integration.</li>
 					<li>Commit after completing each feature or milestone with clear messages like “Phase2: Blog CRUD operations” or “Phase3: Blog Service Feign integration.”</li>

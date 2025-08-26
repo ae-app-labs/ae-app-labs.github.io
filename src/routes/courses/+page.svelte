@@ -18,7 +18,7 @@
             </div>
             <div class="column is-7">
                 {#each coursesData as course, index (course.slug)}
-                    <div class="card is-shadowless is-slightly-rounded has-background-info">
+                    <div class="card is-shadowless is-slightly-rounded has-background-info mb-4">
                         <div class="card-content">
                             <div class="content">
                                 <div class="py-2">
