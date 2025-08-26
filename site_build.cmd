@@ -1,4 +1,4 @@
-vite build && npm run update-docs -- "update docs"
+npm run build && npm run update-docs -- "update docs"
 
 pause
 
