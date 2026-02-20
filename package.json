@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^3.0.8",
-    "@sveltejs/kit": "^2.49.5",
+    "@sveltejs/kit": "^2.52.2",
     "@sveltejs/vite-plugin-svelte": "^6.2.4",
     "bulma": "^0.9.4",
     "sass": "^1.54.4",
